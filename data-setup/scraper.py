@@ -43,7 +43,7 @@ def scrape():
 
                 ability = div.find("div", class_="small").text
 
-                cards[name] = {"name": name, "ability": ability, "jpg_url": f"/images/{name}.jpg", "webp_url": f"/images/{name}.webp"}
+                cards[name] = {"name": name, "ability": ability, "jpg_path": f"/images/{name}.jpg", "webp_path": f"/images/{name}.webp"}
 
         # get cost
         cost_url_start = "https://snap.fan/cards/?costs="
