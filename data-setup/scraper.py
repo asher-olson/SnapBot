@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
-import time
 import json
 from PIL import Image
 
@@ -16,8 +15,11 @@ def scrape():
     cards = {}
 
     with closing(Chrome()) as driver:
-        for i in range(9):
-            url = f"{url_start}{i+1}"
+        # get image name and ability from main cards page
+        page = 0
+        while True:
+            url = f"{url_start}{page+1}"
+            page += 1
             driver.get(url)
             wait_for_ajax(driver)
             
@@ -25,9 +27,11 @@ def scrape():
 
             divs = list(map(lambda x: x.parent, soup.find_all("a", class_="d-block")))
 
+            if(len(divs) == 0):
+                break
+
             for div in divs:
                 name = div.find("a")["href"].split("/")[2].lower()
-                # print(name)
 
                 img_url = div.find("img", class_="game-card-image__img")["src"]
                 img = requests.get(img_url).content
@@ -38,15 +42,59 @@ def scrape():
                 img_jpg.save(f"../images/{name}.jpg", "jpeg")
 
                 ability = div.find("div", class_="small").text
-                print(ability)
 
                 cards[name] = {"name": name, "ability": ability, "jpg_url": f"/images/{name}.jpg", "webp_url": f"/images/{name}.webp"}
 
-            # get cost and power
-            # https://snap.fan/cards/?costs=
-            # https://snap.fan/cards/?powers=
+        # get cost
+        cost_url_start = "https://snap.fan/cards/?costs="
+        cost = 0
+        page = 1
+        while True:
+            if cost >= 10:  # update if they add a card that costs 10+
+                break
 
-    # print(cards)
+            url = f"{cost_url_start}{cost}&page={page}"
+            page += 1
+            driver.get(url)
+            wait_for_ajax(driver)
+
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+
+            divs = list(map(lambda x: x.parent, soup.find_all("a", class_="d-block")))
+
+            if(len(divs) == 0):
+                cost += 1
+                page = 1
+
+            for div in divs:
+                name = div.find("a")["href"].split("/")[2].lower()
+                cards[name]['cost'] = cost
+
+        # get power
+        power_url_start = "https://snap.fan/cards/?powers="
+        power = 0
+        page = 1
+        while True:
+            if power >= 21:  # update if they add a card that is bigger than infinaut
+                break
+
+            url = f"{power_url_start}{power}&page={page}"
+            page += 1
+            driver.get(url)
+            wait_for_ajax(driver)
+
+            soup = BeautifulSoup(driver.page_source, "html.parser")
+
+            divs = list(map(lambda x: x.parent, soup.find_all("a", class_="d-block")))
+
+            if(len(divs) == 0):
+                power += 1
+                page = 1
+
+            for div in divs:
+                name = div.find("a")["href"].split("/")[2].lower()
+                cards[name]['power'] = power
+
     with open("../cards.json", "w") as f:
         obj = json.dumps(cards, indent = 4)
         f.write(obj)
