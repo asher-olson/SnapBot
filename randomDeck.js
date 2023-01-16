@@ -1,4 +1,4 @@
-cards = [
+const cards = [
     "Abomination",
     "Absorbing Man",
     "Adam Warlock",
@@ -197,7 +197,7 @@ cards = [
 ]
 
 export function randomDeck() {
-  deck = []
+  const deck = []
 
   while (deck.length < 12) {
     const randomCard = cards[Math.floor(Math.random() * cards.length)]
