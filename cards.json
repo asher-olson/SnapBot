@@ -4,6 +4,11 @@
         "ability": "Foolish rabble! You are beneath me!",
         "jpg_path": "./images/abomination.jpg",
         "webp_path": "./images/abomination.webp",
+        "variant_paths": [
+            "../images/abomination_Pixel.webp",
+            "../images/abomination_Winter-Vacation.webp",
+            "../images/abomination_Future-Imperfect.webp"
+        ],
         "cost": 5,
         "power": 9
     },
@@ -12,6 +17,13 @@
         "ability": "On Reveal: If the last card you played has an On Reveal ability, this card copies it.",
         "jpg_path": "./images/absorbingman.jpg",
         "webp_path": "./images/absorbingman.webp",
+        "variant_paths": [
+            "../images/absorbingman_Pixel.webp",
+            "../images/absorbingman_Chibi.webp",
+            "../images/absorbingman_Noir.webp",
+            "../images/absorbingman_Sports.webp",
+            "../images/absorbingman_Fear-Itself.webp"
+        ],
         "cost": 4,
         "power": 3
     },
@@ -20,6 +32,12 @@
         "ability": "At the end of each turn, if you are winning this location, draw a card.",
         "jpg_path": "./images/adamwarlock.jpg",
         "webp_path": "./images/adamwarlock.webp",
+        "variant_paths": [
+            "../images/adamwarlock_Pixel.webp",
+            "../images/adamwarlock_Dan-Hipp.webp",
+            "../images/adamwarlock_Flaviano.webp",
+            "../images/adamwarlock_Alex-Horley.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -28,6 +46,12 @@
         "ability": "On Reveal: Move all enemy cards played this turn to this location.",
         "jpg_path": "./images/aero.jpg",
         "webp_path": "./images/aero.webp",
+        "variant_paths": [
+            "../images/aero_Pixel.webp",
+            "../images/aero_Chibi.webp",
+            "../images/aero_Artgerm.webp",
+            "../images/aero_Rian-Gonzales.webp"
+        ],
         "cost": 5,
         "power": 7
     },
@@ -36,6 +60,13 @@
         "ability": "Agatha starts in your hand and plays your cards for you.",
         "jpg_path": "./images/agathaharkness.jpg",
         "webp_path": "./images/agathaharkness.webp",
+        "variant_paths": [
+            "../images/agathaharkness_Pixel.webp",
+            "../images/agathaharkness_Dan-Hipp.webp",
+            "../images/agathaharkness_Chibi.webp",
+            "../images/agathaharkness_Classic.webp",
+            "../images/agathaharkness_Professor.webp"
+        ],
         "cost": 6,
         "power": 14
     },
@@ -44,6 +75,11 @@
         "ability": "On Reveal: Add a random card to your hand.",
         "jpg_path": "./images/agent13.jpg",
         "webp_path": "./images/agent13.webp",
+        "variant_paths": [
+            "../images/agent13_Pixel.webp",
+            "../images/agent13_Chibi.webp",
+            "../images/agent13_Luca-Claretti.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -52,6 +88,12 @@
         "ability": "On Reveal: Add a random 4-Cost and 5-Cost card to your hand.",
         "jpg_path": "./images/agentcoulson.jpg",
         "webp_path": "./images/agentcoulson.webp",
+        "variant_paths": [
+            "../images/agentcoulson_Pixel.webp",
+            "../images/agentcoulson_Chibi.webp",
+            "../images/agentcoulson_Noir.webp",
+            "../images/agentcoulson_War-on-Midgard.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -60,6 +102,11 @@
         "ability": "You always draw this card on turn 6, and not before.",
         "jpg_path": "./images/americachavez.jpg",
         "webp_path": "./images/americachavez.webp",
+        "variant_paths": [
+            "../images/americachavez_Pixel.webp",
+            "../images/americachavez_Baby.webp",
+            "../images/americachavez_Rian-Gonzales.webp"
+        ],
         "cost": 6,
         "power": 9
     },
@@ -68,6 +115,13 @@
         "ability": "When one of your cards is destroyed, this flies out of your deck to replace it.",
         "jpg_path": "./images/angel.jpg",
         "webp_path": "./images/angel.webp",
+        "variant_paths": [
+            "../images/angel_Pixel.webp",
+            "../images/angel_Chibi.webp",
+            "../images/angel_Venomized.webp",
+            "../images/angel_Jim-Lee.webp",
+            "../images/angel_Classic.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -76,6 +130,12 @@
         "ability": "When you play a card here,\n+2 Power.",
         "jpg_path": "./images/angela.jpg",
         "webp_path": "./images/angela.webp",
+        "variant_paths": [
+            "../images/angela_Pixel.webp",
+            "../images/angela_Chibi.webp",
+            "../images/angela_Baby.webp",
+            "../images/angela_Hero.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -84,6 +144,11 @@
         "ability": "Ongoing: If you have 3 other cards here, +3 Power.",
         "jpg_path": "./images/antman.jpg",
         "webp_path": "./images/antman.webp",
+        "variant_paths": [
+            "../images/antman_Pixel.webp",
+            "../images/antman_Baby.webp",
+            "../images/antman_Steampunk.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -92,6 +157,11 @@
         "ability": "When you discard this from your hand, put it back with +4 Power.",
         "jpg_path": "./images/apocalypse.jpg",
         "webp_path": "./images/apocalypse.webp",
+        "variant_paths": [
+            "../images/apocalypse_Pixel.webp",
+            "../images/apocalypse_Dan-Hipp.webp",
+            "../images/apocalypse_Kim-Jacinto.webp"
+        ],
         "cost": 6,
         "power": 8
     },
@@ -100,6 +170,11 @@
         "ability": "Ongoing: Cards at this location can't be destroyed.",
         "jpg_path": "./images/armor.jpg",
         "webp_path": "./images/armor.webp",
+        "variant_paths": [
+            "../images/armor_Pixel.webp",
+            "../images/armor_Chibi.webp",
+            "../images/armor_Summer-Vacation.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -108,6 +183,12 @@
         "ability": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
         "jpg_path": "./images/arnimzola.jpg",
         "webp_path": "./images/arnimzola.webp",
+        "variant_paths": [
+            "../images/arnimzola_Pixel.webp",
+            "../images/arnimzola_Chibi.webp",
+            "../images/arnimzola_Ultimate.webp",
+            "../images/arnimzola_Civil-War.webp"
+        ],
         "cost": 6,
         "power": 1
     },
@@ -116,6 +197,11 @@
         "ability": "If you have another card here at the end of your turn, destroy this.",
         "jpg_path": "./images/attuma.jpg",
         "webp_path": "./images/attuma.webp",
+        "variant_paths": [
+            "../images/attuma_Pixel.webp",
+            "../images/attuma_Dan-Hipp.webp",
+            "../images/attuma_Wakanda-Forever.webp"
+        ],
         "cost": 4,
         "power": 10
     },
@@ -124,6 +210,12 @@
         "ability": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
         "jpg_path": "./images/baronmordo.jpg",
         "webp_path": "./images/baronmordo.webp",
+        "variant_paths": [
+            "../images/baronmordo_Pixel.webp",
+            "../images/baronmordo_Dan-Hipp.webp",
+            "../images/baronmordo_Venomized.webp",
+            "../images/baronmordo_3099.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -132,6 +224,10 @@
         "ability": "On Reveal: Set the Power of all cards in your hand to 3.",
         "jpg_path": "./images/bast.jpg",
         "webp_path": "./images/bast.webp",
+        "variant_paths": [
+            "../images/bast_Pixel.webp",
+            "../images/bast_Dan-Hipp.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -140,6 +236,13 @@
         "ability": "On Reveal: Return your other cards at this location to your hand.\nThey cost 1 less.",
         "jpg_path": "./images/beast.jpg",
         "webp_path": "./images/beast.webp",
+        "variant_paths": [
+            "../images/beast_Pixel.webp",
+            "../images/beast_Dan-Hipp.webp",
+            "../images/beast_Classic.webp",
+            "../images/beast_All-New.webp",
+            "../images/beast_Grey.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -148,6 +251,14 @@
         "ability": "When you play a card, this gains +1 Power.",
         "jpg_path": "./images/bishop.jpg",
         "webp_path": "./images/bishop.webp",
+        "variant_paths": [
+            "../images/bishop_Pixel.webp",
+            "../images/bishop_Steampunk.webp",
+            "../images/bishop_Jim-Lee.webp",
+            "../images/bishop_Time-Displaced.webp",
+            "../images/bishop_Chess.webp",
+            "../images/bishop_Marauders.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -156,6 +267,12 @@
         "ability": "On Reveal: Your opponent must discard the lowest-Cost card\nin their hand.",
         "jpg_path": "./images/blackbolt.jpg",
         "webp_path": "./images/blackbolt.webp",
+        "variant_paths": [
+            "../images/blackbolt_Pixel.webp",
+            "../images/blackbolt_3099.webp",
+            "../images/blackbolt_Jeff-Dekal.webp",
+            "../images/blackbolt_Shhh!.webp"
+        ],
         "cost": 5,
         "power": 8
     },
@@ -164,6 +281,14 @@
         "ability": "If this is in your hand at the end of your turn, discard it.",
         "jpg_path": "./images/blackcat.jpg",
         "webp_path": "./images/blackcat.webp",
+        "variant_paths": [
+            "../images/blackcat_Pixel.webp",
+            "../images/blackcat_Baby.webp",
+            "../images/blackcat_Noir.webp",
+            "../images/blackcat_Artgerm.webp",
+            "../images/blackcat_Iron-Cat.webp",
+            "../images/blackcat_2099.webp"
+        ],
         "cost": 3,
         "power": 7
     },
@@ -172,6 +297,15 @@
         "ability": "On Reveal: Double this\ncard's Power.",
         "jpg_path": "./images/blackpanther.jpg",
         "webp_path": "./images/blackpanther.webp",
+        "variant_paths": [
+            "../images/blackpanther_Pixel.webp",
+            "../images/blackpanther_Dan-Hipp.webp",
+            "../images/blackpanther_Baby.webp",
+            "../images/blackpanther_Max-Grecke.webp",
+            "../images/blackpanther_Hero.webp",
+            "../images/blackpanther_Phoenix-Force.webp",
+            "../images/blackpanther_Ancestors.webp"
+        ],
         "cost": 5,
         "power": 4
     },
@@ -180,6 +314,12 @@
         "ability": "On Reveal: Add a Widow's Bite to your opponent's hand.",
         "jpg_path": "./images/blackwidow.jpg",
         "webp_path": "./images/blackwidow.webp",
+        "variant_paths": [
+            "../images/blackwidow_Pixel.webp",
+            "../images/blackwidow_Baby.webp",
+            "../images/blackwidow_Max-Grecke.webp",
+            "../images/blackwidow_Knullified.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -188,6 +328,12 @@
         "ability": "On Reveal: Discard a card from your hand.",
         "jpg_path": "./images/blade.jpg",
         "webp_path": "./images/blade.webp",
+        "variant_paths": [
+            "../images/blade_Pixel.webp",
+            "../images/blade_Luca-Claretti.webp",
+            "../images/blade_Avengers.webp",
+            "../images/blade_Boy-Thing.webp"
+        ],
         "cost": 1,
         "power": 3
     },
@@ -196,6 +342,12 @@
         "ability": "Ongoing: Your other cards have +1 Power.",
         "jpg_path": "./images/bluemarvel.jpg",
         "webp_path": "./images/bluemarvel.webp",
+        "variant_paths": [
+            "../images/bluemarvel_Pixel.webp",
+            "../images/bluemarvel_Dan-Hipp.webp",
+            "../images/bluemarvel_Neutral-Zone.webp",
+            "../images/bluemarvel_Ultimates.webp"
+        ],
         "cost": 5,
         "power": 3
     },
@@ -204,6 +356,12 @@
         "ability": "On Reveal: Add 2 Broodlings to this location with the same Power.",
         "jpg_path": "./images/brood.jpg",
         "webp_path": "./images/brood.webp",
+        "variant_paths": [
+            "../images/brood_Pixel.webp",
+            "../images/brood_Dan-Hipp.webp",
+            "../images/brood_Giulio-Rincione.webp",
+            "../images/brood_Broo.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -212,6 +370,13 @@
         "ability": "When this is destroyed, create the Winter Soldier in its place.",
         "jpg_path": "./images/buckybarnes.jpg",
         "webp_path": "./images/buckybarnes.webp",
+        "variant_paths": [
+            "../images/buckybarnes_Pixel.webp",
+            "../images/buckybarnes_Noir.webp",
+            "../images/buckybarnes_Sports.webp",
+            "../images/buckybarnes_1602.webp",
+            "../images/buckybarnes_Sidecar.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -220,6 +385,12 @@
         "ability": "On Reveal: Put the bottom card of your opponent's deck into your hand.",
         "jpg_path": "./images/cable.jpg",
         "webp_path": "./images/cable.webp",
+        "variant_paths": [
+            "../images/cable_Pixel.webp",
+            "../images/cable_Baby.webp",
+            "../images/cable_Kael.webp",
+            "../images/cable_Young.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -228,6 +399,14 @@
         "ability": "Ongoing: Your other cards at this location have +1 Power.",
         "jpg_path": "./images/captainamerica.jpg",
         "webp_path": "./images/captainamerica.webp",
+        "variant_paths": [
+            "../images/captainamerica_Pixel.webp",
+            "../images/captainamerica_Knullified.webp",
+            "../images/captainamerica_Alex-Ross.webp",
+            "../images/captainamerica_Phoenix-Force.webp",
+            "../images/captainamerica_Penny-Arcade.webp",
+            "../images/captainamerica_Wakandan-Shield.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -236,6 +415,13 @@
         "ability": "At the end of the game, move to a location that wins you the\ngame. (If possible)",
         "jpg_path": "./images/captainmarvel.jpg",
         "webp_path": "./images/captainmarvel.webp",
+        "variant_paths": [
+            "../images/captainmarvel_Pixel.webp",
+            "../images/captainmarvel_Baby.webp",
+            "../images/captainmarvel_Artgerm.webp",
+            "../images/captainmarvel_Anime.webp",
+            "../images/captainmarvel_Ms.-Marvel.webp"
+        ],
         "cost": 5,
         "power": 6
     },
@@ -244,6 +430,12 @@
         "ability": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
         "jpg_path": "./images/carnage.jpg",
         "webp_path": "./images/carnage.webp",
+        "variant_paths": [
+            "../images/carnage_Pixel.webp",
+            "../images/carnage_Max-Grecke.webp",
+            "../images/carnage_Kim-Jacinto.webp",
+            "../images/carnage_Artgerm.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -252,6 +444,12 @@
         "ability": "Ongoing: Your highest Power cards get +2 Power.",
         "jpg_path": "./images/cerebro.jpg",
         "webp_path": "./images/cerebro.webp",
+        "variant_paths": [
+            "../images/cerebro_Pixel.webp",
+            "../images/cerebro_Steampunk.webp",
+            "../images/cerebro_Blueprints.webp",
+            "../images/cerebro_Sentient.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -260,6 +458,12 @@
         "ability": "On Reveal: Next turn, both players can move cards to this location.",
         "jpg_path": "./images/cloak.jpg",
         "webp_path": "./images/cloak.webp",
+        "variant_paths": [
+            "../images/cloak_Pixel.webp",
+            "../images/cloak_Max-Grecke.webp",
+            "../images/cloak_Venomized.webp",
+            "../images/cloak_1602.webp"
+        ],
         "cost": 2,
         "power": 4
     },
@@ -268,6 +472,11 @@
         "ability": "On Reveal: Discard the lowest-cost card from your hand.",
         "jpg_path": "./images/colleenwing.jpg",
         "webp_path": "./images/colleenwing.webp",
+        "variant_paths": [
+            "../images/colleenwing_Pixel.webp",
+            "../images/colleenwing_Noir.webp",
+            "../images/colleenwing_Kim-Jacinto.webp"
+        ],
         "cost": 2,
         "power": 4
     },
@@ -276,6 +485,11 @@
         "ability": "Ongoing: Can't be destroyed, moved, or have its Power reduced.",
         "jpg_path": "./images/colossus.jpg",
         "webp_path": "./images/colossus.webp",
+        "variant_paths": [
+            "../images/colossus_Pixel.webp",
+            "../images/colossus_Chibi.webp",
+            "../images/colossus_Jim-Lee.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -284,6 +498,13 @@
         "ability": "Ongoing: On Reveal abilities won't happen at this location.",
         "jpg_path": "./images/cosmo.jpg",
         "webp_path": "./images/cosmo.webp",
+        "variant_paths": [
+            "../images/cosmo_Pixel.webp",
+            "../images/cosmo_Dan-Hipp.webp",
+            "../images/cosmo_Luca-Claretti.webp",
+            "../images/cosmo_Venomized.webp",
+            "../images/cosmo_Summer-Vacation.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -292,6 +513,11 @@
         "ability": "You can only play this at locations where you are winning.",
         "jpg_path": "./images/crossbones.jpg",
         "webp_path": "./images/crossbones.webp",
+        "variant_paths": [
+            "../images/crossbones_Pixel.webp",
+            "../images/crossbones_Chibi.webp",
+            "../images/crossbones_Noir.webp"
+        ],
         "cost": 4,
         "power": 8
     },
@@ -300,6 +526,11 @@
         "ability": "On Reveal: If this is at the middle location, shuffle your hand into your deck and draw 3 cards.",
         "jpg_path": "./images/crystal.jpg",
         "webp_path": "./images/crystal.webp",
+        "variant_paths": [
+            "../images/crystal_Pixel.webp",
+            "../images/crystal_Dan-Hipp.webp",
+            "../images/crystal_Rian-Gonzales.webp"
+        ],
         "cost": 4,
         "power": 4
     },
@@ -308,6 +539,13 @@
         "ability": "Let's move, X-Men.",
         "jpg_path": "./images/cyclops.jpg",
         "webp_path": "./images/cyclops.webp",
+        "variant_paths": [
+            "../images/cyclops_Pixel.webp",
+            "../images/cyclops_Chibi.webp",
+            "../images/cyclops_Baby.webp",
+            "../images/cyclops_Noir.webp",
+            "../images/cyclops_Jim-Lee.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -316,6 +554,12 @@
         "ability": "When this moves to a location,\n+2 Power for each card your\nopponent has there.",
         "jpg_path": "./images/dagger.jpg",
         "webp_path": "./images/dagger.webp",
+        "variant_paths": [
+            "../images/dagger_Pixel.webp",
+            "../images/dagger_Max-Grecke.webp",
+            "../images/dagger_Venomized.webp",
+            "../images/dagger_1602.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -324,6 +568,12 @@
         "ability": "On turn 5, you get to see your opponent's plays before you\nmake your own.",
         "jpg_path": "./images/daredevil.jpg",
         "webp_path": "./images/daredevil.webp",
+        "variant_paths": [
+            "../images/daredevil_Pixel.webp",
+            "../images/daredevil_Baby.webp",
+            "../images/daredevil_Knullified.webp",
+            "../images/daredevil_Yellow-Suit.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -332,6 +582,11 @@
         "ability": "Ongoing: +2 Power for each card in your opponent's deck.",
         "jpg_path": "./images/darkhawk.jpg",
         "webp_path": "./images/darkhawk.webp",
+        "variant_paths": [
+            "../images/darkhawk_Pixel.webp",
+            "../images/darkhawk_Chibi.webp",
+            "../images/darkhawk_Flaviano.webp"
+        ],
         "cost": 4,
         "power": 1
     },
@@ -340,6 +595,12 @@
         "ability": "When this is destroyed, return it to your hand with double the Power.",
         "jpg_path": "./images/deadpool.jpg",
         "webp_path": "./images/deadpool.webp",
+        "variant_paths": [
+            "../images/deadpool_Pixel.webp",
+            "../images/deadpool_Baby.webp",
+            "../images/deadpool_Venomized.webp",
+            "../images/deadpool_Penny-Arcade.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -348,6 +609,13 @@
         "ability": "Costs 1 less for each card destroyed this game.",
         "jpg_path": "./images/death.jpg",
         "webp_path": "./images/death.webp",
+        "variant_paths": [
+            "../images/death_Pixel.webp",
+            "../images/death_Chibi.webp",
+            "../images/death_Flaviano.webp",
+            "../images/death_Giulio-Rincione.webp",
+            "../images/death_First-Form.webp"
+        ],
         "cost": 9,
         "power": 12
     },
@@ -356,6 +624,11 @@
         "ability": "On Reveal: Destroy your other cards at this location.",
         "jpg_path": "./images/deathlok.jpg",
         "webp_path": "./images/deathlok.webp",
+        "variant_paths": [
+            "../images/deathlok_Pixel.webp",
+            "../images/deathlok_Dan-Hipp.webp",
+            "../images/deathlok_Chibi.webp"
+        ],
         "cost": 3,
         "power": 5
     },
@@ -364,6 +637,13 @@
         "ability": "On Reveal: Add a Rock to each other location, for both players.",
         "jpg_path": "./images/debrii.jpg",
         "webp_path": "./images/debrii.webp",
+        "variant_paths": [
+            "../images/debrii_Pixel.webp",
+            "../images/debrii_Dan-Hipp.webp",
+            "../images/debrii_Chibi.webp",
+            "../images/debrii_Venomized.webp",
+            "../images/debrii_Winter-Vacation.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -372,6 +652,12 @@
         "ability": "On Reveal: Destroy your\nother cards.",
         "jpg_path": "./images/destroyer.jpg",
         "webp_path": "./images/destroyer.webp",
+        "variant_paths": [
+            "../images/destroyer_Pixel.webp",
+            "../images/destroyer_Dan-Hipp.webp",
+            "../images/destroyer_Steampunk.webp",
+            "../images/destroyer_Spirit-of-Thor.webp"
+        ],
         "cost": 6,
         "power": 15
     },
@@ -380,6 +666,11 @@
         "ability": "Ongoing: +2 Power for each card in your hand.",
         "jpg_path": "./images/devildinosaur.jpg",
         "webp_path": "./images/devildinosaur.webp",
+        "variant_paths": [
+            "../images/devildinosaur_Pixel.webp",
+            "../images/devildinosaur_Savage-Land.webp",
+            "../images/devildinosaur_Winter-Vacation.webp"
+        ],
         "cost": 5,
         "power": 3
     },
@@ -388,6 +679,14 @@
         "ability": "On Reveal: Add a 5-Power DoomBot to each other location.",
         "jpg_path": "./images/drdoom.jpg",
         "webp_path": "./images/drdoom.webp",
+        "variant_paths": [
+            "../images/drdoom_Pixel.webp",
+            "../images/drdoom_Baby.webp",
+            "../images/drdoom_Max-Grecke.webp",
+            "../images/drdoom_Artgerm.webp",
+            "../images/drdoom_Hero.webp",
+            "../images/drdoom_Alex-Ross.webp"
+        ],
         "cost": 6,
         "power": 5
     },
@@ -396,6 +695,13 @@
         "ability": "On Reveal: Pull 4 random cards from your opponent's hand to their side\nof this location.",
         "jpg_path": "./images/doctoroctopus.jpg",
         "webp_path": "./images/doctoroctopus.webp",
+        "variant_paths": [
+            "../images/doctoroctopus_Pixel.webp",
+            "../images/doctoroctopus_Max-Grecke.webp",
+            "../images/doctoroctopus_Noir.webp",
+            "../images/doctoroctopus_Summer-Vacation.webp",
+            "../images/doctoroctopus_Superior.webp"
+        ],
         "cost": 5,
         "power": 10
     },
@@ -404,6 +710,13 @@
         "ability": "On Reveal: Move your highest Power cards to this location.",
         "jpg_path": "./images/doctorstrange.jpg",
         "webp_path": "./images/doctorstrange.webp",
+        "variant_paths": [
+            "../images/doctorstrange_Pixel.webp",
+            "../images/doctorstrange_Baby.webp",
+            "../images/doctorstrange_Peach-Momoko.webp",
+            "../images/doctorstrange_Alex-Ross.webp",
+            "../images/doctorstrange_Penny-Arcade.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -412,6 +725,11 @@
         "ability": "You always draw this card on turn 2, and not before.",
         "jpg_path": "./images/domino.jpg",
         "webp_path": "./images/domino.webp",
+        "variant_paths": [
+            "../images/domino_Pixel.webp",
+            "../images/domino_Dan-Hipp.webp",
+            "../images/domino_Jim-Lee.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -420,6 +738,13 @@
         "ability": "At the end of the game, discard a card from your hand. This has its Power.",
         "jpg_path": "./images/dracula.jpg",
         "webp_path": "./images/dracula.webp",
+        "variant_paths": [
+            "../images/dracula_Pixel.webp",
+            "../images/dracula_Dan-Hipp.webp",
+            "../images/dracula_3099.webp",
+            "../images/dracula_Alex-Horley.webp",
+            "../images/dracula_Ivan-Shavrin.webp"
+        ],
         "cost": 4,
         "power": 1
     },
@@ -428,6 +753,12 @@
         "ability": "On Reveal: If your opponent played a card here this turn, +3 Power.",
         "jpg_path": "./images/drax.jpg",
         "webp_path": "./images/drax.webp",
+        "variant_paths": [
+            "../images/drax_Pixel.webp",
+            "../images/drax_Dan-Hipp.webp",
+            "../images/drax_Chibi.webp",
+            "../images/drax_Luchador.webp"
+        ],
         "cost": 4,
         "power": 5
     },
@@ -436,6 +767,11 @@
         "ability": "You can't play this after turn 3.\nOngoing: You can't play cards here.",
         "jpg_path": "./images/ebonymaw.jpg",
         "webp_path": "./images/ebonymaw.webp",
+        "variant_paths": [
+            "../images/ebonymaw_Pixel.webp",
+            "../images/ebonymaw_Chibi.webp",
+            "../images/ebonymaw_Winter-Vacation.webp"
+        ],
         "cost": 1,
         "power": 7
     },
@@ -444,6 +780,12 @@
         "ability": "On Reveal: +1 Max Energy. Ongoing: You can only play\n1 card a turn.",
         "jpg_path": "./images/electro.jpg",
         "webp_path": "./images/electro.webp",
+        "variant_paths": [
+            "../images/electro_Pixel.webp",
+            "../images/electro_Chibi.webp",
+            "../images/electro_Ultimate.webp",
+            "../images/electro_Sinister-Six.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -452,6 +794,11 @@
         "ability": "On Reveal: Destroy a random enemy 1-Cost card at this location.",
         "jpg_path": "./images/elektra.jpg",
         "webp_path": "./images/elektra.webp",
+        "variant_paths": [
+            "../images/elektra_Pixel.webp",
+            "../images/elektra_Chibi.webp",
+            "../images/elektra_Baby.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -460,6 +807,12 @@
         "ability": "On Reveal: Remove the abilities from all Ongoing cards at this location.",
         "jpg_path": "./images/enchantress.jpg",
         "webp_path": "./images/enchantress.webp",
+        "variant_paths": [
+            "../images/enchantress_Pixel.webp",
+            "../images/enchantress_Chibi.webp",
+            "../images/enchantress_1602.webp",
+            "../images/enchantress_Alex-Horley.webp"
+        ],
         "cost": 4,
         "power": 4
     },
@@ -468,6 +821,13 @@
         "ability": "On Reveal: Return your 1-Cost cards to your hand.",
         "jpg_path": "./images/falcon.jpg",
         "webp_path": "./images/falcon.webp",
+        "variant_paths": [
+            "../images/falcon_Pixel.webp",
+            "../images/falcon_3099.webp",
+            "../images/falcon_Steampunk.webp",
+            "../images/falcon_Phoenix-Force.webp",
+            "../images/falcon_Captain-America.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -476,6 +836,12 @@
         "ability": "On Reveal: Give the next card you play +2 Power.",
         "jpg_path": "./images/forge.jpg",
         "webp_path": "./images/forge.webp",
+        "variant_paths": [
+            "../images/forge_Pixel.webp",
+            "../images/forge_Jim-Lee.webp",
+            "../images/forge_X-Force.webp",
+            "../images/forge_Mechanic.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -484,6 +850,14 @@
         "ability": "On Reveal: If this is your only card here, destroy all other locations.",
         "jpg_path": "./images/galactus.jpg",
         "webp_path": "./images/galactus.webp",
+        "variant_paths": [
+            "../images/galactus_Pixel.webp",
+            "../images/galactus_Chibi.webp",
+            "../images/galactus_Baby.webp",
+            "../images/galactus_Flaviano.webp",
+            "../images/galactus_Kim-Jacinto.webp",
+            "../images/galactus_Lifebringer.webp"
+        ],
         "cost": 6,
         "power": 2
     },
@@ -492,6 +866,11 @@
         "ability": "On Reveal: Discard a card from your hand. Destroy a random enemy card.",
         "jpg_path": "./images/gambit.jpg",
         "webp_path": "./images/gambit.webp",
+        "variant_paths": [
+            "../images/gambit_Pixel.webp",
+            "../images/gambit_Hero.webp",
+            "../images/gambit_Rian-Gonzales.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -500,6 +879,11 @@
         "ability": "On Reveal: If your opponent played a card here this turn, +5 Power.",
         "jpg_path": "./images/gamora.jpg",
         "webp_path": "./images/gamora.webp",
+        "variant_paths": [
+            "../images/gamora_Pixel.webp",
+            "../images/gamora_Chibi.webp",
+            "../images/gamora_Requiem.webp"
+        ],
         "cost": 5,
         "power": 7
     },
@@ -508,6 +892,15 @@
         "ability": "On Reveal: Bring back one of your discarded cards to this location.",
         "jpg_path": "./images/ghostrider.jpg",
         "webp_path": "./images/ghostrider.webp",
+        "variant_paths": [
+            "../images/ghostrider_Pixel.webp",
+            "../images/ghostrider_Baby.webp",
+            "../images/ghostrider_Max-Grecke.webp",
+            "../images/ghostrider_Kim-Jacinto.webp",
+            "../images/ghostrider_Knullified.webp",
+            "../images/ghostrider_Fantasy.webp",
+            "../images/ghostrider_Robbie-Reyes.webp"
+        ],
         "cost": 4,
         "power": 3
     },
@@ -516,6 +909,13 @@
         "ability": "You can only play this at the left location.",
         "jpg_path": "./images/giganto.jpg",
         "webp_path": "./images/giganto.webp",
+        "variant_paths": [
+            "../images/giganto_Pixel.webp",
+            "../images/giganto_Dan-Hipp.webp",
+            "../images/giganto_Giulio-Rincione.webp",
+            "../images/giganto_Summer-Vacation.webp",
+            "../images/giganto_1,000,000-BC.webp"
+        ],
         "cost": 6,
         "power": 14
     },
@@ -524,6 +924,12 @@
         "ability": "Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location.",
         "jpg_path": "./images/goose.jpg",
         "webp_path": "./images/goose.webp",
+        "variant_paths": [
+            "../images/goose_Pixel.webp",
+            "../images/goose_Dan-Hipp.webp",
+            "../images/goose_Luca-Claretti.webp",
+            "../images/goose_Captain-Marvel-Suit.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -532,6 +938,12 @@
         "ability": "On Reveal: Your opponent gains control of this.",
         "jpg_path": "./images/greengoblin.jpg",
         "webp_path": "./images/greengoblin.webp",
+        "variant_paths": [
+            "../images/greengoblin_Pixel.webp",
+            "../images/greengoblin_Max-Grecke.webp",
+            "../images/greengoblin_Carnageized.webp",
+            "../images/greengoblin_Red-Goblin.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -540,6 +952,9 @@
         "ability": "On Reveal: If your opponent played a card here this turn, +2 Power.",
         "jpg_path": "./images/groot.jpg",
         "webp_path": "./images/groot.webp",
+        "variant_paths": [
+            "../images/groot_Pixel.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -548,6 +963,13 @@
         "ability": "On Reveal: If you play a card here next turn, +2 Power.",
         "jpg_path": "./images/hawkeye.jpg",
         "webp_path": "./images/hawkeye.webp",
+        "variant_paths": [
+            "../images/hawkeye_Pixel.webp",
+            "../images/hawkeye_Dan-Hipp.webp",
+            "../images/hawkeye_Baby.webp",
+            "../images/hawkeye_3099.webp",
+            "../images/hawkeye_Old-Man.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -556,6 +978,12 @@
         "ability": "On Reveal: Afflict all other cards with -1 Power.",
         "jpg_path": "./images/hazmat.jpg",
         "webp_path": "./images/hazmat.webp",
+        "variant_paths": [
+            "../images/hazmat_Pixel.webp",
+            "../images/hazmat_Max-Grecke.webp",
+            "../images/hazmat_Giulio-Rincione.webp",
+            "../images/hazmat_Post-Apocalyptic.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -564,6 +992,12 @@
         "ability": "On Reveal: Move your other cards one location to the left.",
         "jpg_path": "./images/heimdall.jpg",
         "webp_path": "./images/heimdall.webp",
+        "variant_paths": [
+            "../images/heimdall_Pixel.webp",
+            "../images/heimdall_Dan-Hipp.webp",
+            "../images/heimdall_Chibi.webp",
+            "../images/heimdall_Flaviano.webp"
+        ],
         "cost": 6,
         "power": 8
     },
@@ -572,6 +1006,11 @@
         "ability": "On Reveal: Play all cards you discarded from your hand to\nrandom locations.",
         "jpg_path": "./images/hela.jpg",
         "webp_path": "./images/hela.webp",
+        "variant_paths": [
+            "../images/hela_Pixel.webp",
+            "../images/hela_Chibi.webp",
+            "../images/hela_Venomized.webp"
+        ],
         "cost": 6,
         "power": 6
     },
@@ -580,6 +1019,10 @@
         "ability": "When you discard this from your hand, add 3 random cards\nto your hand.",
         "jpg_path": "./images/helicarrier.jpg",
         "webp_path": "./images/helicarrier.webp",
+        "variant_paths": [
+            "../images/helicarrier_Pixel.webp",
+            "../images/helicarrier_3099.webp"
+        ],
         "cost": 6,
         "power": 10
     },
@@ -588,6 +1031,14 @@
         "ability": "On Reveal: Discard 2 cards from your hand.",
         "jpg_path": "./images/hellcow.jpg",
         "webp_path": "./images/hellcow.webp",
+        "variant_paths": [
+            "../images/hellcow_Pixel.webp",
+            "../images/hellcow_Dan-Hipp.webp",
+            "../images/hellcow_Luca-Claretti.webp",
+            "../images/hellcow_Venomized.webp",
+            "../images/hellcow_Ivan-Shavrin.webp",
+            "../images/hellcow_Winged.webp"
+        ],
         "cost": 4,
         "power": 6
     },
@@ -596,6 +1047,12 @@
         "ability": "On Reveal: Your opponent gains control of this.",
         "jpg_path": "./images/hobgoblin.jpg",
         "webp_path": "./images/hobgoblin.webp",
+        "variant_paths": [
+            "../images/hobgoblin_Pixel.webp",
+            "../images/hobgoblin_Dan-Hipp.webp",
+            "../images/hobgoblin_Max-Grecke.webp",
+            "../images/hobgoblin_Giulio-Rincione.webp"
+        ],
         "cost": 5,
         "power": 1
     },
@@ -604,6 +1061,14 @@
         "ability": "HULK SMASH!",
         "jpg_path": "./images/hulk.jpg",
         "webp_path": "./images/hulk.webp",
+        "variant_paths": [
+            "../images/hulk_Pixel.webp",
+            "../images/hulk_Chibi.webp",
+            "../images/hulk_Baby.webp",
+            "../images/hulk_Max-Grecke.webp",
+            "../images/hulk_Weapon-H.webp",
+            "../images/hulk_Taco.webp"
+        ],
         "cost": 6,
         "power": 12
     },
@@ -612,6 +1077,12 @@
         "ability": "On Reveal: Merge this card with a random friendly card at this location.",
         "jpg_path": "./images/hulkbuster.jpg",
         "webp_path": "./images/hulkbuster.webp",
+        "variant_paths": [
+            "../images/hulkbuster_Pixel.webp",
+            "../images/hulkbuster_Steampunk.webp",
+            "../images/hulkbuster_Blueprints.webp",
+            "../images/hulkbuster_Wakanda-Buster.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -620,6 +1091,14 @@
         "ability": "When this moves, double\nits Power.",
         "jpg_path": "./images/humantorch.jpg",
         "webp_path": "./images/humantorch.webp",
+        "variant_paths": [
+            "../images/humantorch_Pixel.webp",
+            "../images/humantorch_Baby.webp",
+            "../images/humantorch_Max-Grecke.webp",
+            "../images/humantorch_Kim-Jacinto.webp",
+            "../images/humantorch_Artgerm.webp",
+            "../images/humantorch_Hero.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -628,6 +1107,13 @@
         "ability": "On Reveal: Give a random card in your opponent's hand +1 Cost. (maximum 6)",
         "jpg_path": "./images/iceman.jpg",
         "webp_path": "./images/iceman.webp",
+        "variant_paths": [
+            "../images/iceman_Pixel.webp",
+            "../images/iceman_Dan-Hipp.webp",
+            "../images/iceman_Baby.webp",
+            "../images/iceman_Summer-Vacation.webp",
+            "../images/iceman_Mech.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -636,6 +1122,14 @@
         "ability": "Ongoing: Cards you play here are not revealed until the game ends.",
         "jpg_path": "./images/invisiblewoman.jpg",
         "webp_path": "./images/invisiblewoman.webp",
+        "variant_paths": [
+            "../images/invisiblewoman_Pixel.webp",
+            "../images/invisiblewoman_Max-Grecke.webp",
+            "../images/invisiblewoman_Artgerm.webp",
+            "../images/invisiblewoman_Hero.webp",
+            "../images/invisiblewoman_Peach-Momoko.webp",
+            "../images/invisiblewoman_Alex-Ross.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -644,6 +1138,12 @@
         "ability": "On Reveal: Move the next card you play one location to the left\nafter it reveals.",
         "jpg_path": "./images/ironfist.jpg",
         "webp_path": "./images/ironfist.webp",
+        "variant_paths": [
+            "../images/ironfist_Pixel.webp",
+            "../images/ironfist_Baby.webp",
+            "../images/ironfist_Phoenix-Force.webp",
+            "../images/ironfist_Jeff-Dekal.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -652,6 +1152,14 @@
         "ability": "Ongoing: Your total Power is doubled at this location.",
         "jpg_path": "./images/ironman.jpg",
         "webp_path": "./images/ironman.webp",
+        "variant_paths": [
+            "../images/ironman_Pixel.webp",
+            "../images/ironman_Dan-Hipp.webp",
+            "../images/ironman_Baby.webp",
+            "../images/ironman_Max-Grecke.webp",
+            "../images/ironman_Knullified.webp",
+            "../images/ironman_Vibranium-Armor.webp"
+        ],
         "cost": 5,
         "power": 1
     },
@@ -660,6 +1168,12 @@
         "ability": "On Reveal: Give 3 other friendly cards +2 Power.",
         "jpg_path": "./images/ironheart.jpg",
         "webp_path": "./images/ironheart.webp",
+        "variant_paths": [
+            "../images/ironheart_Pixel.webp",
+            "../images/ironheart_Chibi.webp",
+            "../images/ironheart_Baby.webp",
+            "../images/ironheart_Jeff-Dekal.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -668,6 +1182,12 @@
         "ability": "On Reveal: Draw all cards that Cost 0 from your deck.",
         "jpg_path": "./images/janefoster.jpg",
         "webp_path": "./images/janefoster.webp",
+        "variant_paths": [
+            "../images/janefoster_Pixel.webp",
+            "../images/janefoster_Chibi.webp",
+            "../images/janefoster_Baby.webp",
+            "../images/janefoster_Artgerm.webp"
+        ],
         "cost": 5,
         "power": 8
     },
@@ -676,6 +1196,10 @@
         "ability": "On Reveal: If you don't play a card here next turn, +4 Power.",
         "jpg_path": "./images/jessicajones.jpg",
         "webp_path": "./images/jessicajones.webp",
+        "variant_paths": [
+            "../images/jessicajones_Pixel.webp",
+            "../images/jessicajones_Chibi.webp"
+        ],
         "cost": 4,
         "power": 4
     },
@@ -684,6 +1208,12 @@
         "ability": "On Reveal: Play a card from your deck at this location.",
         "jpg_path": "./images/jubilee.jpg",
         "webp_path": "./images/jubilee.webp",
+        "variant_paths": [
+            "../images/jubilee_Pixel.webp",
+            "../images/jubilee_Peach-Momoko.webp",
+            "../images/jubilee_Rian-Gonzales.webp",
+            "../images/jubilee_Lunar-New-Year.webp"
+        ],
         "cost": 4,
         "power": 1
     },
@@ -692,6 +1222,10 @@
         "ability": "On Reveal: If your opponent played cards here this turn, move\nthem randomly.",
         "jpg_path": "./images/juggernaut.jpg",
         "webp_path": "./images/juggernaut.webp",
+        "variant_paths": [
+            "../images/juggernaut_Pixel.webp",
+            "../images/juggernaut_Baby.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -700,6 +1234,12 @@
         "ability": "Ongoing: Your 1-Cost cards have +1 Power.",
         "jpg_path": "./images/kazar.jpg",
         "webp_path": "./images/kazar.webp",
+        "variant_paths": [
+            "../images/kazar_Pixel.webp",
+            "../images/kazar_Dan-Hipp.webp",
+            "../images/kazar_3099.webp",
+            "../images/kazar_Savage-Land.webp"
+        ],
         "cost": 4,
         "power": 4
     },
@@ -708,6 +1248,13 @@
         "ability": "On Reveal: Destroy ALL\n1-Cost cards.",
         "jpg_path": "./images/killmonger.jpg",
         "webp_path": "./images/killmonger.webp",
+        "variant_paths": [
+            "../images/killmonger_Pixel.webp",
+            "../images/killmonger_Dan-Hipp.webp",
+            "../images/killmonger_Max-Grecke.webp",
+            "../images/killmonger_Venomized.webp",
+            "../images/killmonger_Kael.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -716,6 +1263,12 @@
         "ability": "When a card moves here on turn 6, destroy it.",
         "jpg_path": "./images/kingpin.jpg",
         "webp_path": "./images/kingpin.webp",
+        "variant_paths": [
+            "../images/kingpin_Pixel.webp",
+            "../images/kingpin_Noir.webp",
+            "../images/kingpin_Summer-Vacation.webp",
+            "../images/kingpin_1602.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -724,6 +1277,13 @@
         "ability": "Ongoing: The location to the right has +6 Power.",
         "jpg_path": "./images/klaw.jpg",
         "webp_path": "./images/klaw.webp",
+        "variant_paths": [
+            "../images/klaw_Pixel.webp",
+            "../images/klaw_Dan-Hipp.webp",
+            "../images/klaw_Max-Grecke.webp",
+            "../images/klaw_Flaviano.webp",
+            "../images/klaw_Carnival.webp"
+        ],
         "cost": 5,
         "power": 4
     },
@@ -732,6 +1292,13 @@
         "ability": "Ongoing: Has the combined Power of all cards destroyed this game.",
         "jpg_path": "./images/knull.jpg",
         "webp_path": "./images/knull.webp",
+        "variant_paths": [
+            "../images/knull_Pixel.webp",
+            "../images/knull_Dan-Hipp.webp",
+            "../images/knull_Kim-Jacinto.webp",
+            "../images/knull_Peach-Momoko.webp",
+            "../images/knull_Peach-Momoko.webp"
+        ],
         "cost": 6,
         "power": 1
     },
@@ -740,6 +1307,13 @@
         "ability": "On Reveal: Shuffle a Rock into your opponent's deck.",
         "jpg_path": "./images/korg.jpg",
         "webp_path": "./images/korg.webp",
+        "variant_paths": [
+            "../images/korg_Pixel.webp",
+            "../images/korg_Dan-Hipp.webp",
+            "../images/korg_Chibi.webp",
+            "../images/korg_Luca-Claretti.webp",
+            "../images/korg_Ghost-Hunter.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -748,6 +1322,11 @@
         "ability": "When a card moves here, this gets +2 Power.",
         "jpg_path": "./images/kraven.jpg",
         "webp_path": "./images/kraven.webp",
+        "variant_paths": [
+            "../images/kraven_Pixel.webp",
+            "../images/kraven_Venomized.webp",
+            "../images/kraven_Savage-Land.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -756,6 +1335,11 @@
         "ability": "On Reveal: Discard the highest-cost card from your hand.",
         "jpg_path": "./images/ladysif.jpg",
         "webp_path": "./images/ladysif.webp",
+        "variant_paths": [
+            "../images/ladysif_Pixel.webp",
+            "../images/ladysif_Dan-Hipp.webp",
+            "../images/ladysif_Chibi.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -764,6 +1348,10 @@
         "ability": "On Reveal: Copy all cards your opponent played this turn,\nbut on your side.",
         "jpg_path": "./images/leader.jpg",
         "webp_path": "./images/leader.webp",
+        "variant_paths": [
+            "../images/leader_Pixel.webp",
+            "../images/leader_Luca-Claretti.webp"
+        ],
         "cost": 6,
         "power": 3
     },
@@ -772,6 +1360,12 @@
         "ability": "On Reveal: Remove the abilities from all cards in your opponent's hand.",
         "jpg_path": "./images/leech.jpg",
         "webp_path": "./images/leech.webp",
+        "variant_paths": [
+            "../images/leech_Pixel.webp",
+            "../images/leech_Dan-Hipp.webp",
+            "../images/leech_Summer-Vacation.webp",
+            "../images/leech_Future-Foundation.webp"
+        ],
         "cost": 5,
         "power": 3
     },
@@ -780,6 +1374,11 @@
         "ability": "Ongoing: -3 Power if your opponent has 4 cards here.",
         "jpg_path": "./images/lizard.jpg",
         "webp_path": "./images/lizard.webp",
+        "variant_paths": [
+            "../images/lizard_Pixel.webp",
+            "../images/lizard_Max-Grecke.webp",
+            "../images/lizard_Ryan-Brown.webp"
+        ],
         "cost": 2,
         "power": 5
     },
@@ -788,6 +1387,12 @@
         "ability": "When you play a card here, swap it with a card in your deck.",
         "jpg_path": "./images/lockjaw.jpg",
         "webp_path": "./images/lockjaw.webp",
+        "variant_paths": [
+            "../images/lockjaw_Pixel.webp",
+            "../images/lockjaw_Dan-Hipp.webp",
+            "../images/lockjaw_Luca-Claretti.webp",
+            "../images/lockjaw_Venomized.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -796,6 +1401,11 @@
         "ability": "Ongoing: Your cards can't have their Power reduced.",
         "jpg_path": "./images/lukecage.jpg",
         "webp_path": "./images/lukecage.webp",
+        "variant_paths": [
+            "../images/lukecage_Pixel.webp",
+            "../images/lukecage_Dan-Hipp.webp",
+            "../images/lukecage_Sports.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -804,6 +1414,11 @@
         "ability": "If this is in your deck at the end of the game, it jumps to a random location.",
         "jpg_path": "./images/mbaku.jpg",
         "webp_path": "./images/mbaku.webp",
+        "variant_paths": [
+            "../images/mbaku_Pixel.webp",
+            "../images/mbaku_Luchador.webp",
+            "../images/mbaku_Kael.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -812,6 +1427,11 @@
         "ability": "You can't play this on turn 6.\nOn Reveal: Change this\nlocation to 'Limbo'.",
         "jpg_path": "./images/magik.jpg",
         "webp_path": "./images/magik.webp",
+        "variant_paths": [
+            "../images/magik_Pixel.webp",
+            "../images/magik_Peach-Momoko.webp",
+            "../images/magik_Phoenix-Five.webp"
+        ],
         "cost": 5,
         "power": 3
     },
@@ -820,6 +1440,12 @@
         "ability": "On Reveal: Move all opposing 3 and 4-Cost cards to this location.",
         "jpg_path": "./images/magneto.jpg",
         "webp_path": "./images/magneto.webp",
+        "variant_paths": [
+            "../images/magneto_Pixel.webp",
+            "../images/magneto_Dan-Hipp.webp",
+            "../images/magneto_Baby.webp",
+            "../images/magneto_Peach-Momoko.webp"
+        ],
         "cost": 6,
         "power": 12
     },
@@ -828,6 +1454,13 @@
         "ability": "On Reveal: If your opponent played a card here this turn, draw a card\nfrom their deck.",
         "jpg_path": "./images/mantis.jpg",
         "webp_path": "./images/mantis.webp",
+        "variant_paths": [
+            "../images/mantis_Pixel.webp",
+            "../images/mantis_Dan-Hipp.webp",
+            "../images/mantis_Summer-Vacation.webp",
+            "../images/mantis_Kael.webp",
+            "../images/mantis_Empyre.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -836,6 +1469,11 @@
         "ability": "On Reveal: Add a random 1-Cost card to your hand.",
         "jpg_path": "./images/mariahill.jpg",
         "webp_path": "./images/mariahill.webp",
+        "variant_paths": [
+            "../images/mariahill_Pixel.webp",
+            "../images/mariahill_Chibi.webp",
+            "../images/mariahill_Noir.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -844,6 +1482,11 @@
         "ability": "On Reveal: Your opponent\ndraws 2 cards.",
         "jpg_path": "./images/maximus.jpg",
         "webp_path": "./images/maximus.webp",
+        "variant_paths": [
+            "../images/maximus_Pixel.webp",
+            "../images/maximus_Giulio-Rincione.webp",
+            "../images/maximus_Kid.webp"
+        ],
         "cost": 3,
         "power": 7
     },
@@ -852,6 +1495,12 @@
         "ability": "On Reveal: If this is at the middle location, +2 Power.",
         "jpg_path": "./images/medusa.jpg",
         "webp_path": "./images/medusa.webp",
+        "variant_paths": [
+            "../images/medusa_Pixel.webp",
+            "../images/medusa_Dan-Hipp.webp",
+            "../images/medusa_Chibi.webp",
+            "../images/medusa_1602.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -860,6 +1509,10 @@
         "ability": "If a card moved last turn, this costs 1.",
         "jpg_path": "./images/milesmorales.jpg",
         "webp_path": "./images/milesmorales.webp",
+        "variant_paths": [
+            "../images/milesmorales_Pixel.webp",
+            "../images/milesmorales_Sports.webp"
+        ],
         "cost": 4,
         "power": 5
     },
@@ -868,6 +1521,13 @@
         "ability": "Ongoing: Adjacent locations have +2 Power.",
         "jpg_path": "./images/mrfantastic.jpg",
         "webp_path": "./images/mrfantastic.webp",
+        "variant_paths": [
+            "../images/mrfantastic_Pixel.webp",
+            "../images/mrfantastic_Max-Grecke.webp",
+            "../images/mrfantastic_Artgerm.webp",
+            "../images/mrfantastic_Hero.webp",
+            "../images/mrfantastic_1602.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -876,6 +1536,12 @@
         "ability": "On Reveal: Swap the Power and Cost of all cards in your deck.",
         "jpg_path": "./images/mrnegative.jpg",
         "webp_path": "./images/mrnegative.webp",
+        "variant_paths": [
+            "../images/mrnegative_Pixel.webp",
+            "../images/mrnegative_Chibi.webp",
+            "../images/mrnegative_Luca-Claretti.webp",
+            "../images/mrnegative_Demon-Form.webp"
+        ],
         "cost": 4,
         "power": 1
     },
@@ -884,6 +1550,13 @@
         "ability": "On Reveal: Add a Sinister Clone to this location with the same Power.",
         "jpg_path": "./images/mrsinister.jpg",
         "webp_path": "./images/mrsinister.webp",
+        "variant_paths": [
+            "../images/mrsinister_Pixel.webp",
+            "../images/mrsinister_Baby.webp",
+            "../images/mrsinister_Luca-Claretti.webp",
+            "../images/mrsinister_Sinister-London.webp",
+            "../images/mrsinister_Phoenix.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -892,6 +1565,12 @@
         "ability": "We've got to save this city.",
         "jpg_path": "./images/mistyknight.jpg",
         "webp_path": "./images/mistyknight.webp",
+        "variant_paths": [
+            "../images/mistyknight_Pixel.webp",
+            "../images/mistyknight_Chibi.webp",
+            "../images/mistyknight_Sports.webp",
+            "../images/mistyknight_Captain.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -900,6 +1579,12 @@
         "ability": "Ongoing: If both players have 4 cards at this location, +6 Power.",
         "jpg_path": "./images/mojo.jpg",
         "webp_path": "./images/mojo.webp",
+        "variant_paths": [
+            "../images/mojo_Pixel.webp",
+            "../images/mojo_Luca-Claretti.webp",
+            "../images/mojo_Sports.webp",
+            "../images/mojo_Giulio-Rincione.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -908,6 +1593,11 @@
         "ability": "On Reveal: Duplicate\nyour hand.",
         "jpg_path": "./images/moongirl.jpg",
         "webp_path": "./images/moongirl.webp",
+        "variant_paths": [
+            "../images/moongirl_Pixel.webp",
+            "../images/moongirl_Dan-Hipp.webp",
+            "../images/moongirl_Steampunk.webp"
+        ],
         "cost": 4,
         "power": 4
     },
@@ -916,6 +1606,10 @@
         "ability": "On Reveal: Discard a card from each player's hand.",
         "jpg_path": "./images/moonknight.jpg",
         "webp_path": "./images/moonknight.webp",
+        "variant_paths": [
+            "../images/moonknight_Pixel.webp",
+            "../images/moonknight_Baby.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -924,6 +1618,12 @@
         "ability": "Ongoing: +2 Power for each time you discarded a card this game.",
         "jpg_path": "./images/morbius.jpg",
         "webp_path": "./images/morbius.webp",
+        "variant_paths": [
+            "../images/morbius_Pixel.webp",
+            "../images/morbius_Baby.webp",
+            "../images/morbius_Giulio-Rincione.webp",
+            "../images/morbius_Alex-Horley.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -932,6 +1632,12 @@
         "ability": "On Reveal: Become a copy of a random card in your opponent's hand.",
         "jpg_path": "./images/morph.jpg",
         "webp_path": "./images/morph.webp",
+        "variant_paths": [
+            "../images/morph_Pixel.webp",
+            "../images/morph_Luca-Claretti.webp",
+            "../images/morph_Band.webp",
+            "../images/morph_Exiles.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -940,6 +1646,13 @@
         "ability": "When this moves, add a copy to the old location.",
         "jpg_path": "./images/multipleman.jpg",
         "webp_path": "./images/multipleman.webp",
+        "variant_paths": [
+            "../images/multipleman_Pixel.webp",
+            "../images/multipleman_Dan-Hipp.webp",
+            "../images/multipleman_Sports.webp",
+            "../images/multipleman_Band.webp",
+            "../images/multipleman_X-Factor.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -948,6 +1661,12 @@
         "ability": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
         "jpg_path": "./images/mysterio.jpg",
         "webp_path": "./images/mysterio.webp",
+        "variant_paths": [
+            "../images/mysterio_Pixel.webp",
+            "../images/mysterio_Dan-Hipp.webp",
+            "../images/mysterio_Max-Grecke.webp",
+            "../images/mysterio_3099.webp"
+        ],
         "cost": 2,
         "power": 4
     },
@@ -956,6 +1675,13 @@
         "ability": "On Reveal: If the last card you played has an Ongoing ability, this card gains it.",
         "jpg_path": "./images/mystique.jpg",
         "webp_path": "./images/mystique.webp",
+        "variant_paths": [
+            "../images/mystique_Pixel.webp",
+            "../images/mystique_Chibi.webp",
+            "../images/mystique_Luca-Claretti.webp",
+            "../images/mystique_Artgerm.webp",
+            "../images/mystique_Peach-Momoko.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -964,6 +1690,12 @@
         "ability": "On Reveal: Give the 2 leftmost cards in your hand +2 Power.",
         "jpg_path": "./images/nakia.jpg",
         "webp_path": "./images/nakia.webp",
+        "variant_paths": [
+            "../images/nakia_Pixel.webp",
+            "../images/nakia_Dan-Hipp.webp",
+            "../images/nakia_Sports.webp",
+            "../images/nakia_3099.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -972,6 +1704,12 @@
         "ability": "Ongoing: +5 Power if this is your only card here.",
         "jpg_path": "./images/namor.jpg",
         "webp_path": "./images/namor.webp",
+        "variant_paths": [
+            "../images/namor_Pixel.webp",
+            "../images/namor_Baby.webp",
+            "../images/namor_1602.webp",
+            "../images/namor_Wakanda-Forever.webp"
+        ],
         "cost": 4,
         "power": 5
     },
@@ -980,6 +1718,14 @@
         "ability": "On Reveal: Add 3 random\n6-Cost cards to your hand.",
         "jpg_path": "./images/nickfury.jpg",
         "webp_path": "./images/nickfury.webp",
+        "variant_paths": [
+            "../images/nickfury_Pixel.webp",
+            "../images/nickfury_Dan-Hipp.webp",
+            "../images/nickfury_Noir.webp",
+            "../images/nickfury_Sports.webp",
+            "../images/nickfury_Classic.webp",
+            "../images/nickfury_Signed.webp"
+        ],
         "cost": 5,
         "power": 7
     },
@@ -988,6 +1734,12 @@
         "ability": "You can move this once.",
         "jpg_path": "./images/nightcrawler.jpg",
         "webp_path": "./images/nightcrawler.webp",
+        "variant_paths": [
+            "../images/nightcrawler_Pixel.webp",
+            "../images/nightcrawler_Dan-Hipp.webp",
+            "../images/nightcrawler_Baby.webp",
+            "../images/nightcrawler_Kim-Jacinto.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -996,6 +1748,11 @@
         "ability": "When this is destroyed, give your cards +1 Power.",
         "jpg_path": "./images/nova.jpg",
         "webp_path": "./images/nova.webp",
+        "variant_paths": [
+            "../images/nova_Pixel.webp",
+            "../images/nova_Baby.webp",
+            "../images/nova_Venomized.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -1004,6 +1761,13 @@
         "ability": "On Reveal: Activate the On Reveal abilities of your other cards\nat this location.",
         "jpg_path": "./images/odin.jpg",
         "webp_path": "./images/odin.webp",
+        "variant_paths": [
+            "../images/odin_Pixel.webp",
+            "../images/odin_Dan-Hipp.webp",
+            "../images/odin_Flaviano.webp",
+            "../images/odin_Sleipnir.webp",
+            "../images/odin_Iron-All-Father.webp"
+        ],
         "cost": 6,
         "power": 8
     },
@@ -1012,6 +1776,12 @@
         "ability": "On Reveal: Give every card in your deck +1 Power.",
         "jpg_path": "./images/okoye.jpg",
         "webp_path": "./images/okoye.webp",
+        "variant_paths": [
+            "../images/okoye_Pixel.webp",
+            "../images/okoye_Flaviano.webp",
+            "../images/okoye_Sports.webp",
+            "../images/okoye_Feudal-Japan.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -1020,6 +1790,12 @@
         "ability": "Ongoing: If you're ahead by\n10 Power here, +4 Power\nto other locations.",
         "jpg_path": "./images/omegared.jpg",
         "webp_path": "./images/omegared.webp",
+        "variant_paths": [
+            "../images/omegared_Pixel.webp",
+            "../images/omegared_Dan-Hipp.webp",
+            "../images/omegared_Luca-Claretti.webp",
+            "../images/omegared_Venomized.webp"
+        ],
         "cost": 4,
         "power": 5
     },
@@ -1028,6 +1804,13 @@
         "ability": "Ongoing: Double your other Ongoing effects at this location.",
         "jpg_path": "./images/onslaught.jpg",
         "webp_path": "./images/onslaught.webp",
+        "variant_paths": [
+            "../images/onslaught_Pixel.webp",
+            "../images/onslaught_Dan-Hipp.webp",
+            "../images/onslaught_Max-Grecke.webp",
+            "../images/onslaught_Luca-Claretti.webp",
+            "../images/onslaught_Kim-Jacinto.webp"
+        ],
         "cost": 6,
         "power": 7
     },
@@ -1036,6 +1819,13 @@
         "ability": "Ongoing: +5 Power if this is your only card here.",
         "jpg_path": "./images/orka.jpg",
         "webp_path": "./images/orka.webp",
+        "variant_paths": [
+            "../images/orka_Pixel.webp",
+            "../images/orka_Chibi.webp",
+            "../images/orka_Sports.webp",
+            "../images/orka_Giulio-Rincione.webp",
+            "../images/orka_Classic.webp"
+        ],
         "cost": 6,
         "power": 9
     },
@@ -1044,6 +1834,11 @@
         "ability": "Ongoing: Your cards with no abilities have +2 Power.",
         "jpg_path": "./images/patriot.jpg",
         "webp_path": "./images/patriot.webp",
+        "variant_paths": [
+            "../images/patriot_Pixel.webp",
+            "../images/patriot_Chibi.webp",
+            "../images/patriot_Winter-Vacation.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -1052,6 +1847,12 @@
         "ability": "On Reveal: Move an opposing 1 or 2-Cost card to this location.",
         "jpg_path": "./images/polaris.jpg",
         "webp_path": "./images/polaris.webp",
+        "variant_paths": [
+            "../images/polaris_Pixel.webp",
+            "../images/polaris_Chibi.webp",
+            "../images/polaris_Rian-Gonzales.webp",
+            "../images/polaris_Pestilence.webp"
+        ],
         "cost": 3,
         "power": 5
     },
@@ -1060,6 +1861,12 @@
         "ability": "Ongoing: Lock down this location. (Cards can't be added, removed, etc.)",
         "jpg_path": "./images/professorx.jpg",
         "webp_path": "./images/professorx.webp",
+        "variant_paths": [
+            "../images/professorx_Pixel.webp",
+            "../images/professorx_Baby.webp",
+            "../images/professorx_Noir.webp",
+            "../images/professorx_House-of-X.webp"
+        ],
         "cost": 5,
         "power": 3
     },
@@ -1068,6 +1875,10 @@
         "ability": "On Reveal: Next turn, you get +1 Energy.",
         "jpg_path": "./images/psylocke.jpg",
         "webp_path": "./images/psylocke.webp",
+        "variant_paths": [
+            "../images/psylocke_Pixel.webp",
+            "../images/psylocke_Artgerm.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -1076,6 +1887,12 @@
         "ability": "Ongoing: +1 Power for each opposing card at this location.",
         "jpg_path": "./images/punisher.jpg",
         "webp_path": "./images/punisher.webp",
+        "variant_paths": [
+            "../images/punisher_Pixel.webp",
+            "../images/punisher_Baby.webp",
+            "../images/punisher_Noir.webp",
+            "../images/punisher_Peach-Momoko.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -1084,6 +1901,10 @@
         "ability": "On Reveal: If this is at the middle location, swap the positions of\neach location.",
         "jpg_path": "./images/quake.jpg",
         "webp_path": "./images/quake.webp",
+        "variant_paths": [
+            "../images/quake_Pixel.webp",
+            "../images/quake_Band.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -1092,6 +1913,11 @@
         "ability": "Starts in your opening hand.",
         "jpg_path": "./images/quicksilver.jpg",
         "webp_path": "./images/quicksilver.webp",
+        "variant_paths": [
+            "../images/quicksilver_Pixel.webp",
+            "../images/quicksilver_Dan-Hipp.webp",
+            "../images/quicksilver_Sports.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -1100,6 +1926,11 @@
         "ability": "Ongoing: Cards that didn't start in your deck cost 1 less.",
         "jpg_path": "./images/quinjet.jpg",
         "webp_path": "./images/quinjet.webp",
+        "variant_paths": [
+            "../images/quinjet_Pixel.webp",
+            "../images/quinjet_Blueprints.webp",
+            "../images/quinjet_Ghost-Rider.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -1108,6 +1939,13 @@
         "ability": "Ongoing: Enemy cards at this location have +2 Power.",
         "jpg_path": "./images/redskull.jpg",
         "webp_path": "./images/redskull.webp",
+        "variant_paths": [
+            "../images/redskull_Pixel.webp",
+            "../images/redskull_Chibi.webp",
+            "../images/redskull_Venomized.webp",
+            "../images/redskull_Giulio-Rincione.webp",
+            "../images/redskull_Fantasy.webp"
+        ],
         "cost": 5,
         "power": 15
     },
@@ -1116,6 +1954,10 @@
         "ability": "On Reveal: If you play a card here next turn, +5 Power.",
         "jpg_path": "./images/rescue.jpg",
         "webp_path": "./images/rescue.webp",
+        "variant_paths": [
+            "../images/rescue_Pixel.webp",
+            "../images/rescue_Dan-Hipp.webp"
+        ],
         "cost": 4,
         "power": 4
     },
@@ -1124,6 +1966,12 @@
         "ability": "On Reveal: Ruin this location. (remove its ability)",
         "jpg_path": "./images/rhino.jpg",
         "webp_path": "./images/rhino.webp",
+        "variant_paths": [
+            "../images/rhino_Pixel.webp",
+            "../images/rhino_Dan-Hipp.webp",
+            "../images/rhino_Giulio-Rincione.webp",
+            "../images/rhino_All-New.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -1132,6 +1980,9 @@
         "ability": "On Reveal: If your opponent played a card here this turn, +2 Power.",
         "jpg_path": "./images/rocketraccoon.jpg",
         "webp_path": "./images/rocketraccoon.webp",
+        "variant_paths": [
+            "../images/rocketraccoon_Pixel.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -1140,6 +1991,13 @@
         "ability": "On Reveal: Shuffle 2 Rocks into your opponent's deck.",
         "jpg_path": "./images/rockslide.jpg",
         "webp_path": "./images/rockslide.webp",
+        "variant_paths": [
+            "../images/rockslide_Pixel.webp",
+            "../images/rockslide_Chibi.webp",
+            "../images/rockslide_Sports.webp",
+            "../images/rockslide_Winter-Vacation.webp",
+            "../images/rockslide_Limbo.webp"
+        ],
         "cost": 4,
         "power": 6
     },
@@ -1148,6 +2006,13 @@
         "ability": "On Reveal: Steal an Ongoing ability from a random enemy card at\nthis location.",
         "jpg_path": "./images/rogue.jpg",
         "webp_path": "./images/rogue.webp",
+        "variant_paths": [
+            "../images/rogue_Pixel.webp",
+            "../images/rogue_Hero.webp",
+            "../images/rogue_Rian-Gonzales.webp",
+            "../images/rogue_Savage-Land.webp",
+            "../images/rogue_Winter-Vacation.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -1156,6 +2021,11 @@
         "ability": "Ongoing: +2 Power for each card in your opponent's hand.",
         "jpg_path": "./images/ronan.jpg",
         "webp_path": "./images/ronan.webp",
+        "variant_paths": [
+            "../images/ronan_Pixel.webp",
+            "../images/ronan_Dan-Hipp.webp",
+            "../images/ronan_Carnival.webp"
+        ],
         "cost": 5,
         "power": 3
     },
@@ -1164,6 +2034,13 @@
         "ability": "When this is destroyed, return it to your hand. It costs 0.",
         "jpg_path": "./images/sabretooth.jpg",
         "webp_path": "./images/sabretooth.webp",
+        "variant_paths": [
+            "../images/sabretooth_Pixel.webp",
+            "../images/sabretooth_Noir.webp",
+            "../images/sabretooth_3099.webp",
+            "../images/sabretooth_Savage-Land.webp",
+            "../images/sabretooth_Ryan-Brown.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -1172,6 +2049,12 @@
         "ability": "Ongoing: Players can only play 1 card a turn.",
         "jpg_path": "./images/sandman.jpg",
         "webp_path": "./images/sandman.webp",
+        "variant_paths": [
+            "../images/sandman_Hero.webp",
+            "../images/sandman_Summer-Vacation.webp",
+            "../images/sandman_Variant.webp",
+            "../images/sandman_Wild-Pack.webp"
+        ],
         "cost": 4,
         "power": 1
     },
@@ -1180,6 +2063,9 @@
         "ability": "On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
         "jpg_path": "./images/sauron.jpg",
         "webp_path": "./images/sauron.webp",
+        "variant_paths": [
+            "../images/sauron_3099.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -1188,6 +2074,13 @@
         "ability": "On Reveal: Replace this location with a random new one.",
         "jpg_path": "./images/scarletwitch.jpg",
         "webp_path": "./images/scarletwitch.webp",
+        "variant_paths": [
+            "../images/scarletwitch_Pixel.webp",
+            "../images/scarletwitch_Dan-Hipp.webp",
+            "../images/scarletwitch_Chibi.webp",
+            "../images/scarletwitch_Artgerm.webp",
+            "../images/scarletwitch_House-of-M.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -1196,6 +2089,11 @@
         "ability": "On Reveal: Afflict cards in your opponent's hand with -1 Power.",
         "jpg_path": "./images/scorpion.jpg",
         "webp_path": "./images/scorpion.webp",
+        "variant_paths": [
+            "../images/scorpion_Pixel.webp",
+            "../images/scorpion_Venomized.webp",
+            "../images/scorpion_Summer-Vacation.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -1204,6 +2102,12 @@
         "ability": "On Reveal: Add another Sentinel to your hand.",
         "jpg_path": "./images/sentinel.jpg",
         "webp_path": "./images/sentinel.webp",
+        "variant_paths": [
+            "../images/sentinel_Pixel.webp",
+            "../images/sentinel_Steampunk.webp",
+            "../images/sentinel_Jim-Lee.webp",
+            "../images/sentinel_Blueprints.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -1212,6 +2116,12 @@
         "ability": "Cannot be played at the right location.\nOn Reveal: Add a -8 Power Void to the right location.",
         "jpg_path": "./images/sentry.jpg",
         "webp_path": "./images/sentry.webp",
+        "variant_paths": [
+            "../images/sentry_Pixel.webp",
+            "../images/sentry_Kim-Jacinto.webp",
+            "../images/sentry_Luchador.webp",
+            "../images/sentry_Void-Merged.webp"
+        ],
         "cost": 4,
         "power": 8
     },
@@ -1220,6 +2130,14 @@
         "ability": "Ongoing: Cards in your hand cost 1 less. (minimum 1)",
         "jpg_path": "./images/sera.jpg",
         "webp_path": "./images/sera.webp",
+        "variant_paths": [
+            "../images/sera_Pixel.webp",
+            "../images/sera_Dan-Hipp.webp",
+            "../images/sera_Chibi.webp",
+            "../images/sera_Flaviano.webp",
+            "../images/sera_Hero.webp",
+            "../images/sera_1602.webp"
+        ],
         "cost": 5,
         "power": 4
     },
@@ -1228,6 +2146,14 @@
         "ability": "On Reveal: Destroy all enemy cards at this location that have\n9 or more Power.",
         "jpg_path": "./images/shangchi.jpg",
         "webp_path": "./images/shangchi.webp",
+        "variant_paths": [
+            "../images/shangchi_Pixel.webp",
+            "../images/shangchi_Baby.webp",
+            "../images/shangchi_Kim-Jacinto.webp",
+            "../images/shangchi_Peach-Momoko.webp",
+            "../images/shangchi_Rian-Gonzales.webp",
+            "../images/shangchi_Knullified.webp"
+        ],
         "cost": 4,
         "power": 3
     },
@@ -1236,6 +2162,13 @@
         "ability": "Costs 1 less for each unspent Energy last turn.",
         "jpg_path": "./images/shehulk.jpg",
         "webp_path": "./images/shehulk.webp",
+        "variant_paths": [
+            "../images/shehulk_Pixel.webp",
+            "../images/shehulk_Baby.webp",
+            "../images/shehulk_Artgerm.webp",
+            "../images/shehulk_Peach-Momoko.webp",
+            "../images/shehulk_Savage-Land.webp"
+        ],
         "cost": 6,
         "power": 10
     },
@@ -1244,6 +2177,11 @@
         "ability": "I'm gonna blast you!",
         "jpg_path": "./images/shocker.jpg",
         "webp_path": "./images/shocker.webp",
+        "variant_paths": [
+            "../images/shocker_Pixel.webp",
+            "../images/shocker_Steampunk.webp",
+            "../images/shocker_Buggy.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -1252,6 +2190,13 @@
         "ability": "On Reveal: Double the Power of the next card you play.",
         "jpg_path": "./images/shuri.jpg",
         "webp_path": "./images/shuri.webp",
+        "variant_paths": [
+            "../images/shuri_Pixel.webp",
+            "../images/shuri_Dan-Hipp.webp",
+            "../images/shuri_Baby.webp",
+            "../images/shuri_Savage-Land.webp",
+            "../images/shuri_Black-Panther.webp"
+        ],
         "cost": 4,
         "power": 2
     },
@@ -1260,6 +2205,12 @@
         "ability": "On Reveal: Give your other\n3-Cost cards +3 Power.",
         "jpg_path": "./images/silversurfer.jpg",
         "webp_path": "./images/silversurfer.webp",
+        "variant_paths": [
+            "../images/silversurfer_Pixel.webp",
+            "../images/silversurfer_Baby.webp",
+            "../images/silversurfer_Max-Grecke.webp",
+            "../images/silversurfer_Kim-Jacinto.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -1268,6 +2219,13 @@
         "ability": "On Reveal: Give your Ongoing cards +2 Power.",
         "jpg_path": "./images/spectrum.jpg",
         "webp_path": "./images/spectrum.webp",
+        "variant_paths": [
+            "../images/spectrum_Pixel.webp",
+            "../images/spectrum_Dan-Hipp.webp",
+            "../images/spectrum_Flaviano.webp",
+            "../images/spectrum_Kim-Jacinto.webp",
+            "../images/spectrum_Rian-Gonzales.webp"
+        ],
         "cost": 6,
         "power": 5
     },
@@ -1276,6 +2234,13 @@
         "ability": "On Reveal: Your opponent can\u00e2\u20ac\u2122t play cards at this location next turn.",
         "jpg_path": "./images/spiderman.jpg",
         "webp_path": "./images/spiderman.webp",
+        "variant_paths": [
+            "../images/spiderman_Pixel.webp",
+            "../images/spiderman_Dan-Hipp.webp",
+            "../images/spiderman_Max-Grecke.webp",
+            "../images/spiderman_Hero.webp",
+            "../images/spiderman_Symbiote.webp"
+        ],
         "cost": 4,
         "power": 3
     },
@@ -1284,6 +2249,11 @@
         "ability": "On Reveal: Afflict all enemy cards here with -1 Power.",
         "jpg_path": "./images/spiderwoman.jpg",
         "webp_path": "./images/spiderwoman.webp",
+        "variant_paths": [
+            "../images/spiderwoman_Pixel.webp",
+            "../images/spiderwoman_Knullified.webp",
+            "../images/spiderwoman_Carnageized.webp"
+        ],
         "cost": 5,
         "power": 7
     },
@@ -1292,6 +2262,11 @@
         "ability": "On Reveal: Add a 1-Power Squirrel to each other location.",
         "jpg_path": "./images/squirrelgirl.jpg",
         "webp_path": "./images/squirrelgirl.webp",
+        "variant_paths": [
+            "../images/squirrelgirl_Pixel.webp",
+            "../images/squirrelgirl_Baby.webp",
+            "../images/squirrelgirl_Rian-Gonzales.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -1300,6 +2275,11 @@
         "ability": "On Reveal: If your opponent played a card here this turn, +3 Power.",
         "jpg_path": "./images/starlord.jpg",
         "webp_path": "./images/starlord.webp",
+        "variant_paths": [
+            "../images/starlord_Pixel.webp",
+            "../images/starlord_Chibi.webp",
+            "../images/starlord_Baby.webp"
+        ],
         "cost": 2,
         "power": 2
     },
@@ -1308,6 +2288,15 @@
         "ability": "On Reveal: Flood this location. Next turn is the last turn cards can\nbe played here.",
         "jpg_path": "./images/storm.jpg",
         "webp_path": "./images/storm.webp",
+        "variant_paths": [
+            "../images/storm_Pixel.webp",
+            "../images/storm_Baby.webp",
+            "../images/storm_Hero.webp",
+            "../images/storm_Peach-Momoko.webp",
+            "../images/storm_Knullified.webp",
+            "../images/storm_Savage-Land.webp",
+            "../images/storm_Anime.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -1316,6 +2305,12 @@
         "ability": "Ongoing: If your hand is empty, +6 Power.",
         "jpg_path": "./images/strongguy.jpg",
         "webp_path": "./images/strongguy.webp",
+        "variant_paths": [
+            "../images/strongguy_Pixel.webp",
+            "../images/strongguy_Summer-Vacation.webp",
+            "../images/strongguy_Luchador.webp",
+            "../images/strongguy_King-of-Hell.webp"
+        ],
         "cost": 4,
         "power": 4
     },
@@ -1324,6 +2319,12 @@
         "ability": "At the end of each turn, gain +1 Power for each unspent Energy.",
         "jpg_path": "./images/sunspot.jpg",
         "webp_path": "./images/sunspot.webp",
+        "variant_paths": [
+            "../images/sunspot_Pixel.webp",
+            "../images/sunspot_Dan-Hipp.webp",
+            "../images/sunspot_Luca-Claretti.webp",
+            "../images/sunspot_Winter-Vacation.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -1332,6 +2333,13 @@
         "ability": "Ongoing: Has the Ongoing effects of all enemy cards.",
         "jpg_path": "./images/superskrull.jpg",
         "webp_path": "./images/superskrull.webp",
+        "variant_paths": [
+            "../images/superskrull_Pixel.webp",
+            "../images/superskrull_Chibi.webp",
+            "../images/superskrull_Baby.webp",
+            "../images/superskrull_Max-Grecke.webp",
+            "../images/superskrull_3099.webp"
+        ],
         "cost": 4,
         "power": 2
     },
@@ -1340,6 +2348,12 @@
         "ability": "When this is discarded from your hand, add two copies that Cost 0\nto your hand.",
         "jpg_path": "./images/swarm.jpg",
         "webp_path": "./images/swarm.webp",
+        "variant_paths": [
+            "../images/swarm_Pixel.webp",
+            "../images/swarm_Dan-Hipp.webp",
+            "../images/swarm_Max-Grecke.webp",
+            "../images/swarm_Dinoswarm.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -1348,6 +2362,10 @@
         "ability": "On Reveal: Discard a card from your hand.",
         "jpg_path": "./images/swordmaster.jpg",
         "webp_path": "./images/swordmaster.webp",
+        "variant_paths": [
+            "../images/swordmaster_Pixel.webp",
+            "../images/swordmaster_Lunar-New-Year.webp"
+        ],
         "cost": 3,
         "power": 6
     },
@@ -1356,6 +2374,10 @@
         "ability": "On Reveal: Set this card's Power equal to the Power of the last\ncard you played.",
         "jpg_path": "./images/taskmaster.jpg",
         "webp_path": "./images/taskmaster.webp",
+        "variant_paths": [
+            "../images/taskmaster_Pixel.webp",
+            "../images/taskmaster_Luchador.webp"
+        ],
         "cost": 5,
         "power": 1
     },
@@ -1364,6 +2386,11 @@
         "ability": "At the start of the game, shuffle the six Infinity Stones into your deck.",
         "jpg_path": "./images/thanos.jpg",
         "webp_path": "./images/thanos.webp",
+        "variant_paths": [
+            "../images/thanos_Pixel.webp",
+            "../images/thanos_Baby.webp",
+            "../images/thanos_Flaviano.webp"
+        ],
         "cost": 6,
         "power": 8
     },
@@ -1372,6 +2399,14 @@
         "ability": "When a card enters your hand from anywhere (except your deck),\n+1 Power.",
         "jpg_path": "./images/thecollector.jpg",
         "webp_path": "./images/thecollector.webp",
+        "variant_paths": [
+            "../images/thecollector_Pixel.webp",
+            "../images/thecollector_Dan-Hipp.webp",
+            "../images/thecollector_Flaviano.webp",
+            "../images/thecollector_Classic.webp",
+            "../images/thecollector_Kael.webp",
+            "../images/thecollector_Ivan-Shavrin.webp"
+        ],
         "cost": 2,
         "power": 1
     },
@@ -1380,6 +2415,12 @@
         "ability": "On Reveal: Add a Demon to your hand.",
         "jpg_path": "./images/hood.jpg",
         "webp_path": "./images/hood.webp",
+        "variant_paths": [
+            "../images/hood_Pixel.webp",
+            "../images/hood_Chibi.webp",
+            "../images/hood_Luca-Claretti.webp",
+            "../images/hood_Noir.webp"
+        ],
         "cost": 1,
         "power": 1
     },
@@ -1388,6 +2429,11 @@
         "ability": "If you played a card last turn, you can't play this.",
         "jpg_path": "./images/infinaut.jpg",
         "webp_path": "./images/infinaut.webp",
+        "variant_paths": [
+            "../images/infinaut_Pixel.webp",
+            "../images/infinaut_Flaviano.webp",
+            "../images/infinaut_Steampunk.webp"
+        ],
         "cost": 6,
         "power": 20
     },
@@ -1396,6 +2442,14 @@
         "ability": "It's clobberin' time!",
         "jpg_path": "./images/thething.jpg",
         "webp_path": "./images/thething.webp",
+        "variant_paths": [
+            "../images/thething_Pixel.webp",
+            "../images/thething_Max-Grecke.webp",
+            "../images/thething_Hero.webp",
+            "../images/thething_Knullified.webp",
+            "../images/thething_Alex-Horley.webp",
+            "../images/thething_Fear-Itself.webp"
+        ],
         "cost": 4,
         "power": 6
     },
@@ -1404,6 +2458,12 @@
         "ability": "On Reveal: Shuffle Mjolnir into your deck.",
         "jpg_path": "./images/thor.jpg",
         "webp_path": "./images/thor.webp",
+        "variant_paths": [
+            "../images/thor_Pixel.webp",
+            "../images/thor_Baby.webp",
+            "../images/thor_Max-Grecke.webp",
+            "../images/thor_Knullified.webp"
+        ],
         "cost": 3,
         "power": 4
     },
@@ -1412,6 +2472,11 @@
         "ability": "When ANY card is played at this location, this card switches sides.",
         "jpg_path": "./images/titania.jpg",
         "webp_path": "./images/titania.webp",
+        "variant_paths": [
+            "../images/titania_Pixel.webp",
+            "../images/titania_Dan-Hipp.webp",
+            "../images/titania_Luchador.webp"
+        ],
         "cost": 1,
         "power": 5
     },
@@ -1420,6 +2485,12 @@
         "ability": "Ongoing: Your other cards\nhave -1 Power.",
         "jpg_path": "./images/typhoidmary.jpg",
         "webp_path": "./images/typhoidmary.webp",
+        "variant_paths": [
+            "../images/typhoidmary_Pixel.webp",
+            "../images/typhoidmary_Dan-Hipp.webp",
+            "../images/typhoidmary_Venomized.webp",
+            "../images/typhoidmary_Mutant-Zero.webp"
+        ],
         "cost": 4,
         "power": 10
     },
@@ -1428,6 +2499,11 @@
         "ability": "Once this is in your hand, you can see the unrevealed locations.",
         "jpg_path": "./images/uatu.jpg",
         "webp_path": "./images/uatu.webp",
+        "variant_paths": [
+            "../images/uatu_Pixel.webp",
+            "../images/uatu_Chibi.webp",
+            "../images/uatu_Flaviano.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -1436,6 +2512,12 @@
         "ability": "On Reveal: Create four 1-Power Drones at each other location.",
         "jpg_path": "./images/ultron.jpg",
         "webp_path": "./images/ultron.webp",
+        "variant_paths": [
+            "../images/ultron_Pixel.webp",
+            "../images/ultron_Dan-Hipp.webp",
+            "../images/ultron_Flaviano.webp",
+            "../images/ultron_Kim-Jacinto.webp"
+        ],
         "cost": 6,
         "power": 8
     },
@@ -1444,6 +2526,12 @@
         "ability": "On Reveal: Set ALL cards at this location to 3 Power.",
         "jpg_path": "./images/valkyrie.jpg",
         "webp_path": "./images/valkyrie.webp",
+        "variant_paths": [
+            "../images/valkyrie_Pixel.webp",
+            "../images/valkyrie_Chibi.webp",
+            "../images/valkyrie_Baby.webp",
+            "../images/valkyrie_Rian-Gonzales.webp"
+        ],
         "cost": 5,
         "power": 3
     },
@@ -1452,6 +2540,11 @@
         "ability": "On Reveal: Destroy your other cards at this location. Add their Power\nto this card.",
         "jpg_path": "./images/venom.jpg",
         "webp_path": "./images/venom.webp",
+        "variant_paths": [
+            "../images/venom_Pixel.webp",
+            "../images/venom_Baby.webp",
+            "../images/venom_Kim-Jacinto.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -1460,6 +2553,13 @@
         "ability": "On Reveal: Your opponent gains control of one of your other cards\nat this location.",
         "jpg_path": "./images/viper.jpg",
         "webp_path": "./images/viper.webp",
+        "variant_paths": [
+            "../images/viper_Pixel.webp",
+            "../images/viper_Chibi.webp",
+            "../images/viper_Noir.webp",
+            "../images/viper_Steampunk.webp",
+            "../images/viper_Secret-Wars.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -1468,6 +2568,11 @@
         "ability": "You can move this each turn.",
         "jpg_path": "./images/vision.jpg",
         "webp_path": "./images/vision.webp",
+        "variant_paths": [
+            "../images/vision_Pixel.webp",
+            "../images/vision_Dan-Hipp.webp",
+            "../images/vision_Max-Grecke.webp"
+        ],
         "cost": 5,
         "power": 7
     },
@@ -1476,6 +2581,11 @@
         "ability": "When this card moves,\n+5 Power.",
         "jpg_path": "./images/vulture.jpg",
         "webp_path": "./images/vulture.webp",
+        "variant_paths": [
+            "../images/vulture_Pixel.webp",
+            "../images/vulture_Max-Grecke.webp",
+            "../images/vulture_Giulio-Rincione.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -1484,6 +2594,11 @@
         "ability": "Ongoing: If any of your locations are empty, +4 Power.",
         "jpg_path": "./images/warpath.jpg",
         "webp_path": "./images/warpath.webp",
+        "variant_paths": [
+            "../images/warpath_Pixel.webp",
+            "../images/warpath_Luchador.webp",
+            "../images/warpath_Weapon-X.webp"
+        ],
         "cost": 4,
         "power": 5
     },
@@ -1492,6 +2607,12 @@
         "ability": "My secret power is that I get things done.",
         "jpg_path": "./images/wasp.jpg",
         "webp_path": "./images/wasp.webp",
+        "variant_paths": [
+            "../images/wasp_Pixel.webp",
+            "../images/wasp_Dan-Hipp.webp",
+            "../images/wasp_Steampunk.webp",
+            "../images/wasp_Transformed.webp"
+        ],
         "cost": 0,
         "power": 1
     },
@@ -1500,6 +2621,10 @@
         "ability": "On Reveal: Next turn, cards in both players' hands cost 4.",
         "jpg_path": "./images/wave.jpg",
         "webp_path": "./images/wave.webp",
+        "variant_paths": [
+            "../images/wave_Pixel.webp",
+            "../images/wave_Dan-Hipp.webp"
+        ],
         "cost": 3,
         "power": 3
     },
@@ -1508,6 +2633,14 @@
         "ability": "On Reveal: Draw a copy of the highest Cost card in your\nopponent's hand.",
         "jpg_path": "./images/whitequeen.jpg",
         "webp_path": "./images/whitequeen.webp",
+        "variant_paths": [
+            "../images/whitequeen_Pixel.webp",
+            "../images/whitequeen_Venomized.webp",
+            "../images/whitequeen_Noir.webp",
+            "../images/whitequeen_Artgerm.webp",
+            "../images/whitequeen_Peach-Momoko.webp",
+            "../images/whitequeen_Summer-Vacation.webp"
+        ],
         "cost": 4,
         "power": 6
     },
@@ -1516,6 +2649,12 @@
         "ability": "On Reveal: Add a 7-Power Tiger to another location.",
         "jpg_path": "./images/whitetiger.jpg",
         "webp_path": "./images/whitetiger.webp",
+        "variant_paths": [
+            "../images/whitetiger_Pixel.webp",
+            "../images/whitetiger_Luca-Claretti.webp",
+            "../images/whitetiger_Savage-Land.webp",
+            "../images/whitetiger_Luchador.webp"
+        ],
         "cost": 5,
         "power": 1
     },
@@ -1524,6 +2663,10 @@
         "ability": "On Reveal: +2 Power for each other card you have here.",
         "jpg_path": "./images/wolfsbane.jpg",
         "webp_path": "./images/wolfsbane.webp",
+        "variant_paths": [
+            "../images/wolfsbane_Pixel.webp",
+            "../images/wolfsbane_Dan-Hipp.webp"
+        ],
         "cost": 3,
         "power": 1
     },
@@ -1532,6 +2675,12 @@
         "ability": "When this is discarded or destroyed, play it at a random location.",
         "jpg_path": "./images/wolverine.jpg",
         "webp_path": "./images/wolverine.webp",
+        "variant_paths": [
+            "../images/wolverine_Pixel.webp",
+            "../images/wolverine_Dan-Hipp.webp",
+            "../images/wolverine_Baby.webp",
+            "../images/wolverine_Max-Grecke.webp"
+        ],
         "cost": 2,
         "power": 3
     },
@@ -1540,6 +2689,12 @@
         "ability": "Ongoing: Your On Reveal abilities at this location happen twice.",
         "jpg_path": "./images/wong.jpg",
         "webp_path": "./images/wong.webp",
+        "variant_paths": [
+            "../images/wong_Pixel.webp",
+            "../images/wong_Dan-Hipp.webp",
+            "../images/wong_3099.webp",
+            "../images/wong_Band.webp"
+        ],
         "cost": 4,
         "power": 2
     },
@@ -1548,6 +2703,10 @@
         "ability": "On Reveal: Afflict your other cards at this location with -1 Power.",
         "jpg_path": "./images/yellowjacket.jpg",
         "webp_path": "./images/yellowjacket.webp",
+        "variant_paths": [
+            "../images/yellowjacket_Pixel.webp",
+            "../images/yellowjacket_Variant.webp"
+        ],
         "cost": 0,
         "power": 2
     },
@@ -1556,6 +2715,11 @@
         "ability": "On Reveal: Remove the top card of your opponent's deck.",
         "jpg_path": "./images/yondu.jpg",
         "webp_path": "./images/yondu.webp",
+        "variant_paths": [
+            "../images/yondu_Pixel.webp",
+            "../images/yondu_Dan-Hipp.webp",
+            "../images/yondu_Sports.webp"
+        ],
         "cost": 1,
         "power": 2
     },
@@ -1564,6 +2728,11 @@
         "ability": "Ongoing: Your 4-Cost cards cost 2 less. (minimum 1)",
         "jpg_path": "./images/zabu.jpg",
         "webp_path": "./images/zabu.webp",
+        "variant_paths": [
+            "../images/zabu_Dan-Hipp.webp",
+            "../images/zabu_3099.webp",
+            "../images/zabu_Savage-Land.webp"
+        ],
         "cost": 3,
         "power": 2
     },
@@ -1572,6 +2741,12 @@
         "ability": "On Reveal: Remove the abilities on the next card you play.",
         "jpg_path": "./images/zero.jpg",
         "webp_path": "./images/zero.webp",
+        "variant_paths": [
+            "../images/zero_Pixel.webp",
+            "../images/zero_Chibi.webp",
+            "../images/zero_Sports.webp",
+            "../images/zero_Giulio-Rincione.webp"
+        ],
         "cost": 1,
         "power": 3
     }

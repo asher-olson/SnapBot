@@ -9,10 +9,13 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 from PIL import Image
 
+GET_VARIANTS = True;
+
 def scrape():
     url_start = "https://snap.fan/cards/?page=" 
 
     cards = {}
+    card_urls = []  # save individual urls for later to clean up variant categories that have 1 card
 
     with closing(Chrome()) as driver:
         # get image name and ability from main cards page
@@ -32,6 +35,8 @@ def scrape():
 
             for div in divs:
                 name = div.find("a")["href"].split("/")[2].lower()
+                url = div.find("a")["href"]
+                card_urls.append((name, url))
 
                 img_url = div.find("img", class_="game-card-image__img")["src"]
                 img = requests.get(img_url).content
@@ -43,7 +48,7 @@ def scrape():
 
                 ability = div.find("div", class_="small").text
 
-                cards[name] = {"name": name, "ability": ability, "jpg_path": f"./images/{name}.jpg", "webp_path": f"./images/{name}.webp"}
+                cards[name] = {"name": name, "ability": ability, "jpg_path": f"./images/{name}.jpg", "webp_path": f"./images/{name}.webp", "variant_paths": []}
 
         # get cost
         cost_url_start = "https://snap.fan/cards/?costs="
@@ -94,6 +99,74 @@ def scrape():
             for div in divs:
                 name = div.find("a")["href"].split("/")[2].lower()
                 cards[name]['power'] = power
+
+        # get variants
+        if GET_VARIANTS:
+            driver.get("https://snap.fan/cards/variants/")
+            wait_for_ajax(driver)
+
+            soup_ = BeautifulSoup(driver.page_source, "html.parser")
+
+            links = list(map(lambda x: x['href'], soup_.find_all("a", class_="d-block")))
+
+            for link in links:
+                category = link.split("/")[3].replace("%20", " ")
+                
+                page = 1
+                while True:
+                    driver.get(f"https://snap.fan{link}?page={page}")
+                    page += 1
+                    wait_for_ajax(driver)
+
+                    soup = BeautifulSoup(driver.page_source, "html.parser")
+
+                    images = soup.find_all("img", class_="game-card-image__img")
+
+                    if(len(images) == 0):
+                        break
+
+                    for image in images:
+                        name = image.parent.parent['data-variant-key'].split("_")[0].lower()
+
+                        img = requests.get(image['src']).content
+                        var_extension = category.replace(" ", "-")
+                        with open(f"../images/{name}_{var_extension}.webp", "wb") as f:
+                            f.write(img)
+
+                        cards[name]["variant_paths"].append(f"../images/{name}_{var_extension}.webp")  
+
+            # clean up variant categories that only have 1 card
+            for url in card_urls:
+                driver.get(f"https://snap.fan{url[1]}")
+                wait_for_ajax(driver)
+
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+
+                divs = soup.find_all("div", class_="card-variant-gallery__card")
+
+                for div in divs:
+                    link = div.find("div", class_="card-variant-gallery__card-content").find_all("div", class_="card-variant-gallery__card-value")[1].find("a")
+                    if link is None:
+                        print("link is none")
+                        continue
+
+                    var_name = link.text
+                    var_path = f"../images/{url[0]}_{var_name.replace(' ', '-')}.webp"
+                    if var_path not in cards[url[0]]["variant_paths"]:
+                        driver.get(f"https://snap.fan{link['href']}")
+                        wait_for_ajax(driver)
+
+                        soup2 = BeautifulSoup(driver.page_source, "html.parser")
+
+                        src = soup2.find("img", class_="game-card-image__img")["src"]
+
+                        img = requests.get(src).content
+                        with open(var_path, "wb") as f:
+                            f.write(img)
+
+                        cards[url[0]]["variant_paths"].append(var_path) 
+
+
 
     with open("../cards.json", "w") as f:
         obj = json.dumps(cards, indent = 4)
