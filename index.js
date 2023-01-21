@@ -7,6 +7,7 @@ import * as fs from "fs";
 import lodash from "lodash";
 import { randomDeck } from "./randomDeck.js";
 import { CardService } from "./CardService.js";
+import { CollectorService } from "./CollectorService.js";
 
 const {replace, includes, map, forEach} = lodash;
 const { Client, Events, ActionRowBuilder, MessageButtonStyle, ButtonBuilder, GatewayIntentBits, ButtonStyle } = discord;
@@ -54,8 +55,9 @@ function buildVariantActionBarsFromCard(card) {
 }
 
 function findButtonByCustomId(rows, id) {
-    console.log(id);
-    console.log(rows[0].components[0]);
+    let kekw = new CollectorService();
+    // console.log(id);
+    // console.log(rows[0].components[0]);
     let button;
     forEach(rows, (row) => {
         forEach(row.components, (but) => {
@@ -65,7 +67,7 @@ function findButtonByCustomId(rows, id) {
             }
         })
     });
-    console.log(button.data.custom_id);
+    // console.log(button.data.custom_id);
     return button;
 }
 
@@ -89,12 +91,12 @@ bot.on('messageCreate', async (msg) => {
         // await msg.channel.send({files: [{ attachment: file }]});
         // msg.channel.send(card.ability);
 
-        let rows = buildVariantActionBarsFromCard(card);
+        const rows = buildVariantActionBarsFromCard(card);
 
         await msg.reply({ content: card.ability, components: rows, files: [{ attachment: file }] });
         
         let selectedButton = rows[0].components[0];
-        let filter = (i) => {
+        const filter = (i) => {
             const button = findButtonByCustomId(rows, i.customId);
             if(!!button) {
                 selectedButton.data.style = ButtonStyle.Secondary;
@@ -103,7 +105,7 @@ bot.on('messageCreate', async (msg) => {
             }
             return !!button;
         }
-        let collector = msg.channel.createMessageComponentCollector({filter, time: 15000});
+        const collector = msg.channel.createMessageComponentCollector({filter, time: 15000});
         // forEach(rows, (row) => {
         //     forEach(row, (button) => {
         //         const filter = b => b.customId === button.customId;
