@@ -133,7 +133,9 @@ def scrape():
                         with open(f"../images/{name}_{var_extension}.webp", "wb") as f:
                             f.write(img)
 
-                        cards[name]["variant_paths"].append(f"../images/{name}_{var_extension}.webp")  
+                        var = {"name": category, "path": f"./images/{name}_{var_extension}.webp"}
+
+                        cards[name]["variant_paths"].append(var)  
 
             # clean up variant categories that only have 1 card
             for url in card_urls:
@@ -147,12 +149,13 @@ def scrape():
                 for div in divs:
                     link = div.find("div", class_="card-variant-gallery__card-content").find_all("div", class_="card-variant-gallery__card-value")[1].find("a")
                     if link is None:
-                        print("link is none")
                         continue
 
                     var_name = link.text
-                    var_path = f"../images/{url[0]}_{var_name.replace(' ', '-')}.webp"
-                    if var_path not in cards[url[0]]["variant_paths"]:
+                    var_path = f"./images/{url[0]}_{var_name.replace(' ', '-')}.webp"
+                    
+                    # list(map(lambda x: x['path'], cards[url[0]]["variant_paths"]))
+                    if var_path not in list(map(lambda x: x['path'], cards[url[0]]["variant_paths"])):
                         driver.get(f"https://snap.fan{link['href']}")
                         wait_for_ajax(driver)
 
@@ -161,10 +164,12 @@ def scrape():
                         src = soup2.find("img", class_="game-card-image__img")["src"]
 
                         img = requests.get(src).content
-                        with open(var_path, "wb") as f:
+                        with open(f".{var_path}", "wb") as f:
                             f.write(img)
 
-                        cards[url[0]]["variant_paths"].append(var_path) 
+                        var = {"name": var_name, "path": var_path}
+
+                        cards[url[0]]["variant_paths"].append(var) 
 
 
 

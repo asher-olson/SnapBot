@@ -5,9 +5,18 @@
         "jpg_path": "./images/abomination.jpg",
         "webp_path": "./images/abomination.webp",
         "variant_paths": [
-            "../images/abomination_Pixel.webp",
-            "../images/abomination_Winter-Vacation.webp",
-            "../images/abomination_Future-Imperfect.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/abomination_Pixel.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/abomination_Winter-Vacation.webp"
+            },
+            {
+                "name": "Future Imperfect",
+                "path": "./images/abomination_Future-Imperfect.webp"
+            }
         ],
         "cost": 5,
         "power": 9
@@ -18,11 +27,26 @@
         "jpg_path": "./images/absorbingman.jpg",
         "webp_path": "./images/absorbingman.webp",
         "variant_paths": [
-            "../images/absorbingman_Pixel.webp",
-            "../images/absorbingman_Chibi.webp",
-            "../images/absorbingman_Noir.webp",
-            "../images/absorbingman_Sports.webp",
-            "../images/absorbingman_Fear-Itself.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/absorbingman_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/absorbingman_Chibi.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/absorbingman_Noir.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/absorbingman_Sports.webp"
+            },
+            {
+                "name": "Fear Itself",
+                "path": "./images/absorbingman_Fear-Itself.webp"
+            }
         ],
         "cost": 4,
         "power": 3
@@ -33,10 +57,22 @@
         "jpg_path": "./images/adamwarlock.jpg",
         "webp_path": "./images/adamwarlock.webp",
         "variant_paths": [
-            "../images/adamwarlock_Pixel.webp",
-            "../images/adamwarlock_Dan-Hipp.webp",
-            "../images/adamwarlock_Flaviano.webp",
-            "../images/adamwarlock_Alex-Horley.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/adamwarlock_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/adamwarlock_Dan-Hipp.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/adamwarlock_Flaviano.webp"
+            },
+            {
+                "name": "Alex Horley",
+                "path": "./images/adamwarlock_Alex-Horley.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -47,10 +83,22 @@
         "jpg_path": "./images/aero.jpg",
         "webp_path": "./images/aero.webp",
         "variant_paths": [
-            "../images/aero_Pixel.webp",
-            "../images/aero_Chibi.webp",
-            "../images/aero_Artgerm.webp",
-            "../images/aero_Rian-Gonzales.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/aero_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/aero_Chibi.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/aero_Artgerm.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/aero_Rian-Gonzales.webp"
+            }
         ],
         "cost": 5,
         "power": 7
@@ -61,11 +109,26 @@
         "jpg_path": "./images/agathaharkness.jpg",
         "webp_path": "./images/agathaharkness.webp",
         "variant_paths": [
-            "../images/agathaharkness_Pixel.webp",
-            "../images/agathaharkness_Dan-Hipp.webp",
-            "../images/agathaharkness_Chibi.webp",
-            "../images/agathaharkness_Classic.webp",
-            "../images/agathaharkness_Professor.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/agathaharkness_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/agathaharkness_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/agathaharkness_Chibi.webp"
+            },
+            {
+                "name": "Classic",
+                "path": "./images/agathaharkness_Classic.webp"
+            },
+            {
+                "name": "Professor",
+                "path": "./images/agathaharkness_Professor.webp"
+            }
         ],
         "cost": 6,
         "power": 14
@@ -76,9 +139,18 @@
         "jpg_path": "./images/agent13.jpg",
         "webp_path": "./images/agent13.webp",
         "variant_paths": [
-            "../images/agent13_Pixel.webp",
-            "../images/agent13_Chibi.webp",
-            "../images/agent13_Luca-Claretti.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/agent13_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/agent13_Chibi.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/agent13_Luca-Claretti.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -89,10 +161,22 @@
         "jpg_path": "./images/agentcoulson.jpg",
         "webp_path": "./images/agentcoulson.webp",
         "variant_paths": [
-            "../images/agentcoulson_Pixel.webp",
-            "../images/agentcoulson_Chibi.webp",
-            "../images/agentcoulson_Noir.webp",
-            "../images/agentcoulson_War-on-Midgard.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/agentcoulson_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/agentcoulson_Chibi.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/agentcoulson_Noir.webp"
+            },
+            {
+                "name": "War on Midgard",
+                "path": "./images/agentcoulson_War-on-Midgard.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -103,9 +187,18 @@
         "jpg_path": "./images/americachavez.jpg",
         "webp_path": "./images/americachavez.webp",
         "variant_paths": [
-            "../images/americachavez_Pixel.webp",
-            "../images/americachavez_Baby.webp",
-            "../images/americachavez_Rian-Gonzales.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/americachavez_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/americachavez_Baby.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/americachavez_Rian-Gonzales.webp"
+            }
         ],
         "cost": 6,
         "power": 9
@@ -116,11 +209,26 @@
         "jpg_path": "./images/angel.jpg",
         "webp_path": "./images/angel.webp",
         "variant_paths": [
-            "../images/angel_Pixel.webp",
-            "../images/angel_Chibi.webp",
-            "../images/angel_Venomized.webp",
-            "../images/angel_Jim-Lee.webp",
-            "../images/angel_Classic.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/angel_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/angel_Chibi.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/angel_Venomized.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/angel_Jim-Lee.webp"
+            },
+            {
+                "name": "Classic",
+                "path": "./images/angel_Classic.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -131,10 +239,22 @@
         "jpg_path": "./images/angela.jpg",
         "webp_path": "./images/angela.webp",
         "variant_paths": [
-            "../images/angela_Pixel.webp",
-            "../images/angela_Chibi.webp",
-            "../images/angela_Baby.webp",
-            "../images/angela_Hero.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/angela_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/angela_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/angela_Baby.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/angela_Hero.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -145,9 +265,18 @@
         "jpg_path": "./images/antman.jpg",
         "webp_path": "./images/antman.webp",
         "variant_paths": [
-            "../images/antman_Pixel.webp",
-            "../images/antman_Baby.webp",
-            "../images/antman_Steampunk.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/antman_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/antman_Baby.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/antman_Steampunk.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -158,9 +287,18 @@
         "jpg_path": "./images/apocalypse.jpg",
         "webp_path": "./images/apocalypse.webp",
         "variant_paths": [
-            "../images/apocalypse_Pixel.webp",
-            "../images/apocalypse_Dan-Hipp.webp",
-            "../images/apocalypse_Kim-Jacinto.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/apocalypse_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/apocalypse_Dan-Hipp.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/apocalypse_Kim-Jacinto.webp"
+            }
         ],
         "cost": 6,
         "power": 8
@@ -171,9 +309,18 @@
         "jpg_path": "./images/armor.jpg",
         "webp_path": "./images/armor.webp",
         "variant_paths": [
-            "../images/armor_Pixel.webp",
-            "../images/armor_Chibi.webp",
-            "../images/armor_Summer-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/armor_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/armor_Chibi.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/armor_Summer-Vacation.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -184,10 +331,22 @@
         "jpg_path": "./images/arnimzola.jpg",
         "webp_path": "./images/arnimzola.webp",
         "variant_paths": [
-            "../images/arnimzola_Pixel.webp",
-            "../images/arnimzola_Chibi.webp",
-            "../images/arnimzola_Ultimate.webp",
-            "../images/arnimzola_Civil-War.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/arnimzola_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/arnimzola_Chibi.webp"
+            },
+            {
+                "name": "Ultimate",
+                "path": "./images/arnimzola_Ultimate.webp"
+            },
+            {
+                "name": "Civil War",
+                "path": "./images/arnimzola_Civil-War.webp"
+            }
         ],
         "cost": 6,
         "power": 1
@@ -198,9 +357,18 @@
         "jpg_path": "./images/attuma.jpg",
         "webp_path": "./images/attuma.webp",
         "variant_paths": [
-            "../images/attuma_Pixel.webp",
-            "../images/attuma_Dan-Hipp.webp",
-            "../images/attuma_Wakanda-Forever.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/attuma_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/attuma_Dan-Hipp.webp"
+            },
+            {
+                "name": "Wakanda Forever",
+                "path": "./images/attuma_Wakanda-Forever.webp"
+            }
         ],
         "cost": 4,
         "power": 10
@@ -211,10 +379,22 @@
         "jpg_path": "./images/baronmordo.jpg",
         "webp_path": "./images/baronmordo.webp",
         "variant_paths": [
-            "../images/baronmordo_Pixel.webp",
-            "../images/baronmordo_Dan-Hipp.webp",
-            "../images/baronmordo_Venomized.webp",
-            "../images/baronmordo_3099.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/baronmordo_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/baronmordo_Dan-Hipp.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/baronmordo_Venomized.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/baronmordo_3099.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -225,8 +405,14 @@
         "jpg_path": "./images/bast.jpg",
         "webp_path": "./images/bast.webp",
         "variant_paths": [
-            "../images/bast_Pixel.webp",
-            "../images/bast_Dan-Hipp.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/bast_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/bast_Dan-Hipp.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -237,11 +423,26 @@
         "jpg_path": "./images/beast.jpg",
         "webp_path": "./images/beast.webp",
         "variant_paths": [
-            "../images/beast_Pixel.webp",
-            "../images/beast_Dan-Hipp.webp",
-            "../images/beast_Classic.webp",
-            "../images/beast_All-New.webp",
-            "../images/beast_Grey.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/beast_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/beast_Dan-Hipp.webp"
+            },
+            {
+                "name": "Classic",
+                "path": "./images/beast_Classic.webp"
+            },
+            {
+                "name": "All-New",
+                "path": "./images/beast_All-New.webp"
+            },
+            {
+                "name": "Grey",
+                "path": "./images/beast_Grey.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -252,12 +453,30 @@
         "jpg_path": "./images/bishop.jpg",
         "webp_path": "./images/bishop.webp",
         "variant_paths": [
-            "../images/bishop_Pixel.webp",
-            "../images/bishop_Steampunk.webp",
-            "../images/bishop_Jim-Lee.webp",
-            "../images/bishop_Time-Displaced.webp",
-            "../images/bishop_Chess.webp",
-            "../images/bishop_Marauders.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/bishop_Pixel.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/bishop_Steampunk.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/bishop_Jim-Lee.webp"
+            },
+            {
+                "name": "Time Displaced",
+                "path": "./images/bishop_Time-Displaced.webp"
+            },
+            {
+                "name": "Chess",
+                "path": "./images/bishop_Chess.webp"
+            },
+            {
+                "name": "Marauders",
+                "path": "./images/bishop_Marauders.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -268,10 +487,22 @@
         "jpg_path": "./images/blackbolt.jpg",
         "webp_path": "./images/blackbolt.webp",
         "variant_paths": [
-            "../images/blackbolt_Pixel.webp",
-            "../images/blackbolt_3099.webp",
-            "../images/blackbolt_Jeff-Dekal.webp",
-            "../images/blackbolt_Shhh!.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/blackbolt_Pixel.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/blackbolt_3099.webp"
+            },
+            {
+                "name": "Jeff Dekal",
+                "path": "./images/blackbolt_Jeff-Dekal.webp"
+            },
+            {
+                "name": "Shhh!",
+                "path": "./images/blackbolt_Shhh!.webp"
+            }
         ],
         "cost": 5,
         "power": 8
@@ -282,12 +513,30 @@
         "jpg_path": "./images/blackcat.jpg",
         "webp_path": "./images/blackcat.webp",
         "variant_paths": [
-            "../images/blackcat_Pixel.webp",
-            "../images/blackcat_Baby.webp",
-            "../images/blackcat_Noir.webp",
-            "../images/blackcat_Artgerm.webp",
-            "../images/blackcat_Iron-Cat.webp",
-            "../images/blackcat_2099.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/blackcat_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/blackcat_Baby.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/blackcat_Noir.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/blackcat_Artgerm.webp"
+            },
+            {
+                "name": "Iron Cat",
+                "path": "./images/blackcat_Iron-Cat.webp"
+            },
+            {
+                "name": "2099",
+                "path": "./images/blackcat_2099.webp"
+            }
         ],
         "cost": 3,
         "power": 7
@@ -298,13 +547,34 @@
         "jpg_path": "./images/blackpanther.jpg",
         "webp_path": "./images/blackpanther.webp",
         "variant_paths": [
-            "../images/blackpanther_Pixel.webp",
-            "../images/blackpanther_Dan-Hipp.webp",
-            "../images/blackpanther_Baby.webp",
-            "../images/blackpanther_Max-Grecke.webp",
-            "../images/blackpanther_Hero.webp",
-            "../images/blackpanther_Phoenix-Force.webp",
-            "../images/blackpanther_Ancestors.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/blackpanther_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/blackpanther_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/blackpanther_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/blackpanther_Max-Grecke.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/blackpanther_Hero.webp"
+            },
+            {
+                "name": "Phoenix Force",
+                "path": "./images/blackpanther_Phoenix-Force.webp"
+            },
+            {
+                "name": "Ancestors",
+                "path": "./images/blackpanther_Ancestors.webp"
+            }
         ],
         "cost": 5,
         "power": 4
@@ -315,10 +585,22 @@
         "jpg_path": "./images/blackwidow.jpg",
         "webp_path": "./images/blackwidow.webp",
         "variant_paths": [
-            "../images/blackwidow_Pixel.webp",
-            "../images/blackwidow_Baby.webp",
-            "../images/blackwidow_Max-Grecke.webp",
-            "../images/blackwidow_Knullified.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/blackwidow_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/blackwidow_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/blackwidow_Max-Grecke.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/blackwidow_Knullified.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -329,10 +611,22 @@
         "jpg_path": "./images/blade.jpg",
         "webp_path": "./images/blade.webp",
         "variant_paths": [
-            "../images/blade_Pixel.webp",
-            "../images/blade_Luca-Claretti.webp",
-            "../images/blade_Avengers.webp",
-            "../images/blade_Boy-Thing.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/blade_Pixel.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/blade_Luca-Claretti.webp"
+            },
+            {
+                "name": "Avengers",
+                "path": "./images/blade_Avengers.webp"
+            },
+            {
+                "name": "Boy-Thing",
+                "path": "./images/blade_Boy-Thing.webp"
+            }
         ],
         "cost": 1,
         "power": 3
@@ -343,10 +637,22 @@
         "jpg_path": "./images/bluemarvel.jpg",
         "webp_path": "./images/bluemarvel.webp",
         "variant_paths": [
-            "../images/bluemarvel_Pixel.webp",
-            "../images/bluemarvel_Dan-Hipp.webp",
-            "../images/bluemarvel_Neutral-Zone.webp",
-            "../images/bluemarvel_Ultimates.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/bluemarvel_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/bluemarvel_Dan-Hipp.webp"
+            },
+            {
+                "name": "Neutral Zone",
+                "path": "./images/bluemarvel_Neutral-Zone.webp"
+            },
+            {
+                "name": "Ultimates",
+                "path": "./images/bluemarvel_Ultimates.webp"
+            }
         ],
         "cost": 5,
         "power": 3
@@ -357,10 +663,22 @@
         "jpg_path": "./images/brood.jpg",
         "webp_path": "./images/brood.webp",
         "variant_paths": [
-            "../images/brood_Pixel.webp",
-            "../images/brood_Dan-Hipp.webp",
-            "../images/brood_Giulio-Rincione.webp",
-            "../images/brood_Broo.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/brood_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/brood_Dan-Hipp.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/brood_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Broo",
+                "path": "./images/brood_Broo.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -371,11 +689,26 @@
         "jpg_path": "./images/buckybarnes.jpg",
         "webp_path": "./images/buckybarnes.webp",
         "variant_paths": [
-            "../images/buckybarnes_Pixel.webp",
-            "../images/buckybarnes_Noir.webp",
-            "../images/buckybarnes_Sports.webp",
-            "../images/buckybarnes_1602.webp",
-            "../images/buckybarnes_Sidecar.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/buckybarnes_Pixel.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/buckybarnes_Noir.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/buckybarnes_Sports.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/buckybarnes_1602.webp"
+            },
+            {
+                "name": "Sidecar",
+                "path": "./images/buckybarnes_Sidecar.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -386,10 +719,22 @@
         "jpg_path": "./images/cable.jpg",
         "webp_path": "./images/cable.webp",
         "variant_paths": [
-            "../images/cable_Pixel.webp",
-            "../images/cable_Baby.webp",
-            "../images/cable_Kael.webp",
-            "../images/cable_Young.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/cable_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/cable_Baby.webp"
+            },
+            {
+                "name": "Kael",
+                "path": "./images/cable_Kael.webp"
+            },
+            {
+                "name": "Young",
+                "path": "./images/cable_Young.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -400,12 +745,30 @@
         "jpg_path": "./images/captainamerica.jpg",
         "webp_path": "./images/captainamerica.webp",
         "variant_paths": [
-            "../images/captainamerica_Pixel.webp",
-            "../images/captainamerica_Knullified.webp",
-            "../images/captainamerica_Alex-Ross.webp",
-            "../images/captainamerica_Phoenix-Force.webp",
-            "../images/captainamerica_Penny-Arcade.webp",
-            "../images/captainamerica_Wakandan-Shield.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/captainamerica_Pixel.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/captainamerica_Knullified.webp"
+            },
+            {
+                "name": "Alex Ross",
+                "path": "./images/captainamerica_Alex-Ross.webp"
+            },
+            {
+                "name": "Phoenix Force",
+                "path": "./images/captainamerica_Phoenix-Force.webp"
+            },
+            {
+                "name": "Penny Arcade",
+                "path": "./images/captainamerica_Penny-Arcade.webp"
+            },
+            {
+                "name": "Wakandan Shield",
+                "path": "./images/captainamerica_Wakandan-Shield.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -416,11 +779,26 @@
         "jpg_path": "./images/captainmarvel.jpg",
         "webp_path": "./images/captainmarvel.webp",
         "variant_paths": [
-            "../images/captainmarvel_Pixel.webp",
-            "../images/captainmarvel_Baby.webp",
-            "../images/captainmarvel_Artgerm.webp",
-            "../images/captainmarvel_Anime.webp",
-            "../images/captainmarvel_Ms.-Marvel.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/captainmarvel_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/captainmarvel_Baby.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/captainmarvel_Artgerm.webp"
+            },
+            {
+                "name": "Anime",
+                "path": "./images/captainmarvel_Anime.webp"
+            },
+            {
+                "name": "Ms. Marvel",
+                "path": "./images/captainmarvel_Ms.-Marvel.webp"
+            }
         ],
         "cost": 5,
         "power": 6
@@ -431,10 +809,22 @@
         "jpg_path": "./images/carnage.jpg",
         "webp_path": "./images/carnage.webp",
         "variant_paths": [
-            "../images/carnage_Pixel.webp",
-            "../images/carnage_Max-Grecke.webp",
-            "../images/carnage_Kim-Jacinto.webp",
-            "../images/carnage_Artgerm.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/carnage_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/carnage_Max-Grecke.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/carnage_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/carnage_Artgerm.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -445,10 +835,22 @@
         "jpg_path": "./images/cerebro.jpg",
         "webp_path": "./images/cerebro.webp",
         "variant_paths": [
-            "../images/cerebro_Pixel.webp",
-            "../images/cerebro_Steampunk.webp",
-            "../images/cerebro_Blueprints.webp",
-            "../images/cerebro_Sentient.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/cerebro_Pixel.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/cerebro_Steampunk.webp"
+            },
+            {
+                "name": "Blueprints",
+                "path": "./images/cerebro_Blueprints.webp"
+            },
+            {
+                "name": "Sentient",
+                "path": "./images/cerebro_Sentient.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -459,10 +861,22 @@
         "jpg_path": "./images/cloak.jpg",
         "webp_path": "./images/cloak.webp",
         "variant_paths": [
-            "../images/cloak_Pixel.webp",
-            "../images/cloak_Max-Grecke.webp",
-            "../images/cloak_Venomized.webp",
-            "../images/cloak_1602.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/cloak_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/cloak_Max-Grecke.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/cloak_Venomized.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/cloak_1602.webp"
+            }
         ],
         "cost": 2,
         "power": 4
@@ -473,9 +887,18 @@
         "jpg_path": "./images/colleenwing.jpg",
         "webp_path": "./images/colleenwing.webp",
         "variant_paths": [
-            "../images/colleenwing_Pixel.webp",
-            "../images/colleenwing_Noir.webp",
-            "../images/colleenwing_Kim-Jacinto.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/colleenwing_Pixel.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/colleenwing_Noir.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/colleenwing_Kim-Jacinto.webp"
+            }
         ],
         "cost": 2,
         "power": 4
@@ -486,9 +909,18 @@
         "jpg_path": "./images/colossus.jpg",
         "webp_path": "./images/colossus.webp",
         "variant_paths": [
-            "../images/colossus_Pixel.webp",
-            "../images/colossus_Chibi.webp",
-            "../images/colossus_Jim-Lee.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/colossus_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/colossus_Chibi.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/colossus_Jim-Lee.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -499,11 +931,26 @@
         "jpg_path": "./images/cosmo.jpg",
         "webp_path": "./images/cosmo.webp",
         "variant_paths": [
-            "../images/cosmo_Pixel.webp",
-            "../images/cosmo_Dan-Hipp.webp",
-            "../images/cosmo_Luca-Claretti.webp",
-            "../images/cosmo_Venomized.webp",
-            "../images/cosmo_Summer-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/cosmo_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/cosmo_Dan-Hipp.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/cosmo_Luca-Claretti.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/cosmo_Venomized.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/cosmo_Summer-Vacation.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -514,9 +961,22 @@
         "jpg_path": "./images/crossbones.jpg",
         "webp_path": "./images/crossbones.webp",
         "variant_paths": [
-            "../images/crossbones_Pixel.webp",
-            "../images/crossbones_Chibi.webp",
-            "../images/crossbones_Noir.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/crossbones_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/crossbones_Chibi.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/crossbones_Noir.webp"
+            },
+            {
+                "name": "Hydra",
+                "path": "./images/crossbones_Hydra.webp"
+            }
         ],
         "cost": 4,
         "power": 8
@@ -527,9 +987,18 @@
         "jpg_path": "./images/crystal.jpg",
         "webp_path": "./images/crystal.webp",
         "variant_paths": [
-            "../images/crystal_Pixel.webp",
-            "../images/crystal_Dan-Hipp.webp",
-            "../images/crystal_Rian-Gonzales.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/crystal_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/crystal_Dan-Hipp.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/crystal_Rian-Gonzales.webp"
+            }
         ],
         "cost": 4,
         "power": 4
@@ -540,11 +1009,26 @@
         "jpg_path": "./images/cyclops.jpg",
         "webp_path": "./images/cyclops.webp",
         "variant_paths": [
-            "../images/cyclops_Pixel.webp",
-            "../images/cyclops_Chibi.webp",
-            "../images/cyclops_Baby.webp",
-            "../images/cyclops_Noir.webp",
-            "../images/cyclops_Jim-Lee.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/cyclops_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/cyclops_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/cyclops_Baby.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/cyclops_Noir.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/cyclops_Jim-Lee.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -555,10 +1039,22 @@
         "jpg_path": "./images/dagger.jpg",
         "webp_path": "./images/dagger.webp",
         "variant_paths": [
-            "../images/dagger_Pixel.webp",
-            "../images/dagger_Max-Grecke.webp",
-            "../images/dagger_Venomized.webp",
-            "../images/dagger_1602.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/dagger_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/dagger_Max-Grecke.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/dagger_Venomized.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/dagger_1602.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -569,10 +1065,22 @@
         "jpg_path": "./images/daredevil.jpg",
         "webp_path": "./images/daredevil.webp",
         "variant_paths": [
-            "../images/daredevil_Pixel.webp",
-            "../images/daredevil_Baby.webp",
-            "../images/daredevil_Knullified.webp",
-            "../images/daredevil_Yellow-Suit.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/daredevil_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/daredevil_Baby.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/daredevil_Knullified.webp"
+            },
+            {
+                "name": "Yellow Suit",
+                "path": "./images/daredevil_Yellow-Suit.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -583,9 +1091,18 @@
         "jpg_path": "./images/darkhawk.jpg",
         "webp_path": "./images/darkhawk.webp",
         "variant_paths": [
-            "../images/darkhawk_Pixel.webp",
-            "../images/darkhawk_Chibi.webp",
-            "../images/darkhawk_Flaviano.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/darkhawk_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/darkhawk_Chibi.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/darkhawk_Flaviano.webp"
+            }
         ],
         "cost": 4,
         "power": 1
@@ -596,10 +1113,22 @@
         "jpg_path": "./images/deadpool.jpg",
         "webp_path": "./images/deadpool.webp",
         "variant_paths": [
-            "../images/deadpool_Pixel.webp",
-            "../images/deadpool_Baby.webp",
-            "../images/deadpool_Venomized.webp",
-            "../images/deadpool_Penny-Arcade.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/deadpool_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/deadpool_Baby.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/deadpool_Venomized.webp"
+            },
+            {
+                "name": "Penny Arcade",
+                "path": "./images/deadpool_Penny-Arcade.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -610,11 +1139,26 @@
         "jpg_path": "./images/death.jpg",
         "webp_path": "./images/death.webp",
         "variant_paths": [
-            "../images/death_Pixel.webp",
-            "../images/death_Chibi.webp",
-            "../images/death_Flaviano.webp",
-            "../images/death_Giulio-Rincione.webp",
-            "../images/death_First-Form.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/death_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/death_Chibi.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/death_Flaviano.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/death_Giulio-Rincione.webp"
+            },
+            {
+                "name": "First Form",
+                "path": "./images/death_First-Form.webp"
+            }
         ],
         "cost": 9,
         "power": 12
@@ -625,9 +1169,18 @@
         "jpg_path": "./images/deathlok.jpg",
         "webp_path": "./images/deathlok.webp",
         "variant_paths": [
-            "../images/deathlok_Pixel.webp",
-            "../images/deathlok_Dan-Hipp.webp",
-            "../images/deathlok_Chibi.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/deathlok_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/deathlok_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/deathlok_Chibi.webp"
+            }
         ],
         "cost": 3,
         "power": 5
@@ -638,11 +1191,26 @@
         "jpg_path": "./images/debrii.jpg",
         "webp_path": "./images/debrii.webp",
         "variant_paths": [
-            "../images/debrii_Pixel.webp",
-            "../images/debrii_Dan-Hipp.webp",
-            "../images/debrii_Chibi.webp",
-            "../images/debrii_Venomized.webp",
-            "../images/debrii_Winter-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/debrii_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/debrii_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/debrii_Chibi.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/debrii_Venomized.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/debrii_Winter-Vacation.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -653,10 +1221,22 @@
         "jpg_path": "./images/destroyer.jpg",
         "webp_path": "./images/destroyer.webp",
         "variant_paths": [
-            "../images/destroyer_Pixel.webp",
-            "../images/destroyer_Dan-Hipp.webp",
-            "../images/destroyer_Steampunk.webp",
-            "../images/destroyer_Spirit-of-Thor.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/destroyer_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/destroyer_Dan-Hipp.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/destroyer_Steampunk.webp"
+            },
+            {
+                "name": "Spirit of Thor",
+                "path": "./images/destroyer_Spirit-of-Thor.webp"
+            }
         ],
         "cost": 6,
         "power": 15
@@ -667,9 +1247,18 @@
         "jpg_path": "./images/devildinosaur.jpg",
         "webp_path": "./images/devildinosaur.webp",
         "variant_paths": [
-            "../images/devildinosaur_Pixel.webp",
-            "../images/devildinosaur_Savage-Land.webp",
-            "../images/devildinosaur_Winter-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/devildinosaur_Pixel.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/devildinosaur_Savage-Land.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/devildinosaur_Winter-Vacation.webp"
+            }
         ],
         "cost": 5,
         "power": 3
@@ -680,12 +1269,30 @@
         "jpg_path": "./images/drdoom.jpg",
         "webp_path": "./images/drdoom.webp",
         "variant_paths": [
-            "../images/drdoom_Pixel.webp",
-            "../images/drdoom_Baby.webp",
-            "../images/drdoom_Max-Grecke.webp",
-            "../images/drdoom_Artgerm.webp",
-            "../images/drdoom_Hero.webp",
-            "../images/drdoom_Alex-Ross.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/drdoom_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/drdoom_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/drdoom_Max-Grecke.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/drdoom_Artgerm.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/drdoom_Hero.webp"
+            },
+            {
+                "name": "Alex Ross",
+                "path": "./images/drdoom_Alex-Ross.webp"
+            }
         ],
         "cost": 6,
         "power": 5
@@ -696,11 +1303,26 @@
         "jpg_path": "./images/doctoroctopus.jpg",
         "webp_path": "./images/doctoroctopus.webp",
         "variant_paths": [
-            "../images/doctoroctopus_Pixel.webp",
-            "../images/doctoroctopus_Max-Grecke.webp",
-            "../images/doctoroctopus_Noir.webp",
-            "../images/doctoroctopus_Summer-Vacation.webp",
-            "../images/doctoroctopus_Superior.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/doctoroctopus_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/doctoroctopus_Max-Grecke.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/doctoroctopus_Noir.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/doctoroctopus_Summer-Vacation.webp"
+            },
+            {
+                "name": "Superior",
+                "path": "./images/doctoroctopus_Superior.webp"
+            }
         ],
         "cost": 5,
         "power": 10
@@ -711,11 +1333,26 @@
         "jpg_path": "./images/doctorstrange.jpg",
         "webp_path": "./images/doctorstrange.webp",
         "variant_paths": [
-            "../images/doctorstrange_Pixel.webp",
-            "../images/doctorstrange_Baby.webp",
-            "../images/doctorstrange_Peach-Momoko.webp",
-            "../images/doctorstrange_Alex-Ross.webp",
-            "../images/doctorstrange_Penny-Arcade.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/doctorstrange_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/doctorstrange_Baby.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/doctorstrange_Peach-Momoko.webp"
+            },
+            {
+                "name": "Alex Ross",
+                "path": "./images/doctorstrange_Alex-Ross.webp"
+            },
+            {
+                "name": "Penny Arcade",
+                "path": "./images/doctorstrange_Penny-Arcade.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -726,9 +1363,18 @@
         "jpg_path": "./images/domino.jpg",
         "webp_path": "./images/domino.webp",
         "variant_paths": [
-            "../images/domino_Pixel.webp",
-            "../images/domino_Dan-Hipp.webp",
-            "../images/domino_Jim-Lee.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/domino_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/domino_Dan-Hipp.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/domino_Jim-Lee.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -739,11 +1385,26 @@
         "jpg_path": "./images/dracula.jpg",
         "webp_path": "./images/dracula.webp",
         "variant_paths": [
-            "../images/dracula_Pixel.webp",
-            "../images/dracula_Dan-Hipp.webp",
-            "../images/dracula_3099.webp",
-            "../images/dracula_Alex-Horley.webp",
-            "../images/dracula_Ivan-Shavrin.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/dracula_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/dracula_Dan-Hipp.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/dracula_3099.webp"
+            },
+            {
+                "name": "Alex Horley",
+                "path": "./images/dracula_Alex-Horley.webp"
+            },
+            {
+                "name": "Ivan Shavrin",
+                "path": "./images/dracula_Ivan-Shavrin.webp"
+            }
         ],
         "cost": 4,
         "power": 1
@@ -754,10 +1415,22 @@
         "jpg_path": "./images/drax.jpg",
         "webp_path": "./images/drax.webp",
         "variant_paths": [
-            "../images/drax_Pixel.webp",
-            "../images/drax_Dan-Hipp.webp",
-            "../images/drax_Chibi.webp",
-            "../images/drax_Luchador.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/drax_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/drax_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/drax_Chibi.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/drax_Luchador.webp"
+            }
         ],
         "cost": 4,
         "power": 5
@@ -768,9 +1441,18 @@
         "jpg_path": "./images/ebonymaw.jpg",
         "webp_path": "./images/ebonymaw.webp",
         "variant_paths": [
-            "../images/ebonymaw_Pixel.webp",
-            "../images/ebonymaw_Chibi.webp",
-            "../images/ebonymaw_Winter-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ebonymaw_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/ebonymaw_Chibi.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/ebonymaw_Winter-Vacation.webp"
+            }
         ],
         "cost": 1,
         "power": 7
@@ -781,10 +1463,22 @@
         "jpg_path": "./images/electro.jpg",
         "webp_path": "./images/electro.webp",
         "variant_paths": [
-            "../images/electro_Pixel.webp",
-            "../images/electro_Chibi.webp",
-            "../images/electro_Ultimate.webp",
-            "../images/electro_Sinister-Six.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/electro_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/electro_Chibi.webp"
+            },
+            {
+                "name": "Ultimate",
+                "path": "./images/electro_Ultimate.webp"
+            },
+            {
+                "name": "Sinister Six",
+                "path": "./images/electro_Sinister-Six.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -795,9 +1489,18 @@
         "jpg_path": "./images/elektra.jpg",
         "webp_path": "./images/elektra.webp",
         "variant_paths": [
-            "../images/elektra_Pixel.webp",
-            "../images/elektra_Chibi.webp",
-            "../images/elektra_Baby.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/elektra_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/elektra_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/elektra_Baby.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -808,10 +1511,22 @@
         "jpg_path": "./images/enchantress.jpg",
         "webp_path": "./images/enchantress.webp",
         "variant_paths": [
-            "../images/enchantress_Pixel.webp",
-            "../images/enchantress_Chibi.webp",
-            "../images/enchantress_1602.webp",
-            "../images/enchantress_Alex-Horley.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/enchantress_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/enchantress_Chibi.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/enchantress_1602.webp"
+            },
+            {
+                "name": "Alex Horley",
+                "path": "./images/enchantress_Alex-Horley.webp"
+            }
         ],
         "cost": 4,
         "power": 4
@@ -822,11 +1537,26 @@
         "jpg_path": "./images/falcon.jpg",
         "webp_path": "./images/falcon.webp",
         "variant_paths": [
-            "../images/falcon_Pixel.webp",
-            "../images/falcon_3099.webp",
-            "../images/falcon_Steampunk.webp",
-            "../images/falcon_Phoenix-Force.webp",
-            "../images/falcon_Captain-America.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/falcon_Pixel.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/falcon_3099.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/falcon_Steampunk.webp"
+            },
+            {
+                "name": "Phoenix Force",
+                "path": "./images/falcon_Phoenix-Force.webp"
+            },
+            {
+                "name": "Captain America",
+                "path": "./images/falcon_Captain-America.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -837,10 +1567,22 @@
         "jpg_path": "./images/forge.jpg",
         "webp_path": "./images/forge.webp",
         "variant_paths": [
-            "../images/forge_Pixel.webp",
-            "../images/forge_Jim-Lee.webp",
-            "../images/forge_X-Force.webp",
-            "../images/forge_Mechanic.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/forge_Pixel.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/forge_Jim-Lee.webp"
+            },
+            {
+                "name": "X-Force",
+                "path": "./images/forge_X-Force.webp"
+            },
+            {
+                "name": "Mechanic",
+                "path": "./images/forge_Mechanic.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -851,12 +1593,30 @@
         "jpg_path": "./images/galactus.jpg",
         "webp_path": "./images/galactus.webp",
         "variant_paths": [
-            "../images/galactus_Pixel.webp",
-            "../images/galactus_Chibi.webp",
-            "../images/galactus_Baby.webp",
-            "../images/galactus_Flaviano.webp",
-            "../images/galactus_Kim-Jacinto.webp",
-            "../images/galactus_Lifebringer.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/galactus_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/galactus_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/galactus_Baby.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/galactus_Flaviano.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/galactus_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Lifebringer",
+                "path": "./images/galactus_Lifebringer.webp"
+            }
         ],
         "cost": 6,
         "power": 2
@@ -867,9 +1627,18 @@
         "jpg_path": "./images/gambit.jpg",
         "webp_path": "./images/gambit.webp",
         "variant_paths": [
-            "../images/gambit_Pixel.webp",
-            "../images/gambit_Hero.webp",
-            "../images/gambit_Rian-Gonzales.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/gambit_Pixel.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/gambit_Hero.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/gambit_Rian-Gonzales.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -880,9 +1649,18 @@
         "jpg_path": "./images/gamora.jpg",
         "webp_path": "./images/gamora.webp",
         "variant_paths": [
-            "../images/gamora_Pixel.webp",
-            "../images/gamora_Chibi.webp",
-            "../images/gamora_Requiem.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/gamora_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/gamora_Chibi.webp"
+            },
+            {
+                "name": "Requiem",
+                "path": "./images/gamora_Requiem.webp"
+            }
         ],
         "cost": 5,
         "power": 7
@@ -893,13 +1671,34 @@
         "jpg_path": "./images/ghostrider.jpg",
         "webp_path": "./images/ghostrider.webp",
         "variant_paths": [
-            "../images/ghostrider_Pixel.webp",
-            "../images/ghostrider_Baby.webp",
-            "../images/ghostrider_Max-Grecke.webp",
-            "../images/ghostrider_Kim-Jacinto.webp",
-            "../images/ghostrider_Knullified.webp",
-            "../images/ghostrider_Fantasy.webp",
-            "../images/ghostrider_Robbie-Reyes.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ghostrider_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/ghostrider_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/ghostrider_Max-Grecke.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/ghostrider_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/ghostrider_Knullified.webp"
+            },
+            {
+                "name": "Fantasy",
+                "path": "./images/ghostrider_Fantasy.webp"
+            },
+            {
+                "name": "Robbie Reyes",
+                "path": "./images/ghostrider_Robbie-Reyes.webp"
+            }
         ],
         "cost": 4,
         "power": 3
@@ -910,11 +1709,26 @@
         "jpg_path": "./images/giganto.jpg",
         "webp_path": "./images/giganto.webp",
         "variant_paths": [
-            "../images/giganto_Pixel.webp",
-            "../images/giganto_Dan-Hipp.webp",
-            "../images/giganto_Giulio-Rincione.webp",
-            "../images/giganto_Summer-Vacation.webp",
-            "../images/giganto_1,000,000-BC.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/giganto_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/giganto_Dan-Hipp.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/giganto_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/giganto_Summer-Vacation.webp"
+            },
+            {
+                "name": "1,000,000 BC",
+                "path": "./images/giganto_1,000,000-BC.webp"
+            }
         ],
         "cost": 6,
         "power": 14
@@ -925,10 +1739,22 @@
         "jpg_path": "./images/goose.jpg",
         "webp_path": "./images/goose.webp",
         "variant_paths": [
-            "../images/goose_Pixel.webp",
-            "../images/goose_Dan-Hipp.webp",
-            "../images/goose_Luca-Claretti.webp",
-            "../images/goose_Captain-Marvel-Suit.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/goose_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/goose_Dan-Hipp.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/goose_Luca-Claretti.webp"
+            },
+            {
+                "name": "Captain Marvel Suit",
+                "path": "./images/goose_Captain-Marvel-Suit.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -939,10 +1765,22 @@
         "jpg_path": "./images/greengoblin.jpg",
         "webp_path": "./images/greengoblin.webp",
         "variant_paths": [
-            "../images/greengoblin_Pixel.webp",
-            "../images/greengoblin_Max-Grecke.webp",
-            "../images/greengoblin_Carnageized.webp",
-            "../images/greengoblin_Red-Goblin.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/greengoblin_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/greengoblin_Max-Grecke.webp"
+            },
+            {
+                "name": "Carnageized",
+                "path": "./images/greengoblin_Carnageized.webp"
+            },
+            {
+                "name": "Red Goblin",
+                "path": "./images/greengoblin_Red-Goblin.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -953,7 +1791,10 @@
         "jpg_path": "./images/groot.jpg",
         "webp_path": "./images/groot.webp",
         "variant_paths": [
-            "../images/groot_Pixel.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/groot_Pixel.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -964,11 +1805,26 @@
         "jpg_path": "./images/hawkeye.jpg",
         "webp_path": "./images/hawkeye.webp",
         "variant_paths": [
-            "../images/hawkeye_Pixel.webp",
-            "../images/hawkeye_Dan-Hipp.webp",
-            "../images/hawkeye_Baby.webp",
-            "../images/hawkeye_3099.webp",
-            "../images/hawkeye_Old-Man.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hawkeye_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/hawkeye_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/hawkeye_Baby.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/hawkeye_3099.webp"
+            },
+            {
+                "name": "Old Man",
+                "path": "./images/hawkeye_Old-Man.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -979,10 +1835,22 @@
         "jpg_path": "./images/hazmat.jpg",
         "webp_path": "./images/hazmat.webp",
         "variant_paths": [
-            "../images/hazmat_Pixel.webp",
-            "../images/hazmat_Max-Grecke.webp",
-            "../images/hazmat_Giulio-Rincione.webp",
-            "../images/hazmat_Post-Apocalyptic.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hazmat_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/hazmat_Max-Grecke.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/hazmat_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Post Apocalyptic",
+                "path": "./images/hazmat_Post-Apocalyptic.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -993,10 +1861,22 @@
         "jpg_path": "./images/heimdall.jpg",
         "webp_path": "./images/heimdall.webp",
         "variant_paths": [
-            "../images/heimdall_Pixel.webp",
-            "../images/heimdall_Dan-Hipp.webp",
-            "../images/heimdall_Chibi.webp",
-            "../images/heimdall_Flaviano.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/heimdall_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/heimdall_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/heimdall_Chibi.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/heimdall_Flaviano.webp"
+            }
         ],
         "cost": 6,
         "power": 8
@@ -1007,9 +1887,18 @@
         "jpg_path": "./images/hela.jpg",
         "webp_path": "./images/hela.webp",
         "variant_paths": [
-            "../images/hela_Pixel.webp",
-            "../images/hela_Chibi.webp",
-            "../images/hela_Venomized.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hela_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/hela_Chibi.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/hela_Venomized.webp"
+            }
         ],
         "cost": 6,
         "power": 6
@@ -1020,8 +1909,14 @@
         "jpg_path": "./images/helicarrier.jpg",
         "webp_path": "./images/helicarrier.webp",
         "variant_paths": [
-            "../images/helicarrier_Pixel.webp",
-            "../images/helicarrier_3099.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/helicarrier_Pixel.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/helicarrier_3099.webp"
+            }
         ],
         "cost": 6,
         "power": 10
@@ -1032,12 +1927,30 @@
         "jpg_path": "./images/hellcow.jpg",
         "webp_path": "./images/hellcow.webp",
         "variant_paths": [
-            "../images/hellcow_Pixel.webp",
-            "../images/hellcow_Dan-Hipp.webp",
-            "../images/hellcow_Luca-Claretti.webp",
-            "../images/hellcow_Venomized.webp",
-            "../images/hellcow_Ivan-Shavrin.webp",
-            "../images/hellcow_Winged.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hellcow_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/hellcow_Dan-Hipp.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/hellcow_Luca-Claretti.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/hellcow_Venomized.webp"
+            },
+            {
+                "name": "Ivan Shavrin",
+                "path": "./images/hellcow_Ivan-Shavrin.webp"
+            },
+            {
+                "name": "Winged",
+                "path": "./images/hellcow_Winged.webp"
+            }
         ],
         "cost": 4,
         "power": 6
@@ -1048,10 +1961,22 @@
         "jpg_path": "./images/hobgoblin.jpg",
         "webp_path": "./images/hobgoblin.webp",
         "variant_paths": [
-            "../images/hobgoblin_Pixel.webp",
-            "../images/hobgoblin_Dan-Hipp.webp",
-            "../images/hobgoblin_Max-Grecke.webp",
-            "../images/hobgoblin_Giulio-Rincione.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hobgoblin_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/hobgoblin_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/hobgoblin_Max-Grecke.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/hobgoblin_Giulio-Rincione.webp"
+            }
         ],
         "cost": 5,
         "power": 1
@@ -1062,12 +1987,30 @@
         "jpg_path": "./images/hulk.jpg",
         "webp_path": "./images/hulk.webp",
         "variant_paths": [
-            "../images/hulk_Pixel.webp",
-            "../images/hulk_Chibi.webp",
-            "../images/hulk_Baby.webp",
-            "../images/hulk_Max-Grecke.webp",
-            "../images/hulk_Weapon-H.webp",
-            "../images/hulk_Taco.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hulk_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/hulk_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/hulk_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/hulk_Max-Grecke.webp"
+            },
+            {
+                "name": "Weapon H",
+                "path": "./images/hulk_Weapon-H.webp"
+            },
+            {
+                "name": "Taco",
+                "path": "./images/hulk_Taco.webp"
+            }
         ],
         "cost": 6,
         "power": 12
@@ -1078,10 +2021,22 @@
         "jpg_path": "./images/hulkbuster.jpg",
         "webp_path": "./images/hulkbuster.webp",
         "variant_paths": [
-            "../images/hulkbuster_Pixel.webp",
-            "../images/hulkbuster_Steampunk.webp",
-            "../images/hulkbuster_Blueprints.webp",
-            "../images/hulkbuster_Wakanda-Buster.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hulkbuster_Pixel.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/hulkbuster_Steampunk.webp"
+            },
+            {
+                "name": "Blueprints",
+                "path": "./images/hulkbuster_Blueprints.webp"
+            },
+            {
+                "name": "Wakanda Buster",
+                "path": "./images/hulkbuster_Wakanda-Buster.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -1092,12 +2047,30 @@
         "jpg_path": "./images/humantorch.jpg",
         "webp_path": "./images/humantorch.webp",
         "variant_paths": [
-            "../images/humantorch_Pixel.webp",
-            "../images/humantorch_Baby.webp",
-            "../images/humantorch_Max-Grecke.webp",
-            "../images/humantorch_Kim-Jacinto.webp",
-            "../images/humantorch_Artgerm.webp",
-            "../images/humantorch_Hero.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/humantorch_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/humantorch_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/humantorch_Max-Grecke.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/humantorch_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/humantorch_Artgerm.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/humantorch_Hero.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1108,11 +2081,26 @@
         "jpg_path": "./images/iceman.jpg",
         "webp_path": "./images/iceman.webp",
         "variant_paths": [
-            "../images/iceman_Pixel.webp",
-            "../images/iceman_Dan-Hipp.webp",
-            "../images/iceman_Baby.webp",
-            "../images/iceman_Summer-Vacation.webp",
-            "../images/iceman_Mech.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/iceman_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/iceman_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/iceman_Baby.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/iceman_Summer-Vacation.webp"
+            },
+            {
+                "name": "Mech",
+                "path": "./images/iceman_Mech.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1123,12 +2111,30 @@
         "jpg_path": "./images/invisiblewoman.jpg",
         "webp_path": "./images/invisiblewoman.webp",
         "variant_paths": [
-            "../images/invisiblewoman_Pixel.webp",
-            "../images/invisiblewoman_Max-Grecke.webp",
-            "../images/invisiblewoman_Artgerm.webp",
-            "../images/invisiblewoman_Hero.webp",
-            "../images/invisiblewoman_Peach-Momoko.webp",
-            "../images/invisiblewoman_Alex-Ross.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/invisiblewoman_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/invisiblewoman_Max-Grecke.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/invisiblewoman_Artgerm.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/invisiblewoman_Hero.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/invisiblewoman_Peach-Momoko.webp"
+            },
+            {
+                "name": "Alex Ross",
+                "path": "./images/invisiblewoman_Alex-Ross.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -1139,10 +2145,22 @@
         "jpg_path": "./images/ironfist.jpg",
         "webp_path": "./images/ironfist.webp",
         "variant_paths": [
-            "../images/ironfist_Pixel.webp",
-            "../images/ironfist_Baby.webp",
-            "../images/ironfist_Phoenix-Force.webp",
-            "../images/ironfist_Jeff-Dekal.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ironfist_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/ironfist_Baby.webp"
+            },
+            {
+                "name": "Phoenix Force",
+                "path": "./images/ironfist_Phoenix-Force.webp"
+            },
+            {
+                "name": "Jeff Dekal",
+                "path": "./images/ironfist_Jeff-Dekal.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1153,12 +2171,30 @@
         "jpg_path": "./images/ironman.jpg",
         "webp_path": "./images/ironman.webp",
         "variant_paths": [
-            "../images/ironman_Pixel.webp",
-            "../images/ironman_Dan-Hipp.webp",
-            "../images/ironman_Baby.webp",
-            "../images/ironman_Max-Grecke.webp",
-            "../images/ironman_Knullified.webp",
-            "../images/ironman_Vibranium-Armor.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ironman_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/ironman_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/ironman_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/ironman_Max-Grecke.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/ironman_Knullified.webp"
+            },
+            {
+                "name": "Vibranium Armor",
+                "path": "./images/ironman_Vibranium-Armor.webp"
+            }
         ],
         "cost": 5,
         "power": 1
@@ -1169,10 +2205,22 @@
         "jpg_path": "./images/ironheart.jpg",
         "webp_path": "./images/ironheart.webp",
         "variant_paths": [
-            "../images/ironheart_Pixel.webp",
-            "../images/ironheart_Chibi.webp",
-            "../images/ironheart_Baby.webp",
-            "../images/ironheart_Jeff-Dekal.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ironheart_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/ironheart_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/ironheart_Baby.webp"
+            },
+            {
+                "name": "Jeff Dekal",
+                "path": "./images/ironheart_Jeff-Dekal.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -1183,10 +2231,22 @@
         "jpg_path": "./images/janefoster.jpg",
         "webp_path": "./images/janefoster.webp",
         "variant_paths": [
-            "../images/janefoster_Pixel.webp",
-            "../images/janefoster_Chibi.webp",
-            "../images/janefoster_Baby.webp",
-            "../images/janefoster_Artgerm.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/janefoster_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/janefoster_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/janefoster_Baby.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/janefoster_Artgerm.webp"
+            }
         ],
         "cost": 5,
         "power": 8
@@ -1197,8 +2257,14 @@
         "jpg_path": "./images/jessicajones.jpg",
         "webp_path": "./images/jessicajones.webp",
         "variant_paths": [
-            "../images/jessicajones_Pixel.webp",
-            "../images/jessicajones_Chibi.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/jessicajones_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/jessicajones_Chibi.webp"
+            }
         ],
         "cost": 4,
         "power": 4
@@ -1209,10 +2275,22 @@
         "jpg_path": "./images/jubilee.jpg",
         "webp_path": "./images/jubilee.webp",
         "variant_paths": [
-            "../images/jubilee_Pixel.webp",
-            "../images/jubilee_Peach-Momoko.webp",
-            "../images/jubilee_Rian-Gonzales.webp",
-            "../images/jubilee_Lunar-New-Year.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/jubilee_Pixel.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/jubilee_Peach-Momoko.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/jubilee_Rian-Gonzales.webp"
+            },
+            {
+                "name": "Lunar New Year",
+                "path": "./images/jubilee_Lunar-New-Year.webp"
+            }
         ],
         "cost": 4,
         "power": 1
@@ -1223,8 +2301,14 @@
         "jpg_path": "./images/juggernaut.jpg",
         "webp_path": "./images/juggernaut.webp",
         "variant_paths": [
-            "../images/juggernaut_Pixel.webp",
-            "../images/juggernaut_Baby.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/juggernaut_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/juggernaut_Baby.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -1235,10 +2319,22 @@
         "jpg_path": "./images/kazar.jpg",
         "webp_path": "./images/kazar.webp",
         "variant_paths": [
-            "../images/kazar_Pixel.webp",
-            "../images/kazar_Dan-Hipp.webp",
-            "../images/kazar_3099.webp",
-            "../images/kazar_Savage-Land.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/kazar_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/kazar_Dan-Hipp.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/kazar_3099.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/kazar_Savage-Land.webp"
+            }
         ],
         "cost": 4,
         "power": 4
@@ -1249,11 +2345,26 @@
         "jpg_path": "./images/killmonger.jpg",
         "webp_path": "./images/killmonger.webp",
         "variant_paths": [
-            "../images/killmonger_Pixel.webp",
-            "../images/killmonger_Dan-Hipp.webp",
-            "../images/killmonger_Max-Grecke.webp",
-            "../images/killmonger_Venomized.webp",
-            "../images/killmonger_Kael.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/killmonger_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/killmonger_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/killmonger_Max-Grecke.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/killmonger_Venomized.webp"
+            },
+            {
+                "name": "Kael",
+                "path": "./images/killmonger_Kael.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -1264,10 +2375,22 @@
         "jpg_path": "./images/kingpin.jpg",
         "webp_path": "./images/kingpin.webp",
         "variant_paths": [
-            "../images/kingpin_Pixel.webp",
-            "../images/kingpin_Noir.webp",
-            "../images/kingpin_Summer-Vacation.webp",
-            "../images/kingpin_1602.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/kingpin_Pixel.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/kingpin_Noir.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/kingpin_Summer-Vacation.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/kingpin_1602.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -1278,11 +2401,26 @@
         "jpg_path": "./images/klaw.jpg",
         "webp_path": "./images/klaw.webp",
         "variant_paths": [
-            "../images/klaw_Pixel.webp",
-            "../images/klaw_Dan-Hipp.webp",
-            "../images/klaw_Max-Grecke.webp",
-            "../images/klaw_Flaviano.webp",
-            "../images/klaw_Carnival.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/klaw_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/klaw_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/klaw_Max-Grecke.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/klaw_Flaviano.webp"
+            },
+            {
+                "name": "Carnival",
+                "path": "./images/klaw_Carnival.webp"
+            }
         ],
         "cost": 5,
         "power": 4
@@ -1293,11 +2431,26 @@
         "jpg_path": "./images/knull.jpg",
         "webp_path": "./images/knull.webp",
         "variant_paths": [
-            "../images/knull_Pixel.webp",
-            "../images/knull_Dan-Hipp.webp",
-            "../images/knull_Kim-Jacinto.webp",
-            "../images/knull_Peach-Momoko.webp",
-            "../images/knull_Peach-Momoko.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/knull_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/knull_Dan-Hipp.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/knull_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/knull_Peach-Momoko.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/knull_Peach-Momoko.webp"
+            }
         ],
         "cost": 6,
         "power": 1
@@ -1308,11 +2461,26 @@
         "jpg_path": "./images/korg.jpg",
         "webp_path": "./images/korg.webp",
         "variant_paths": [
-            "../images/korg_Pixel.webp",
-            "../images/korg_Dan-Hipp.webp",
-            "../images/korg_Chibi.webp",
-            "../images/korg_Luca-Claretti.webp",
-            "../images/korg_Ghost-Hunter.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/korg_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/korg_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/korg_Chibi.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/korg_Luca-Claretti.webp"
+            },
+            {
+                "name": "Ghost Hunter",
+                "path": "./images/korg_Ghost-Hunter.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1323,9 +2491,18 @@
         "jpg_path": "./images/kraven.jpg",
         "webp_path": "./images/kraven.webp",
         "variant_paths": [
-            "../images/kraven_Pixel.webp",
-            "../images/kraven_Venomized.webp",
-            "../images/kraven_Savage-Land.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/kraven_Pixel.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/kraven_Venomized.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/kraven_Savage-Land.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -1336,9 +2513,18 @@
         "jpg_path": "./images/ladysif.jpg",
         "webp_path": "./images/ladysif.webp",
         "variant_paths": [
-            "../images/ladysif_Pixel.webp",
-            "../images/ladysif_Dan-Hipp.webp",
-            "../images/ladysif_Chibi.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ladysif_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/ladysif_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/ladysif_Chibi.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -1349,8 +2535,14 @@
         "jpg_path": "./images/leader.jpg",
         "webp_path": "./images/leader.webp",
         "variant_paths": [
-            "../images/leader_Pixel.webp",
-            "../images/leader_Luca-Claretti.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/leader_Pixel.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/leader_Luca-Claretti.webp"
+            }
         ],
         "cost": 6,
         "power": 3
@@ -1361,10 +2553,22 @@
         "jpg_path": "./images/leech.jpg",
         "webp_path": "./images/leech.webp",
         "variant_paths": [
-            "../images/leech_Pixel.webp",
-            "../images/leech_Dan-Hipp.webp",
-            "../images/leech_Summer-Vacation.webp",
-            "../images/leech_Future-Foundation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/leech_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/leech_Dan-Hipp.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/leech_Summer-Vacation.webp"
+            },
+            {
+                "name": "Future Foundation",
+                "path": "./images/leech_Future-Foundation.webp"
+            }
         ],
         "cost": 5,
         "power": 3
@@ -1375,9 +2579,18 @@
         "jpg_path": "./images/lizard.jpg",
         "webp_path": "./images/lizard.webp",
         "variant_paths": [
-            "../images/lizard_Pixel.webp",
-            "../images/lizard_Max-Grecke.webp",
-            "../images/lizard_Ryan-Brown.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/lizard_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/lizard_Max-Grecke.webp"
+            },
+            {
+                "name": "Ryan Brown",
+                "path": "./images/lizard_Ryan-Brown.webp"
+            }
         ],
         "cost": 2,
         "power": 5
@@ -1388,10 +2601,22 @@
         "jpg_path": "./images/lockjaw.jpg",
         "webp_path": "./images/lockjaw.webp",
         "variant_paths": [
-            "../images/lockjaw_Pixel.webp",
-            "../images/lockjaw_Dan-Hipp.webp",
-            "../images/lockjaw_Luca-Claretti.webp",
-            "../images/lockjaw_Venomized.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/lockjaw_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/lockjaw_Dan-Hipp.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/lockjaw_Luca-Claretti.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/lockjaw_Venomized.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -1402,9 +2627,18 @@
         "jpg_path": "./images/lukecage.jpg",
         "webp_path": "./images/lukecage.webp",
         "variant_paths": [
-            "../images/lukecage_Pixel.webp",
-            "../images/lukecage_Dan-Hipp.webp",
-            "../images/lukecage_Sports.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/lukecage_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/lukecage_Dan-Hipp.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/lukecage_Sports.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -1415,9 +2649,18 @@
         "jpg_path": "./images/mbaku.jpg",
         "webp_path": "./images/mbaku.webp",
         "variant_paths": [
-            "../images/mbaku_Pixel.webp",
-            "../images/mbaku_Luchador.webp",
-            "../images/mbaku_Kael.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mbaku_Pixel.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/mbaku_Luchador.webp"
+            },
+            {
+                "name": "Kael",
+                "path": "./images/mbaku_Kael.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1428,9 +2671,18 @@
         "jpg_path": "./images/magik.jpg",
         "webp_path": "./images/magik.webp",
         "variant_paths": [
-            "../images/magik_Pixel.webp",
-            "../images/magik_Peach-Momoko.webp",
-            "../images/magik_Phoenix-Five.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/magik_Pixel.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/magik_Peach-Momoko.webp"
+            },
+            {
+                "name": "Phoenix Five",
+                "path": "./images/magik_Phoenix-Five.webp"
+            }
         ],
         "cost": 5,
         "power": 3
@@ -1441,10 +2693,22 @@
         "jpg_path": "./images/magneto.jpg",
         "webp_path": "./images/magneto.webp",
         "variant_paths": [
-            "../images/magneto_Pixel.webp",
-            "../images/magneto_Dan-Hipp.webp",
-            "../images/magneto_Baby.webp",
-            "../images/magneto_Peach-Momoko.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/magneto_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/magneto_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/magneto_Baby.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/magneto_Peach-Momoko.webp"
+            }
         ],
         "cost": 6,
         "power": 12
@@ -1455,11 +2719,26 @@
         "jpg_path": "./images/mantis.jpg",
         "webp_path": "./images/mantis.webp",
         "variant_paths": [
-            "../images/mantis_Pixel.webp",
-            "../images/mantis_Dan-Hipp.webp",
-            "../images/mantis_Summer-Vacation.webp",
-            "../images/mantis_Kael.webp",
-            "../images/mantis_Empyre.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mantis_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/mantis_Dan-Hipp.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/mantis_Summer-Vacation.webp"
+            },
+            {
+                "name": "Kael",
+                "path": "./images/mantis_Kael.webp"
+            },
+            {
+                "name": "Empyre",
+                "path": "./images/mantis_Empyre.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1470,9 +2749,18 @@
         "jpg_path": "./images/mariahill.jpg",
         "webp_path": "./images/mariahill.webp",
         "variant_paths": [
-            "../images/mariahill_Pixel.webp",
-            "../images/mariahill_Chibi.webp",
-            "../images/mariahill_Noir.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mariahill_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/mariahill_Chibi.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/mariahill_Noir.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -1483,9 +2771,18 @@
         "jpg_path": "./images/maximus.jpg",
         "webp_path": "./images/maximus.webp",
         "variant_paths": [
-            "../images/maximus_Pixel.webp",
-            "../images/maximus_Giulio-Rincione.webp",
-            "../images/maximus_Kid.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/maximus_Pixel.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/maximus_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Kid",
+                "path": "./images/maximus_Kid.webp"
+            }
         ],
         "cost": 3,
         "power": 7
@@ -1496,10 +2793,22 @@
         "jpg_path": "./images/medusa.jpg",
         "webp_path": "./images/medusa.webp",
         "variant_paths": [
-            "../images/medusa_Pixel.webp",
-            "../images/medusa_Dan-Hipp.webp",
-            "../images/medusa_Chibi.webp",
-            "../images/medusa_1602.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/medusa_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/medusa_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/medusa_Chibi.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/medusa_1602.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -1510,8 +2819,14 @@
         "jpg_path": "./images/milesmorales.jpg",
         "webp_path": "./images/milesmorales.webp",
         "variant_paths": [
-            "../images/milesmorales_Pixel.webp",
-            "../images/milesmorales_Sports.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/milesmorales_Pixel.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/milesmorales_Sports.webp"
+            }
         ],
         "cost": 4,
         "power": 5
@@ -1522,11 +2837,26 @@
         "jpg_path": "./images/mrfantastic.jpg",
         "webp_path": "./images/mrfantastic.webp",
         "variant_paths": [
-            "../images/mrfantastic_Pixel.webp",
-            "../images/mrfantastic_Max-Grecke.webp",
-            "../images/mrfantastic_Artgerm.webp",
-            "../images/mrfantastic_Hero.webp",
-            "../images/mrfantastic_1602.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mrfantastic_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/mrfantastic_Max-Grecke.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/mrfantastic_Artgerm.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/mrfantastic_Hero.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/mrfantastic_1602.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -1537,10 +2867,22 @@
         "jpg_path": "./images/mrnegative.jpg",
         "webp_path": "./images/mrnegative.webp",
         "variant_paths": [
-            "../images/mrnegative_Pixel.webp",
-            "../images/mrnegative_Chibi.webp",
-            "../images/mrnegative_Luca-Claretti.webp",
-            "../images/mrnegative_Demon-Form.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mrnegative_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/mrnegative_Chibi.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/mrnegative_Luca-Claretti.webp"
+            },
+            {
+                "name": "Demon Form",
+                "path": "./images/mrnegative_Demon-Form.webp"
+            }
         ],
         "cost": 4,
         "power": 1
@@ -1551,11 +2893,26 @@
         "jpg_path": "./images/mrsinister.jpg",
         "webp_path": "./images/mrsinister.webp",
         "variant_paths": [
-            "../images/mrsinister_Pixel.webp",
-            "../images/mrsinister_Baby.webp",
-            "../images/mrsinister_Luca-Claretti.webp",
-            "../images/mrsinister_Sinister-London.webp",
-            "../images/mrsinister_Phoenix.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mrsinister_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/mrsinister_Baby.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/mrsinister_Luca-Claretti.webp"
+            },
+            {
+                "name": "Sinister London",
+                "path": "./images/mrsinister_Sinister-London.webp"
+            },
+            {
+                "name": "Phoenix",
+                "path": "./images/mrsinister_Phoenix.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -1566,10 +2923,22 @@
         "jpg_path": "./images/mistyknight.jpg",
         "webp_path": "./images/mistyknight.webp",
         "variant_paths": [
-            "../images/mistyknight_Pixel.webp",
-            "../images/mistyknight_Chibi.webp",
-            "../images/mistyknight_Sports.webp",
-            "../images/mistyknight_Captain.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mistyknight_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/mistyknight_Chibi.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/mistyknight_Sports.webp"
+            },
+            {
+                "name": "Captain",
+                "path": "./images/mistyknight_Captain.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1580,10 +2949,22 @@
         "jpg_path": "./images/mojo.jpg",
         "webp_path": "./images/mojo.webp",
         "variant_paths": [
-            "../images/mojo_Pixel.webp",
-            "../images/mojo_Luca-Claretti.webp",
-            "../images/mojo_Sports.webp",
-            "../images/mojo_Giulio-Rincione.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mojo_Pixel.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/mojo_Luca-Claretti.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/mojo_Sports.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/mojo_Giulio-Rincione.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -1594,9 +2975,18 @@
         "jpg_path": "./images/moongirl.jpg",
         "webp_path": "./images/moongirl.webp",
         "variant_paths": [
-            "../images/moongirl_Pixel.webp",
-            "../images/moongirl_Dan-Hipp.webp",
-            "../images/moongirl_Steampunk.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/moongirl_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/moongirl_Dan-Hipp.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/moongirl_Steampunk.webp"
+            }
         ],
         "cost": 4,
         "power": 4
@@ -1607,8 +2997,14 @@
         "jpg_path": "./images/moonknight.jpg",
         "webp_path": "./images/moonknight.webp",
         "variant_paths": [
-            "../images/moonknight_Pixel.webp",
-            "../images/moonknight_Baby.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/moonknight_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/moonknight_Baby.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -1619,10 +3015,22 @@
         "jpg_path": "./images/morbius.jpg",
         "webp_path": "./images/morbius.webp",
         "variant_paths": [
-            "../images/morbius_Pixel.webp",
-            "../images/morbius_Baby.webp",
-            "../images/morbius_Giulio-Rincione.webp",
-            "../images/morbius_Alex-Horley.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/morbius_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/morbius_Baby.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/morbius_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Alex Horley",
+                "path": "./images/morbius_Alex-Horley.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -1633,10 +3041,22 @@
         "jpg_path": "./images/morph.jpg",
         "webp_path": "./images/morph.webp",
         "variant_paths": [
-            "../images/morph_Pixel.webp",
-            "../images/morph_Luca-Claretti.webp",
-            "../images/morph_Band.webp",
-            "../images/morph_Exiles.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/morph_Pixel.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/morph_Luca-Claretti.webp"
+            },
+            {
+                "name": "Band",
+                "path": "./images/morph_Band.webp"
+            },
+            {
+                "name": "Exiles",
+                "path": "./images/morph_Exiles.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -1647,11 +3067,26 @@
         "jpg_path": "./images/multipleman.jpg",
         "webp_path": "./images/multipleman.webp",
         "variant_paths": [
-            "../images/multipleman_Pixel.webp",
-            "../images/multipleman_Dan-Hipp.webp",
-            "../images/multipleman_Sports.webp",
-            "../images/multipleman_Band.webp",
-            "../images/multipleman_X-Factor.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/multipleman_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/multipleman_Dan-Hipp.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/multipleman_Sports.webp"
+            },
+            {
+                "name": "Band",
+                "path": "./images/multipleman_Band.webp"
+            },
+            {
+                "name": "X-Factor",
+                "path": "./images/multipleman_X-Factor.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -1662,10 +3097,22 @@
         "jpg_path": "./images/mysterio.jpg",
         "webp_path": "./images/mysterio.webp",
         "variant_paths": [
-            "../images/mysterio_Pixel.webp",
-            "../images/mysterio_Dan-Hipp.webp",
-            "../images/mysterio_Max-Grecke.webp",
-            "../images/mysterio_3099.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mysterio_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/mysterio_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/mysterio_Max-Grecke.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/mysterio_3099.webp"
+            }
         ],
         "cost": 2,
         "power": 4
@@ -1676,11 +3123,26 @@
         "jpg_path": "./images/mystique.jpg",
         "webp_path": "./images/mystique.webp",
         "variant_paths": [
-            "../images/mystique_Pixel.webp",
-            "../images/mystique_Chibi.webp",
-            "../images/mystique_Luca-Claretti.webp",
-            "../images/mystique_Artgerm.webp",
-            "../images/mystique_Peach-Momoko.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/mystique_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/mystique_Chibi.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/mystique_Luca-Claretti.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/mystique_Artgerm.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/mystique_Peach-Momoko.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -1691,10 +3153,22 @@
         "jpg_path": "./images/nakia.jpg",
         "webp_path": "./images/nakia.webp",
         "variant_paths": [
-            "../images/nakia_Pixel.webp",
-            "../images/nakia_Dan-Hipp.webp",
-            "../images/nakia_Sports.webp",
-            "../images/nakia_3099.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/nakia_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/nakia_Dan-Hipp.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/nakia_Sports.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/nakia_3099.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -1705,10 +3179,22 @@
         "jpg_path": "./images/namor.jpg",
         "webp_path": "./images/namor.webp",
         "variant_paths": [
-            "../images/namor_Pixel.webp",
-            "../images/namor_Baby.webp",
-            "../images/namor_1602.webp",
-            "../images/namor_Wakanda-Forever.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/namor_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/namor_Baby.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/namor_1602.webp"
+            },
+            {
+                "name": "Wakanda Forever",
+                "path": "./images/namor_Wakanda-Forever.webp"
+            }
         ],
         "cost": 4,
         "power": 5
@@ -1719,12 +3205,30 @@
         "jpg_path": "./images/nickfury.jpg",
         "webp_path": "./images/nickfury.webp",
         "variant_paths": [
-            "../images/nickfury_Pixel.webp",
-            "../images/nickfury_Dan-Hipp.webp",
-            "../images/nickfury_Noir.webp",
-            "../images/nickfury_Sports.webp",
-            "../images/nickfury_Classic.webp",
-            "../images/nickfury_Signed.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/nickfury_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/nickfury_Dan-Hipp.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/nickfury_Noir.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/nickfury_Sports.webp"
+            },
+            {
+                "name": "Classic",
+                "path": "./images/nickfury_Classic.webp"
+            },
+            {
+                "name": "Signed",
+                "path": "./images/nickfury_Signed.webp"
+            }
         ],
         "cost": 5,
         "power": 7
@@ -1735,10 +3239,22 @@
         "jpg_path": "./images/nightcrawler.jpg",
         "webp_path": "./images/nightcrawler.webp",
         "variant_paths": [
-            "../images/nightcrawler_Pixel.webp",
-            "../images/nightcrawler_Dan-Hipp.webp",
-            "../images/nightcrawler_Baby.webp",
-            "../images/nightcrawler_Kim-Jacinto.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/nightcrawler_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/nightcrawler_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/nightcrawler_Baby.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/nightcrawler_Kim-Jacinto.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1749,9 +3265,18 @@
         "jpg_path": "./images/nova.jpg",
         "webp_path": "./images/nova.webp",
         "variant_paths": [
-            "../images/nova_Pixel.webp",
-            "../images/nova_Baby.webp",
-            "../images/nova_Venomized.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/nova_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/nova_Baby.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/nova_Venomized.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -1762,11 +3287,26 @@
         "jpg_path": "./images/odin.jpg",
         "webp_path": "./images/odin.webp",
         "variant_paths": [
-            "../images/odin_Pixel.webp",
-            "../images/odin_Dan-Hipp.webp",
-            "../images/odin_Flaviano.webp",
-            "../images/odin_Sleipnir.webp",
-            "../images/odin_Iron-All-Father.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/odin_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/odin_Dan-Hipp.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/odin_Flaviano.webp"
+            },
+            {
+                "name": "Sleipnir",
+                "path": "./images/odin_Sleipnir.webp"
+            },
+            {
+                "name": "Iron All-Father",
+                "path": "./images/odin_Iron-All-Father.webp"
+            }
         ],
         "cost": 6,
         "power": 8
@@ -1777,10 +3317,22 @@
         "jpg_path": "./images/okoye.jpg",
         "webp_path": "./images/okoye.webp",
         "variant_paths": [
-            "../images/okoye_Pixel.webp",
-            "../images/okoye_Flaviano.webp",
-            "../images/okoye_Sports.webp",
-            "../images/okoye_Feudal-Japan.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/okoye_Pixel.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/okoye_Flaviano.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/okoye_Sports.webp"
+            },
+            {
+                "name": "Feudal Japan",
+                "path": "./images/okoye_Feudal-Japan.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -1791,10 +3343,22 @@
         "jpg_path": "./images/omegared.jpg",
         "webp_path": "./images/omegared.webp",
         "variant_paths": [
-            "../images/omegared_Pixel.webp",
-            "../images/omegared_Dan-Hipp.webp",
-            "../images/omegared_Luca-Claretti.webp",
-            "../images/omegared_Venomized.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/omegared_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/omegared_Dan-Hipp.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/omegared_Luca-Claretti.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/omegared_Venomized.webp"
+            }
         ],
         "cost": 4,
         "power": 5
@@ -1805,11 +3369,26 @@
         "jpg_path": "./images/onslaught.jpg",
         "webp_path": "./images/onslaught.webp",
         "variant_paths": [
-            "../images/onslaught_Pixel.webp",
-            "../images/onslaught_Dan-Hipp.webp",
-            "../images/onslaught_Max-Grecke.webp",
-            "../images/onslaught_Luca-Claretti.webp",
-            "../images/onslaught_Kim-Jacinto.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/onslaught_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/onslaught_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/onslaught_Max-Grecke.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/onslaught_Luca-Claretti.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/onslaught_Kim-Jacinto.webp"
+            }
         ],
         "cost": 6,
         "power": 7
@@ -1820,11 +3399,26 @@
         "jpg_path": "./images/orka.jpg",
         "webp_path": "./images/orka.webp",
         "variant_paths": [
-            "../images/orka_Pixel.webp",
-            "../images/orka_Chibi.webp",
-            "../images/orka_Sports.webp",
-            "../images/orka_Giulio-Rincione.webp",
-            "../images/orka_Classic.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/orka_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/orka_Chibi.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/orka_Sports.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/orka_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Classic",
+                "path": "./images/orka_Classic.webp"
+            }
         ],
         "cost": 6,
         "power": 9
@@ -1835,9 +3429,18 @@
         "jpg_path": "./images/patriot.jpg",
         "webp_path": "./images/patriot.webp",
         "variant_paths": [
-            "../images/patriot_Pixel.webp",
-            "../images/patriot_Chibi.webp",
-            "../images/patriot_Winter-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/patriot_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/patriot_Chibi.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/patriot_Winter-Vacation.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -1848,10 +3451,22 @@
         "jpg_path": "./images/polaris.jpg",
         "webp_path": "./images/polaris.webp",
         "variant_paths": [
-            "../images/polaris_Pixel.webp",
-            "../images/polaris_Chibi.webp",
-            "../images/polaris_Rian-Gonzales.webp",
-            "../images/polaris_Pestilence.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/polaris_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/polaris_Chibi.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/polaris_Rian-Gonzales.webp"
+            },
+            {
+                "name": "Pestilence",
+                "path": "./images/polaris_Pestilence.webp"
+            }
         ],
         "cost": 3,
         "power": 5
@@ -1862,10 +3477,22 @@
         "jpg_path": "./images/professorx.jpg",
         "webp_path": "./images/professorx.webp",
         "variant_paths": [
-            "../images/professorx_Pixel.webp",
-            "../images/professorx_Baby.webp",
-            "../images/professorx_Noir.webp",
-            "../images/professorx_House-of-X.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/professorx_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/professorx_Baby.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/professorx_Noir.webp"
+            },
+            {
+                "name": "House of X",
+                "path": "./images/professorx_House-of-X.webp"
+            }
         ],
         "cost": 5,
         "power": 3
@@ -1876,8 +3503,14 @@
         "jpg_path": "./images/psylocke.jpg",
         "webp_path": "./images/psylocke.webp",
         "variant_paths": [
-            "../images/psylocke_Pixel.webp",
-            "../images/psylocke_Artgerm.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/psylocke_Pixel.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/psylocke_Artgerm.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -1888,10 +3521,22 @@
         "jpg_path": "./images/punisher.jpg",
         "webp_path": "./images/punisher.webp",
         "variant_paths": [
-            "../images/punisher_Pixel.webp",
-            "../images/punisher_Baby.webp",
-            "../images/punisher_Noir.webp",
-            "../images/punisher_Peach-Momoko.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/punisher_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/punisher_Baby.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/punisher_Noir.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/punisher_Peach-Momoko.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -1902,8 +3547,14 @@
         "jpg_path": "./images/quake.jpg",
         "webp_path": "./images/quake.webp",
         "variant_paths": [
-            "../images/quake_Pixel.webp",
-            "../images/quake_Band.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/quake_Pixel.webp"
+            },
+            {
+                "name": "Band",
+                "path": "./images/quake_Band.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -1914,9 +3565,18 @@
         "jpg_path": "./images/quicksilver.jpg",
         "webp_path": "./images/quicksilver.webp",
         "variant_paths": [
-            "../images/quicksilver_Pixel.webp",
-            "../images/quicksilver_Dan-Hipp.webp",
-            "../images/quicksilver_Sports.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/quicksilver_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/quicksilver_Dan-Hipp.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/quicksilver_Sports.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1927,9 +3587,18 @@
         "jpg_path": "./images/quinjet.jpg",
         "webp_path": "./images/quinjet.webp",
         "variant_paths": [
-            "../images/quinjet_Pixel.webp",
-            "../images/quinjet_Blueprints.webp",
-            "../images/quinjet_Ghost-Rider.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/quinjet_Pixel.webp"
+            },
+            {
+                "name": "Blueprints",
+                "path": "./images/quinjet_Blueprints.webp"
+            },
+            {
+                "name": "Ghost Rider",
+                "path": "./images/quinjet_Ghost-Rider.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1940,11 +3609,26 @@
         "jpg_path": "./images/redskull.jpg",
         "webp_path": "./images/redskull.webp",
         "variant_paths": [
-            "../images/redskull_Pixel.webp",
-            "../images/redskull_Chibi.webp",
-            "../images/redskull_Venomized.webp",
-            "../images/redskull_Giulio-Rincione.webp",
-            "../images/redskull_Fantasy.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/redskull_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/redskull_Chibi.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/redskull_Venomized.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/redskull_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Fantasy",
+                "path": "./images/redskull_Fantasy.webp"
+            }
         ],
         "cost": 5,
         "power": 15
@@ -1955,8 +3639,14 @@
         "jpg_path": "./images/rescue.jpg",
         "webp_path": "./images/rescue.webp",
         "variant_paths": [
-            "../images/rescue_Pixel.webp",
-            "../images/rescue_Dan-Hipp.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/rescue_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/rescue_Dan-Hipp.webp"
+            }
         ],
         "cost": 4,
         "power": 4
@@ -1967,10 +3657,22 @@
         "jpg_path": "./images/rhino.jpg",
         "webp_path": "./images/rhino.webp",
         "variant_paths": [
-            "../images/rhino_Pixel.webp",
-            "../images/rhino_Dan-Hipp.webp",
-            "../images/rhino_Giulio-Rincione.webp",
-            "../images/rhino_All-New.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/rhino_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/rhino_Dan-Hipp.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/rhino_Giulio-Rincione.webp"
+            },
+            {
+                "name": "All-New",
+                "path": "./images/rhino_All-New.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -1981,7 +3683,10 @@
         "jpg_path": "./images/rocketraccoon.jpg",
         "webp_path": "./images/rocketraccoon.webp",
         "variant_paths": [
-            "../images/rocketraccoon_Pixel.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/rocketraccoon_Pixel.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -1992,11 +3697,26 @@
         "jpg_path": "./images/rockslide.jpg",
         "webp_path": "./images/rockslide.webp",
         "variant_paths": [
-            "../images/rockslide_Pixel.webp",
-            "../images/rockslide_Chibi.webp",
-            "../images/rockslide_Sports.webp",
-            "../images/rockslide_Winter-Vacation.webp",
-            "../images/rockslide_Limbo.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/rockslide_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/rockslide_Chibi.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/rockslide_Sports.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/rockslide_Winter-Vacation.webp"
+            },
+            {
+                "name": "Limbo",
+                "path": "./images/rockslide_Limbo.webp"
+            }
         ],
         "cost": 4,
         "power": 6
@@ -2007,11 +3727,26 @@
         "jpg_path": "./images/rogue.jpg",
         "webp_path": "./images/rogue.webp",
         "variant_paths": [
-            "../images/rogue_Pixel.webp",
-            "../images/rogue_Hero.webp",
-            "../images/rogue_Rian-Gonzales.webp",
-            "../images/rogue_Savage-Land.webp",
-            "../images/rogue_Winter-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/rogue_Pixel.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/rogue_Hero.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/rogue_Rian-Gonzales.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/rogue_Savage-Land.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/rogue_Winter-Vacation.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -2022,9 +3757,18 @@
         "jpg_path": "./images/ronan.jpg",
         "webp_path": "./images/ronan.webp",
         "variant_paths": [
-            "../images/ronan_Pixel.webp",
-            "../images/ronan_Dan-Hipp.webp",
-            "../images/ronan_Carnival.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ronan_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/ronan_Dan-Hipp.webp"
+            },
+            {
+                "name": "Carnival",
+                "path": "./images/ronan_Carnival.webp"
+            }
         ],
         "cost": 5,
         "power": 3
@@ -2035,11 +3779,26 @@
         "jpg_path": "./images/sabretooth.jpg",
         "webp_path": "./images/sabretooth.webp",
         "variant_paths": [
-            "../images/sabretooth_Pixel.webp",
-            "../images/sabretooth_Noir.webp",
-            "../images/sabretooth_3099.webp",
-            "../images/sabretooth_Savage-Land.webp",
-            "../images/sabretooth_Ryan-Brown.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/sabretooth_Pixel.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/sabretooth_Noir.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/sabretooth_3099.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/sabretooth_Savage-Land.webp"
+            },
+            {
+                "name": "Ryan Brown",
+                "path": "./images/sabretooth_Ryan-Brown.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -2050,10 +3809,22 @@
         "jpg_path": "./images/sandman.jpg",
         "webp_path": "./images/sandman.webp",
         "variant_paths": [
-            "../images/sandman_Hero.webp",
-            "../images/sandman_Summer-Vacation.webp",
-            "../images/sandman_Variant.webp",
-            "../images/sandman_Wild-Pack.webp"
+            {
+                "name": "Hero",
+                "path": "./images/sandman_Hero.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/sandman_Summer-Vacation.webp"
+            },
+            {
+                "name": "Variant",
+                "path": "./images/sandman_Variant.webp"
+            },
+            {
+                "name": "Wild Pack",
+                "path": "./images/sandman_Wild-Pack.webp"
+            }
         ],
         "cost": 4,
         "power": 1
@@ -2064,7 +3835,10 @@
         "jpg_path": "./images/sauron.jpg",
         "webp_path": "./images/sauron.webp",
         "variant_paths": [
-            "../images/sauron_3099.webp"
+            {
+                "name": "3099",
+                "path": "./images/sauron_3099.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -2075,11 +3849,26 @@
         "jpg_path": "./images/scarletwitch.jpg",
         "webp_path": "./images/scarletwitch.webp",
         "variant_paths": [
-            "../images/scarletwitch_Pixel.webp",
-            "../images/scarletwitch_Dan-Hipp.webp",
-            "../images/scarletwitch_Chibi.webp",
-            "../images/scarletwitch_Artgerm.webp",
-            "../images/scarletwitch_House-of-M.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/scarletwitch_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/scarletwitch_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/scarletwitch_Chibi.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/scarletwitch_Artgerm.webp"
+            },
+            {
+                "name": "House of M",
+                "path": "./images/scarletwitch_House-of-M.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -2090,9 +3879,18 @@
         "jpg_path": "./images/scorpion.jpg",
         "webp_path": "./images/scorpion.webp",
         "variant_paths": [
-            "../images/scorpion_Pixel.webp",
-            "../images/scorpion_Venomized.webp",
-            "../images/scorpion_Summer-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/scorpion_Pixel.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/scorpion_Venomized.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/scorpion_Summer-Vacation.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -2103,10 +3901,22 @@
         "jpg_path": "./images/sentinel.jpg",
         "webp_path": "./images/sentinel.webp",
         "variant_paths": [
-            "../images/sentinel_Pixel.webp",
-            "../images/sentinel_Steampunk.webp",
-            "../images/sentinel_Jim-Lee.webp",
-            "../images/sentinel_Blueprints.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/sentinel_Pixel.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/sentinel_Steampunk.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/sentinel_Jim-Lee.webp"
+            },
+            {
+                "name": "Blueprints",
+                "path": "./images/sentinel_Blueprints.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -2117,10 +3927,22 @@
         "jpg_path": "./images/sentry.jpg",
         "webp_path": "./images/sentry.webp",
         "variant_paths": [
-            "../images/sentry_Pixel.webp",
-            "../images/sentry_Kim-Jacinto.webp",
-            "../images/sentry_Luchador.webp",
-            "../images/sentry_Void-Merged.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/sentry_Pixel.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/sentry_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/sentry_Luchador.webp"
+            },
+            {
+                "name": "Void Merged",
+                "path": "./images/sentry_Void-Merged.webp"
+            }
         ],
         "cost": 4,
         "power": 8
@@ -2131,12 +3953,30 @@
         "jpg_path": "./images/sera.jpg",
         "webp_path": "./images/sera.webp",
         "variant_paths": [
-            "../images/sera_Pixel.webp",
-            "../images/sera_Dan-Hipp.webp",
-            "../images/sera_Chibi.webp",
-            "../images/sera_Flaviano.webp",
-            "../images/sera_Hero.webp",
-            "../images/sera_1602.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/sera_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/sera_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/sera_Chibi.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/sera_Flaviano.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/sera_Hero.webp"
+            },
+            {
+                "name": "1602",
+                "path": "./images/sera_1602.webp"
+            }
         ],
         "cost": 5,
         "power": 4
@@ -2147,12 +3987,30 @@
         "jpg_path": "./images/shangchi.jpg",
         "webp_path": "./images/shangchi.webp",
         "variant_paths": [
-            "../images/shangchi_Pixel.webp",
-            "../images/shangchi_Baby.webp",
-            "../images/shangchi_Kim-Jacinto.webp",
-            "../images/shangchi_Peach-Momoko.webp",
-            "../images/shangchi_Rian-Gonzales.webp",
-            "../images/shangchi_Knullified.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/shangchi_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/shangchi_Baby.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/shangchi_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/shangchi_Peach-Momoko.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/shangchi_Rian-Gonzales.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/shangchi_Knullified.webp"
+            }
         ],
         "cost": 4,
         "power": 3
@@ -2163,11 +4021,26 @@
         "jpg_path": "./images/shehulk.jpg",
         "webp_path": "./images/shehulk.webp",
         "variant_paths": [
-            "../images/shehulk_Pixel.webp",
-            "../images/shehulk_Baby.webp",
-            "../images/shehulk_Artgerm.webp",
-            "../images/shehulk_Peach-Momoko.webp",
-            "../images/shehulk_Savage-Land.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/shehulk_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/shehulk_Baby.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/shehulk_Artgerm.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/shehulk_Peach-Momoko.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/shehulk_Savage-Land.webp"
+            }
         ],
         "cost": 6,
         "power": 10
@@ -2178,9 +4051,18 @@
         "jpg_path": "./images/shocker.jpg",
         "webp_path": "./images/shocker.webp",
         "variant_paths": [
-            "../images/shocker_Pixel.webp",
-            "../images/shocker_Steampunk.webp",
-            "../images/shocker_Buggy.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/shocker_Pixel.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/shocker_Steampunk.webp"
+            },
+            {
+                "name": "Buggy",
+                "path": "./images/shocker_Buggy.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -2191,11 +4073,26 @@
         "jpg_path": "./images/shuri.jpg",
         "webp_path": "./images/shuri.webp",
         "variant_paths": [
-            "../images/shuri_Pixel.webp",
-            "../images/shuri_Dan-Hipp.webp",
-            "../images/shuri_Baby.webp",
-            "../images/shuri_Savage-Land.webp",
-            "../images/shuri_Black-Panther.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/shuri_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/shuri_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/shuri_Baby.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/shuri_Savage-Land.webp"
+            },
+            {
+                "name": "Black Panther",
+                "path": "./images/shuri_Black-Panther.webp"
+            }
         ],
         "cost": 4,
         "power": 2
@@ -2206,10 +4103,22 @@
         "jpg_path": "./images/silversurfer.jpg",
         "webp_path": "./images/silversurfer.webp",
         "variant_paths": [
-            "../images/silversurfer_Pixel.webp",
-            "../images/silversurfer_Baby.webp",
-            "../images/silversurfer_Max-Grecke.webp",
-            "../images/silversurfer_Kim-Jacinto.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/silversurfer_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/silversurfer_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/silversurfer_Max-Grecke.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/silversurfer_Kim-Jacinto.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -2220,11 +4129,26 @@
         "jpg_path": "./images/spectrum.jpg",
         "webp_path": "./images/spectrum.webp",
         "variant_paths": [
-            "../images/spectrum_Pixel.webp",
-            "../images/spectrum_Dan-Hipp.webp",
-            "../images/spectrum_Flaviano.webp",
-            "../images/spectrum_Kim-Jacinto.webp",
-            "../images/spectrum_Rian-Gonzales.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/spectrum_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/spectrum_Dan-Hipp.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/spectrum_Flaviano.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/spectrum_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/spectrum_Rian-Gonzales.webp"
+            }
         ],
         "cost": 6,
         "power": 5
@@ -2235,11 +4159,26 @@
         "jpg_path": "./images/spiderman.jpg",
         "webp_path": "./images/spiderman.webp",
         "variant_paths": [
-            "../images/spiderman_Pixel.webp",
-            "../images/spiderman_Dan-Hipp.webp",
-            "../images/spiderman_Max-Grecke.webp",
-            "../images/spiderman_Hero.webp",
-            "../images/spiderman_Symbiote.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/spiderman_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/spiderman_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/spiderman_Max-Grecke.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/spiderman_Hero.webp"
+            },
+            {
+                "name": "Symbiote",
+                "path": "./images/spiderman_Symbiote.webp"
+            }
         ],
         "cost": 4,
         "power": 3
@@ -2250,9 +4189,18 @@
         "jpg_path": "./images/spiderwoman.jpg",
         "webp_path": "./images/spiderwoman.webp",
         "variant_paths": [
-            "../images/spiderwoman_Pixel.webp",
-            "../images/spiderwoman_Knullified.webp",
-            "../images/spiderwoman_Carnageized.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/spiderwoman_Pixel.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/spiderwoman_Knullified.webp"
+            },
+            {
+                "name": "Carnageized",
+                "path": "./images/spiderwoman_Carnageized.webp"
+            }
         ],
         "cost": 5,
         "power": 7
@@ -2263,9 +4211,18 @@
         "jpg_path": "./images/squirrelgirl.jpg",
         "webp_path": "./images/squirrelgirl.webp",
         "variant_paths": [
-            "../images/squirrelgirl_Pixel.webp",
-            "../images/squirrelgirl_Baby.webp",
-            "../images/squirrelgirl_Rian-Gonzales.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/squirrelgirl_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/squirrelgirl_Baby.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/squirrelgirl_Rian-Gonzales.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -2276,9 +4233,18 @@
         "jpg_path": "./images/starlord.jpg",
         "webp_path": "./images/starlord.webp",
         "variant_paths": [
-            "../images/starlord_Pixel.webp",
-            "../images/starlord_Chibi.webp",
-            "../images/starlord_Baby.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/starlord_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/starlord_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/starlord_Baby.webp"
+            }
         ],
         "cost": 2,
         "power": 2
@@ -2289,13 +4255,34 @@
         "jpg_path": "./images/storm.jpg",
         "webp_path": "./images/storm.webp",
         "variant_paths": [
-            "../images/storm_Pixel.webp",
-            "../images/storm_Baby.webp",
-            "../images/storm_Hero.webp",
-            "../images/storm_Peach-Momoko.webp",
-            "../images/storm_Knullified.webp",
-            "../images/storm_Savage-Land.webp",
-            "../images/storm_Anime.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/storm_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/storm_Baby.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/storm_Hero.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/storm_Peach-Momoko.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/storm_Knullified.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/storm_Savage-Land.webp"
+            },
+            {
+                "name": "Anime",
+                "path": "./images/storm_Anime.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -2306,10 +4293,22 @@
         "jpg_path": "./images/strongguy.jpg",
         "webp_path": "./images/strongguy.webp",
         "variant_paths": [
-            "../images/strongguy_Pixel.webp",
-            "../images/strongguy_Summer-Vacation.webp",
-            "../images/strongguy_Luchador.webp",
-            "../images/strongguy_King-of-Hell.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/strongguy_Pixel.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/strongguy_Summer-Vacation.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/strongguy_Luchador.webp"
+            },
+            {
+                "name": "King of Hell",
+                "path": "./images/strongguy_King-of-Hell.webp"
+            }
         ],
         "cost": 4,
         "power": 4
@@ -2320,10 +4319,22 @@
         "jpg_path": "./images/sunspot.jpg",
         "webp_path": "./images/sunspot.webp",
         "variant_paths": [
-            "../images/sunspot_Pixel.webp",
-            "../images/sunspot_Dan-Hipp.webp",
-            "../images/sunspot_Luca-Claretti.webp",
-            "../images/sunspot_Winter-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/sunspot_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/sunspot_Dan-Hipp.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/sunspot_Luca-Claretti.webp"
+            },
+            {
+                "name": "Winter Vacation",
+                "path": "./images/sunspot_Winter-Vacation.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -2334,11 +4345,26 @@
         "jpg_path": "./images/superskrull.jpg",
         "webp_path": "./images/superskrull.webp",
         "variant_paths": [
-            "../images/superskrull_Pixel.webp",
-            "../images/superskrull_Chibi.webp",
-            "../images/superskrull_Baby.webp",
-            "../images/superskrull_Max-Grecke.webp",
-            "../images/superskrull_3099.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/superskrull_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/superskrull_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/superskrull_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/superskrull_Max-Grecke.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/superskrull_3099.webp"
+            }
         ],
         "cost": 4,
         "power": 2
@@ -2349,10 +4375,22 @@
         "jpg_path": "./images/swarm.jpg",
         "webp_path": "./images/swarm.webp",
         "variant_paths": [
-            "../images/swarm_Pixel.webp",
-            "../images/swarm_Dan-Hipp.webp",
-            "../images/swarm_Max-Grecke.webp",
-            "../images/swarm_Dinoswarm.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/swarm_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/swarm_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/swarm_Max-Grecke.webp"
+            },
+            {
+                "name": "Dinoswarm",
+                "path": "./images/swarm_Dinoswarm.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -2363,8 +4401,14 @@
         "jpg_path": "./images/swordmaster.jpg",
         "webp_path": "./images/swordmaster.webp",
         "variant_paths": [
-            "../images/swordmaster_Pixel.webp",
-            "../images/swordmaster_Lunar-New-Year.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/swordmaster_Pixel.webp"
+            },
+            {
+                "name": "Lunar New Year",
+                "path": "./images/swordmaster_Lunar-New-Year.webp"
+            }
         ],
         "cost": 3,
         "power": 6
@@ -2375,8 +4419,14 @@
         "jpg_path": "./images/taskmaster.jpg",
         "webp_path": "./images/taskmaster.webp",
         "variant_paths": [
-            "../images/taskmaster_Pixel.webp",
-            "../images/taskmaster_Luchador.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/taskmaster_Pixel.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/taskmaster_Luchador.webp"
+            }
         ],
         "cost": 5,
         "power": 1
@@ -2387,9 +4437,18 @@
         "jpg_path": "./images/thanos.jpg",
         "webp_path": "./images/thanos.webp",
         "variant_paths": [
-            "../images/thanos_Pixel.webp",
-            "../images/thanos_Baby.webp",
-            "../images/thanos_Flaviano.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/thanos_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/thanos_Baby.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/thanos_Flaviano.webp"
+            }
         ],
         "cost": 6,
         "power": 8
@@ -2400,12 +4459,30 @@
         "jpg_path": "./images/thecollector.jpg",
         "webp_path": "./images/thecollector.webp",
         "variant_paths": [
-            "../images/thecollector_Pixel.webp",
-            "../images/thecollector_Dan-Hipp.webp",
-            "../images/thecollector_Flaviano.webp",
-            "../images/thecollector_Classic.webp",
-            "../images/thecollector_Kael.webp",
-            "../images/thecollector_Ivan-Shavrin.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/thecollector_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/thecollector_Dan-Hipp.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/thecollector_Flaviano.webp"
+            },
+            {
+                "name": "Classic",
+                "path": "./images/thecollector_Classic.webp"
+            },
+            {
+                "name": "Kael",
+                "path": "./images/thecollector_Kael.webp"
+            },
+            {
+                "name": "Ivan Shavrin",
+                "path": "./images/thecollector_Ivan-Shavrin.webp"
+            }
         ],
         "cost": 2,
         "power": 1
@@ -2416,10 +4493,22 @@
         "jpg_path": "./images/hood.jpg",
         "webp_path": "./images/hood.webp",
         "variant_paths": [
-            "../images/hood_Pixel.webp",
-            "../images/hood_Chibi.webp",
-            "../images/hood_Luca-Claretti.webp",
-            "../images/hood_Noir.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/hood_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/hood_Chibi.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/hood_Luca-Claretti.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/hood_Noir.webp"
+            }
         ],
         "cost": 1,
         "power": 1
@@ -2430,9 +4519,18 @@
         "jpg_path": "./images/infinaut.jpg",
         "webp_path": "./images/infinaut.webp",
         "variant_paths": [
-            "../images/infinaut_Pixel.webp",
-            "../images/infinaut_Flaviano.webp",
-            "../images/infinaut_Steampunk.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/infinaut_Pixel.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/infinaut_Flaviano.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/infinaut_Steampunk.webp"
+            }
         ],
         "cost": 6,
         "power": 20
@@ -2443,12 +4541,30 @@
         "jpg_path": "./images/thething.jpg",
         "webp_path": "./images/thething.webp",
         "variant_paths": [
-            "../images/thething_Pixel.webp",
-            "../images/thething_Max-Grecke.webp",
-            "../images/thething_Hero.webp",
-            "../images/thething_Knullified.webp",
-            "../images/thething_Alex-Horley.webp",
-            "../images/thething_Fear-Itself.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/thething_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/thething_Max-Grecke.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/thething_Hero.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/thething_Knullified.webp"
+            },
+            {
+                "name": "Alex Horley",
+                "path": "./images/thething_Alex-Horley.webp"
+            },
+            {
+                "name": "Fear Itself",
+                "path": "./images/thething_Fear-Itself.webp"
+            }
         ],
         "cost": 4,
         "power": 6
@@ -2459,10 +4575,22 @@
         "jpg_path": "./images/thor.jpg",
         "webp_path": "./images/thor.webp",
         "variant_paths": [
-            "../images/thor_Pixel.webp",
-            "../images/thor_Baby.webp",
-            "../images/thor_Max-Grecke.webp",
-            "../images/thor_Knullified.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/thor_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/thor_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/thor_Max-Grecke.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/thor_Knullified.webp"
+            }
         ],
         "cost": 3,
         "power": 4
@@ -2473,9 +4601,18 @@
         "jpg_path": "./images/titania.jpg",
         "webp_path": "./images/titania.webp",
         "variant_paths": [
-            "../images/titania_Pixel.webp",
-            "../images/titania_Dan-Hipp.webp",
-            "../images/titania_Luchador.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/titania_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/titania_Dan-Hipp.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/titania_Luchador.webp"
+            }
         ],
         "cost": 1,
         "power": 5
@@ -2486,10 +4623,22 @@
         "jpg_path": "./images/typhoidmary.jpg",
         "webp_path": "./images/typhoidmary.webp",
         "variant_paths": [
-            "../images/typhoidmary_Pixel.webp",
-            "../images/typhoidmary_Dan-Hipp.webp",
-            "../images/typhoidmary_Venomized.webp",
-            "../images/typhoidmary_Mutant-Zero.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/typhoidmary_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/typhoidmary_Dan-Hipp.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/typhoidmary_Venomized.webp"
+            },
+            {
+                "name": "Mutant Zero",
+                "path": "./images/typhoidmary_Mutant-Zero.webp"
+            }
         ],
         "cost": 4,
         "power": 10
@@ -2500,9 +4649,18 @@
         "jpg_path": "./images/uatu.jpg",
         "webp_path": "./images/uatu.webp",
         "variant_paths": [
-            "../images/uatu_Pixel.webp",
-            "../images/uatu_Chibi.webp",
-            "../images/uatu_Flaviano.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/uatu_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/uatu_Chibi.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/uatu_Flaviano.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -2513,10 +4671,22 @@
         "jpg_path": "./images/ultron.jpg",
         "webp_path": "./images/ultron.webp",
         "variant_paths": [
-            "../images/ultron_Pixel.webp",
-            "../images/ultron_Dan-Hipp.webp",
-            "../images/ultron_Flaviano.webp",
-            "../images/ultron_Kim-Jacinto.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/ultron_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/ultron_Dan-Hipp.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/ultron_Flaviano.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/ultron_Kim-Jacinto.webp"
+            }
         ],
         "cost": 6,
         "power": 8
@@ -2527,10 +4697,22 @@
         "jpg_path": "./images/valkyrie.jpg",
         "webp_path": "./images/valkyrie.webp",
         "variant_paths": [
-            "../images/valkyrie_Pixel.webp",
-            "../images/valkyrie_Chibi.webp",
-            "../images/valkyrie_Baby.webp",
-            "../images/valkyrie_Rian-Gonzales.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/valkyrie_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/valkyrie_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/valkyrie_Baby.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/valkyrie_Rian-Gonzales.webp"
+            }
         ],
         "cost": 5,
         "power": 3
@@ -2541,9 +4723,18 @@
         "jpg_path": "./images/venom.jpg",
         "webp_path": "./images/venom.webp",
         "variant_paths": [
-            "../images/venom_Pixel.webp",
-            "../images/venom_Baby.webp",
-            "../images/venom_Kim-Jacinto.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/venom_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/venom_Baby.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/venom_Kim-Jacinto.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -2554,11 +4745,26 @@
         "jpg_path": "./images/viper.jpg",
         "webp_path": "./images/viper.webp",
         "variant_paths": [
-            "../images/viper_Pixel.webp",
-            "../images/viper_Chibi.webp",
-            "../images/viper_Noir.webp",
-            "../images/viper_Steampunk.webp",
-            "../images/viper_Secret-Wars.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/viper_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/viper_Chibi.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/viper_Noir.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/viper_Steampunk.webp"
+            },
+            {
+                "name": "Secret Wars",
+                "path": "./images/viper_Secret-Wars.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -2569,9 +4775,18 @@
         "jpg_path": "./images/vision.jpg",
         "webp_path": "./images/vision.webp",
         "variant_paths": [
-            "../images/vision_Pixel.webp",
-            "../images/vision_Dan-Hipp.webp",
-            "../images/vision_Max-Grecke.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/vision_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/vision_Dan-Hipp.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/vision_Max-Grecke.webp"
+            }
         ],
         "cost": 5,
         "power": 7
@@ -2582,9 +4797,18 @@
         "jpg_path": "./images/vulture.jpg",
         "webp_path": "./images/vulture.webp",
         "variant_paths": [
-            "../images/vulture_Pixel.webp",
-            "../images/vulture_Max-Grecke.webp",
-            "../images/vulture_Giulio-Rincione.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/vulture_Pixel.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/vulture_Max-Grecke.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/vulture_Giulio-Rincione.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -2595,9 +4819,18 @@
         "jpg_path": "./images/warpath.jpg",
         "webp_path": "./images/warpath.webp",
         "variant_paths": [
-            "../images/warpath_Pixel.webp",
-            "../images/warpath_Luchador.webp",
-            "../images/warpath_Weapon-X.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/warpath_Pixel.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/warpath_Luchador.webp"
+            },
+            {
+                "name": "Weapon X",
+                "path": "./images/warpath_Weapon-X.webp"
+            }
         ],
         "cost": 4,
         "power": 5
@@ -2608,10 +4841,22 @@
         "jpg_path": "./images/wasp.jpg",
         "webp_path": "./images/wasp.webp",
         "variant_paths": [
-            "../images/wasp_Pixel.webp",
-            "../images/wasp_Dan-Hipp.webp",
-            "../images/wasp_Steampunk.webp",
-            "../images/wasp_Transformed.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/wasp_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/wasp_Dan-Hipp.webp"
+            },
+            {
+                "name": "Steampunk",
+                "path": "./images/wasp_Steampunk.webp"
+            },
+            {
+                "name": "Transformed",
+                "path": "./images/wasp_Transformed.webp"
+            }
         ],
         "cost": 0,
         "power": 1
@@ -2622,8 +4867,14 @@
         "jpg_path": "./images/wave.jpg",
         "webp_path": "./images/wave.webp",
         "variant_paths": [
-            "../images/wave_Pixel.webp",
-            "../images/wave_Dan-Hipp.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/wave_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/wave_Dan-Hipp.webp"
+            }
         ],
         "cost": 3,
         "power": 3
@@ -2634,12 +4885,30 @@
         "jpg_path": "./images/whitequeen.jpg",
         "webp_path": "./images/whitequeen.webp",
         "variant_paths": [
-            "../images/whitequeen_Pixel.webp",
-            "../images/whitequeen_Venomized.webp",
-            "../images/whitequeen_Noir.webp",
-            "../images/whitequeen_Artgerm.webp",
-            "../images/whitequeen_Peach-Momoko.webp",
-            "../images/whitequeen_Summer-Vacation.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/whitequeen_Pixel.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/whitequeen_Venomized.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/whitequeen_Noir.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/whitequeen_Artgerm.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/whitequeen_Peach-Momoko.webp"
+            },
+            {
+                "name": "Summer Vacation",
+                "path": "./images/whitequeen_Summer-Vacation.webp"
+            }
         ],
         "cost": 4,
         "power": 6
@@ -2650,10 +4919,22 @@
         "jpg_path": "./images/whitetiger.jpg",
         "webp_path": "./images/whitetiger.webp",
         "variant_paths": [
-            "../images/whitetiger_Pixel.webp",
-            "../images/whitetiger_Luca-Claretti.webp",
-            "../images/whitetiger_Savage-Land.webp",
-            "../images/whitetiger_Luchador.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/whitetiger_Pixel.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/whitetiger_Luca-Claretti.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/whitetiger_Savage-Land.webp"
+            },
+            {
+                "name": "Luchador",
+                "path": "./images/whitetiger_Luchador.webp"
+            }
         ],
         "cost": 5,
         "power": 1
@@ -2664,8 +4945,14 @@
         "jpg_path": "./images/wolfsbane.jpg",
         "webp_path": "./images/wolfsbane.webp",
         "variant_paths": [
-            "../images/wolfsbane_Pixel.webp",
-            "../images/wolfsbane_Dan-Hipp.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/wolfsbane_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/wolfsbane_Dan-Hipp.webp"
+            }
         ],
         "cost": 3,
         "power": 1
@@ -2676,10 +4963,22 @@
         "jpg_path": "./images/wolverine.jpg",
         "webp_path": "./images/wolverine.webp",
         "variant_paths": [
-            "../images/wolverine_Pixel.webp",
-            "../images/wolverine_Dan-Hipp.webp",
-            "../images/wolverine_Baby.webp",
-            "../images/wolverine_Max-Grecke.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/wolverine_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/wolverine_Dan-Hipp.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/wolverine_Baby.webp"
+            },
+            {
+                "name": "Max Grecke",
+                "path": "./images/wolverine_Max-Grecke.webp"
+            }
         ],
         "cost": 2,
         "power": 3
@@ -2690,10 +4989,22 @@
         "jpg_path": "./images/wong.jpg",
         "webp_path": "./images/wong.webp",
         "variant_paths": [
-            "../images/wong_Pixel.webp",
-            "../images/wong_Dan-Hipp.webp",
-            "../images/wong_3099.webp",
-            "../images/wong_Band.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/wong_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/wong_Dan-Hipp.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/wong_3099.webp"
+            },
+            {
+                "name": "Band",
+                "path": "./images/wong_Band.webp"
+            }
         ],
         "cost": 4,
         "power": 2
@@ -2704,8 +5015,14 @@
         "jpg_path": "./images/yellowjacket.jpg",
         "webp_path": "./images/yellowjacket.webp",
         "variant_paths": [
-            "../images/yellowjacket_Pixel.webp",
-            "../images/yellowjacket_Variant.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/yellowjacket_Pixel.webp"
+            },
+            {
+                "name": "Variant",
+                "path": "./images/yellowjacket_Variant.webp"
+            }
         ],
         "cost": 0,
         "power": 2
@@ -2716,9 +5033,18 @@
         "jpg_path": "./images/yondu.jpg",
         "webp_path": "./images/yondu.webp",
         "variant_paths": [
-            "../images/yondu_Pixel.webp",
-            "../images/yondu_Dan-Hipp.webp",
-            "../images/yondu_Sports.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/yondu_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/yondu_Dan-Hipp.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/yondu_Sports.webp"
+            }
         ],
         "cost": 1,
         "power": 2
@@ -2729,9 +5055,18 @@
         "jpg_path": "./images/zabu.jpg",
         "webp_path": "./images/zabu.webp",
         "variant_paths": [
-            "../images/zabu_Dan-Hipp.webp",
-            "../images/zabu_3099.webp",
-            "../images/zabu_Savage-Land.webp"
+            {
+                "name": "Dan Hipp",
+                "path": "./images/zabu_Dan-Hipp.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/zabu_3099.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/zabu_Savage-Land.webp"
+            }
         ],
         "cost": 3,
         "power": 2
@@ -2742,10 +5077,22 @@
         "jpg_path": "./images/zero.jpg",
         "webp_path": "./images/zero.webp",
         "variant_paths": [
-            "../images/zero_Pixel.webp",
-            "../images/zero_Chibi.webp",
-            "../images/zero_Sports.webp",
-            "../images/zero_Giulio-Rincione.webp"
+            {
+                "name": "Pixel",
+                "path": "./images/zero_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/zero_Chibi.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/zero_Sports.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/zero_Giulio-Rincione.webp"
+            }
         ],
         "cost": 1,
         "power": 3

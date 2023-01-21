@@ -8,7 +8,7 @@ import lodash from "lodash";
 import { randomDeck } from "./randomDeck.js";
 import { CardService } from "./CardService.js";
 
-const {replace, includes} = lodash;
+const {replace, includes, map, forEach} = lodash;
 const { Client, Events, ActionRowBuilder, MessageButtonStyle, ButtonBuilder, GatewayIntentBits, ButtonStyle } = discord;
 
 const secrets = JSON.parse(fs.readFileSync('secrets.json'));
@@ -19,6 +19,57 @@ const cardService = new CardService();
 
 const bot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
+
+// takes card json from cards.js and makes an array of up to 5 action rows of length 5
+// (discord limits to 5 rows and 5 buttons per row)
+function buildVariantActionBarsFromCard(card) {
+    const buttons = map(card['variant_paths'], (variant) => {
+        return new ButtonBuilder()
+            .setCustomId(variant.path)
+            .setLabel(variant.name)
+            .setStyle(ButtonStyle.Secondary)
+    });
+    const baseButton = new ButtonBuilder()
+        .setCustomId(card.webp_path)
+        .setLabel("Base")
+        .setStyle(ButtonStyle.Primary)  // default base to active
+    
+    const rows = [];
+    let row = [baseButton];
+    forEach(buttons, (button) => {
+        if(rows.length >= 5) {
+            return;
+        }
+        row.push(button);
+        if(row.length >= 5) {
+            rows.push(new ActionRowBuilder().addComponents(row));
+            row = [];
+        }
+    });
+    if(rows.length < 5 && row.length !== 0) {
+        rows.push(new ActionRowBuilder().addComponents(row));
+    }
+
+    return rows;
+}
+
+function findButtonByCustomId(rows, id) {
+    console.log(id);
+    console.log(rows[0].components[0]);
+    let button;
+    forEach(rows, (row) => {
+        forEach(row.components, (but) => {
+            // console.log(but);
+            if(but.data.custom_id === id) {
+                button = but;
+            }
+        })
+    });
+    console.log(button.data.custom_id);
+    return button;
+}
+
+
 bot.on('messageCreate', async (msg) => {
     if(msg.author.bot) {
         return;
@@ -28,29 +79,46 @@ bot.on('messageCreate', async (msg) => {
 
     const searchRegex = /^{{.*}}$/i;
     if(searchRegex.test(content)) {
-        // const name = replace(content.slice(2, -2), / /g, "");
-        // const card = cardService.getCardByName(name);
-        // if(!!card) {
-        //     const file = fs.readFileSync(card.webp_path);
-        //     await msg.channel.send({files: [{ attachment: file }]});
-        //     msg.channel.send(card.ability);
-        // }
+        const name = replace(content.slice(2, -2), / /g, "");
+        const card = cardService.getCardByName(name);
+        if(!card) {
+            return;
+        }
 
-        const row = new ActionRowBuilder()
-			.addComponents(
-				new ButtonBuilder()
-					.setCustomId('primary')
-					.setLabel('Click me!')
-					.setStyle(ButtonStyle.Primary),
-			);
+        const file = fs.readFileSync(card.webp_path);
+        // await msg.channel.send({files: [{ attachment: file }]});
+        // msg.channel.send(card.ability);
 
-        await msg.reply({ content: 'I think you should,', components: [row] });
+        let rows = buildVariantActionBarsFromCard(card);
+
+        await msg.reply({ content: card.ability, components: rows, files: [{ attachment: file }] });
         
-        const filter = i => i.customId === 'primary';
-        const collector = msg.channel.createMessageComponentCollector({filter, time: 15000});
+        let selectedButton = rows[0].components[0];
+        let filter = (i) => {
+            const button = findButtonByCustomId(rows, i.customId);
+            if(!!button) {
+                selectedButton.data.style = ButtonStyle.Secondary;
+                button.data.style = ButtonStyle.Primary;
+                selectedButton = button;
+            }
+            return !!button;
+        }
+        let collector = msg.channel.createMessageComponentCollector({filter, time: 15000});
+        // forEach(rows, (row) => {
+        //     forEach(row, (button) => {
+        //         const filter = b => b.customId === button.customId;
+        //         const collector = msg.channel.createMessageComponentCollector({filter, time: 15000});
+
+        //         collector.on('collect', async i => {
+        //             console.log(button.customId);
+        //         })
+        //     })
+        // })
 
         collector.on('collect', async i => {
-            await i.update({ content: "a button was click", components: []});
+            console.log(selectedButton);
+            const file = fs.readFileSync(selectedButton.data.custom_id);
+            await i.update({ components: rows, files: [{ attachment: file }] });
         });
 
         collector.on('end', collected => console.log(`Collected ${collected.size} size`));
@@ -62,23 +130,23 @@ bot.on('messageCreate', async (msg) => {
     
 });
 
-bot.on(Events.InteractionCreate, async interaction => {
-    if (!interaction.isChatInputCommand()) {
-        return;
-    }
+// bot.on(Events.InteractionCreate, async interaction => {
+//     if (!interaction.isChatInputCommand()) {
+//         return;
+//     }
 
-    if(interaction.commandName === 'button') {
-        const row = new ActionRowBuilder()
-			.addComponents(
-				new ButtonBuilder()
-					.setCustomId('primary')
-					.setLabel('Click me!')
-					.setStyle(ButtonStyle.Primary),
-			);
+//     if(interaction.commandName === 'button') {
+//         const row = new ActionRowBuilder()
+// 			.addComponents(
+// 				new ButtonBuilder()
+// 					.setCustomId('primary')
+// 					.setLabel('Click me!')
+// 					.setStyle(ButtonStyle.Primary),
+// 			);
 
-        await interaction.reply({ content: 'I think you should,', components: [row] });
-    }
-}) 
+//         await interaction.reply({ content: 'I think you should,', components: [row] });
+//     }
+// }) 
 
 
 
