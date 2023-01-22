@@ -1,22 +1,18 @@
 // INVITE: https://discord.com/api/oauth2/authorize?client_id=1063604736017846305&permissions=533046099008&scope=bot
 
-// import * as Discord from "discord.js";
 import discord from "discord.js";
-import { MongoClient } from "mongodb";
 import * as fs from "fs";
 import lodash from "lodash";
 import { randomDeck } from "./randomDeck.js";
 import { CardService } from "./CardService.js";
-import { CollectorService } from "./CollectorService.js";
+
 
 const {replace, includes, map, forEach} = lodash;
 const { Client, Events, ActionRowBuilder, MessageButtonStyle, ButtonBuilder, GatewayIntentBits, ButtonStyle } = discord;
 
 const secrets = JSON.parse(fs.readFileSync('secrets.json'));
-// const uri = `mongodb+srv://${secrets.mongoUser}:${secrets.mongoPass}@cluster0.mn0nlma.mongodb.net/?retryWrites=true&w=majority`;
-// const client = new MongoClient(uri);
 
-const cardService = new CardService();
+CardService.readCardsJSON();
 
 const bot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
@@ -55,19 +51,15 @@ function buildVariantActionBarsFromCard(card) {
 }
 
 function findButtonByCustomId(rows, id) {
-    let kekw = new CollectorService();
-    // console.log(id);
-    // console.log(rows[0].components[0]);
     let button;
     forEach(rows, (row) => {
-        forEach(row.components, (but) => {
-            // console.log(but);
-            if(but.data.custom_id === id) {
-                button = but;
+        forEach(row.components, (btn) => {
+            if(btn.data.custom_id === id) {
+                button = btn;
             }
         })
     });
-    // console.log(button.data.custom_id);
+  
     return button;
 }
 
@@ -82,14 +74,12 @@ bot.on('messageCreate', async (msg) => {
     const searchRegex = /^{{.*}}$/i;
     if(searchRegex.test(content)) {
         const name = replace(content.slice(2, -2), / /g, "");
-        const card = cardService.getCardByName(name);
+        const card = CardService.getCardByName(name);
         if(!card) {
             return;
         }
 
         const file = fs.readFileSync(card.webp_path);
-        // await msg.channel.send({files: [{ attachment: file }]});
-        // msg.channel.send(card.ability);
 
         const rows = buildVariantActionBarsFromCard(card);
 
@@ -105,25 +95,14 @@ bot.on('messageCreate', async (msg) => {
             }
             return !!button;
         }
-        const collector = msg.channel.createMessageComponentCollector({filter, time: 15000});
-        // forEach(rows, (row) => {
-        //     forEach(row, (button) => {
-        //         const filter = b => b.customId === button.customId;
-        //         const collector = msg.channel.createMessageComponentCollector({filter, time: 15000});
-
-        //         collector.on('collect', async i => {
-        //             console.log(button.customId);
-        //         })
-        //     })
-        // })
+        const collector = msg.channel.createMessageComponentCollector({filter, time: 300000});
 
         collector.on('collect', async i => {
-            console.log(selectedButton);
             const file = fs.readFileSync(selectedButton.data.custom_id);
             await i.update({ components: rows, files: [{ attachment: file }] });
         });
 
-        collector.on('end', collected => console.log(`Collected ${collected.size} size`));
+        collector.on('end', collected => console.log("Collecter ended"));
 
 
     }
@@ -132,26 +111,6 @@ bot.on('messageCreate', async (msg) => {
     
 });
 
-// bot.on(Events.InteractionCreate, async interaction => {
-//     if (!interaction.isChatInputCommand()) {
-//         return;
-//     }
-
-//     if(interaction.commandName === 'button') {
-//         const row = new ActionRowBuilder()
-// 			.addComponents(
-// 				new ButtonBuilder()
-// 					.setCustomId('primary')
-// 					.setLabel('Click me!')
-// 					.setStyle(ButtonStyle.Primary),
-// 			);
-
-//         await interaction.reply({ content: 'I think you should,', components: [row] });
-//     }
-// }) 
-
-
 
 const botLogin = secrets.botLogin;
 bot.login(botLogin);
-console.log(randomDeck())

@@ -4,19 +4,20 @@ const {find, includes} = lodash;
 
 
 export class CardService {
-    cards;
+    static cards;
 
-    constructor() {
-        this.cards = JSON.parse(fs.readFileSync('cards.json'));
-        // console.log(this.cards);
+    static readCardsJSON() {
+        console.log("Reading cards JSON");
+        CardService.cards = JSON.parse(fs.readFileSync('cards.json'));
     }
 
-    getCardByName(name) {
-        const card = this.cards[name];
+    static getCardByName(name) {
+        const card = CardService.cards[name];
         if(!!card) {
             return card;
         }
         
-        return find(this.cards, (c) => includes(c.name, name.toLowerCase()));
+        // if card name not exact, return first card that contains name
+        return find(CardService.cards, (c) => includes(c.name, name.toLowerCase()));
     }
 }
