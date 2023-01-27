@@ -1,9 +1,8 @@
 {
     "abomination": {
         "id": "abomination",
-        "name": "Abomination ",
+        "name": "Abomination",
         "ability": "Foolish rabble! You are beneath me!",
-        "jpg_path": "./images/abomination.jpg",
         "webp_path": "./images/abomination.webp",
         "variant_paths": [
             {
@@ -24,9 +23,8 @@
     },
     "absorbingman": {
         "id": "absorbingman",
-        "name": "Absorbing Man ",
+        "name": "Absorbing Man",
         "ability": "On Reveal: If the last card you played has an On Reveal ability, this card copies it.",
-        "jpg_path": "./images/absorbingman.jpg",
         "webp_path": "./images/absorbingman.webp",
         "variant_paths": [
             {
@@ -55,9 +53,8 @@
     },
     "adamwarlock": {
         "id": "adamwarlock",
-        "name": "Adam Warlock ",
+        "name": "Adam Warlock",
         "ability": "At the end of each turn, if you are winning this location, draw a card.",
-        "jpg_path": "./images/adamwarlock.jpg",
         "webp_path": "./images/adamwarlock.webp",
         "variant_paths": [
             {
@@ -82,9 +79,8 @@
     },
     "aero": {
         "id": "aero",
-        "name": "Aero ",
+        "name": "Aero",
         "ability": "On Reveal: Move all enemy cards played this turn to this location.",
-        "jpg_path": "./images/aero.jpg",
         "webp_path": "./images/aero.webp",
         "variant_paths": [
             {
@@ -109,9 +105,8 @@
     },
     "agathaharkness": {
         "id": "agathaharkness",
-        "name": "Agatha Harkness ",
+        "name": "Agatha Harkness",
         "ability": "Agatha starts in your hand and plays your cards for you.",
-        "jpg_path": "./images/agathaharkness.jpg",
         "webp_path": "./images/agathaharkness.webp",
         "variant_paths": [
             {
@@ -140,9 +135,8 @@
     },
     "agent13": {
         "id": "agent13",
-        "name": "Agent 13 ",
+        "name": "Agent 13",
         "ability": "On Reveal: Add a random card to your hand.",
-        "jpg_path": "./images/agent13.jpg",
         "webp_path": "./images/agent13.webp",
         "variant_paths": [
             {
@@ -163,9 +157,8 @@
     },
     "agentcoulson": {
         "id": "agentcoulson",
-        "name": "Agent Coulson ",
+        "name": "Agent Coulson",
         "ability": "On Reveal: Add a random 4-Cost and 5-Cost card to your hand.",
-        "jpg_path": "./images/agentcoulson.jpg",
         "webp_path": "./images/agentcoulson.webp",
         "variant_paths": [
             {
@@ -190,9 +183,8 @@
     },
     "americachavez": {
         "id": "americachavez",
-        "name": "America Chavez ",
+        "name": "America Chavez",
         "ability": "You always draw this card on turn 6, and not before.",
-        "jpg_path": "./images/americachavez.jpg",
         "webp_path": "./images/americachavez.webp",
         "variant_paths": [
             {
@@ -213,9 +205,8 @@
     },
     "angel": {
         "id": "angel",
-        "name": "Angel ",
+        "name": "Angel",
         "ability": "When one of your cards is destroyed, this flies out of your deck to replace it.",
-        "jpg_path": "./images/angel.jpg",
         "webp_path": "./images/angel.webp",
         "variant_paths": [
             {
@@ -244,9 +235,8 @@
     },
     "angela": {
         "id": "angela",
-        "name": "Angela ",
+        "name": "Angela",
         "ability": "When you play a card here,\n+2 Power.",
-        "jpg_path": "./images/angela.jpg",
         "webp_path": "./images/angela.webp",
         "variant_paths": [
             {
@@ -271,9 +261,8 @@
     },
     "antman": {
         "id": "antman",
-        "name": "Ant Man ",
+        "name": "Ant Man",
         "ability": "Ongoing: If you have 3 other cards here, +3 Power.",
-        "jpg_path": "./images/antman.jpg",
         "webp_path": "./images/antman.webp",
         "variant_paths": [
             {
@@ -294,9 +283,8 @@
     },
     "apocalypse": {
         "id": "apocalypse",
-        "name": "Apocalypse ",
+        "name": "Apocalypse",
         "ability": "When you discard this from your hand, put it back with +4 Power.",
-        "jpg_path": "./images/apocalypse.jpg",
         "webp_path": "./images/apocalypse.webp",
         "variant_paths": [
             {
@@ -317,9 +305,8 @@
     },
     "armor": {
         "id": "armor",
-        "name": "Armor ",
+        "name": "Armor",
         "ability": "Ongoing: Cards at this location can't be destroyed.",
-        "jpg_path": "./images/armor.jpg",
         "webp_path": "./images/armor.webp",
         "variant_paths": [
             {
@@ -340,9 +327,8 @@
     },
     "arnimzola": {
         "id": "arnimzola",
-        "name": "Arnim Zola ",
+        "name": "Arnim Zola",
         "ability": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
-        "jpg_path": "./images/arnimzola.jpg",
         "webp_path": "./images/arnimzola.webp",
         "variant_paths": [
             {
@@ -367,9 +353,8 @@
     },
     "attuma": {
         "id": "attuma",
-        "name": "Attuma ",
+        "name": "Attuma",
         "ability": "If you have another card here at the end of your turn, destroy this.",
-        "jpg_path": "./images/attuma.jpg",
         "webp_path": "./images/attuma.webp",
         "variant_paths": [
             {
@@ -390,9 +375,8 @@
     },
     "baronmordo": {
         "id": "baronmordo",
-        "name": "Baron Mordo ",
+        "name": "Baron Mordo",
         "ability": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
-        "jpg_path": "./images/baronmordo.jpg",
         "webp_path": "./images/baronmordo.webp",
         "variant_paths": [
             {
@@ -417,9 +401,8 @@
     },
     "bast": {
         "id": "bast",
-        "name": "Bast ",
+        "name": "Bast",
         "ability": "On Reveal: Set the Power of all cards in your hand to 3.",
-        "jpg_path": "./images/bast.jpg",
         "webp_path": "./images/bast.webp",
         "variant_paths": [
             {
@@ -436,9 +419,8 @@
     },
     "beast": {
         "id": "beast",
-        "name": "Beast ",
+        "name": "Beast",
         "ability": "On Reveal: Return your other cards at this location to your hand.\nThey cost 1 less.",
-        "jpg_path": "./images/beast.jpg",
         "webp_path": "./images/beast.webp",
         "variant_paths": [
             {
@@ -467,9 +449,8 @@
     },
     "bishop": {
         "id": "bishop",
-        "name": "Bishop ",
+        "name": "Bishop",
         "ability": "When you play a card, this gains +1 Power.",
-        "jpg_path": "./images/bishop.jpg",
         "webp_path": "./images/bishop.webp",
         "variant_paths": [
             {
@@ -502,9 +483,8 @@
     },
     "blackbolt": {
         "id": "blackbolt",
-        "name": "Black Bolt ",
+        "name": "Black Bolt",
         "ability": "On Reveal: Your opponent must discard the lowest-Cost card\nin their hand.",
-        "jpg_path": "./images/blackbolt.jpg",
         "webp_path": "./images/blackbolt.webp",
         "variant_paths": [
             {
@@ -529,9 +509,8 @@
     },
     "blackcat": {
         "id": "blackcat",
-        "name": "Black Cat ",
+        "name": "Black Cat",
         "ability": "If this is in your hand at the end of your turn, discard it.",
-        "jpg_path": "./images/blackcat.jpg",
         "webp_path": "./images/blackcat.webp",
         "variant_paths": [
             {
@@ -564,9 +543,8 @@
     },
     "blackpanther": {
         "id": "blackpanther",
-        "name": "Black Panther ",
+        "name": "Black Panther",
         "ability": "On Reveal: Double this\ncard's Power.",
-        "jpg_path": "./images/blackpanther.jpg",
         "webp_path": "./images/blackpanther.webp",
         "variant_paths": [
             {
@@ -603,9 +581,8 @@
     },
     "blackwidow": {
         "id": "blackwidow",
-        "name": "Black Widow ",
+        "name": "Black Widow",
         "ability": "On Reveal: Add a Widow's Bite to your opponent's hand.",
-        "jpg_path": "./images/blackwidow.jpg",
         "webp_path": "./images/blackwidow.webp",
         "variant_paths": [
             {
@@ -630,9 +607,8 @@
     },
     "blade": {
         "id": "blade",
-        "name": "Blade ",
+        "name": "Blade",
         "ability": "On Reveal: Discard a card from your hand.",
-        "jpg_path": "./images/blade.jpg",
         "webp_path": "./images/blade.webp",
         "variant_paths": [
             {
@@ -657,9 +633,8 @@
     },
     "bluemarvel": {
         "id": "bluemarvel",
-        "name": "Blue Marvel ",
+        "name": "Blue Marvel",
         "ability": "Ongoing: Your other cards have +1 Power.",
-        "jpg_path": "./images/bluemarvel.jpg",
         "webp_path": "./images/bluemarvel.webp",
         "variant_paths": [
             {
@@ -684,9 +659,8 @@
     },
     "brood": {
         "id": "brood",
-        "name": "Brood ",
+        "name": "Brood",
         "ability": "On Reveal: Add 2 Broodlings to this location with the same Power.",
-        "jpg_path": "./images/brood.jpg",
         "webp_path": "./images/brood.webp",
         "variant_paths": [
             {
@@ -711,9 +685,8 @@
     },
     "buckybarnes": {
         "id": "buckybarnes",
-        "name": "Bucky Barnes ",
+        "name": "Bucky Barnes",
         "ability": "When this is destroyed, create the Winter Soldier in its place.",
-        "jpg_path": "./images/buckybarnes.jpg",
         "webp_path": "./images/buckybarnes.webp",
         "variant_paths": [
             {
@@ -742,9 +715,8 @@
     },
     "cable": {
         "id": "cable",
-        "name": "Cable ",
+        "name": "Cable",
         "ability": "On Reveal: Put the bottom card of your opponent's deck into your hand.",
-        "jpg_path": "./images/cable.jpg",
         "webp_path": "./images/cable.webp",
         "variant_paths": [
             {
@@ -769,9 +741,8 @@
     },
     "captainamerica": {
         "id": "captainamerica",
-        "name": "Captain America ",
+        "name": "Captain America",
         "ability": "Ongoing: Your other cards at this location have +1 Power.",
-        "jpg_path": "./images/captainamerica.jpg",
         "webp_path": "./images/captainamerica.webp",
         "variant_paths": [
             {
@@ -804,9 +775,8 @@
     },
     "captainmarvel": {
         "id": "captainmarvel",
-        "name": "Captain Marvel ",
+        "name": "Captain Marvel",
         "ability": "At the end of the game, move to a location that wins you the\ngame. (If possible)",
-        "jpg_path": "./images/captainmarvel.jpg",
         "webp_path": "./images/captainmarvel.webp",
         "variant_paths": [
             {
@@ -835,9 +805,8 @@
     },
     "carnage": {
         "id": "carnage",
-        "name": "Carnage ",
+        "name": "Carnage",
         "ability": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
-        "jpg_path": "./images/carnage.jpg",
         "webp_path": "./images/carnage.webp",
         "variant_paths": [
             {
@@ -862,9 +831,8 @@
     },
     "cerebro": {
         "id": "cerebro",
-        "name": "Cerebro ",
+        "name": "Cerebro",
         "ability": "Ongoing: Your highest Power cards get +2 Power.",
-        "jpg_path": "./images/cerebro.jpg",
         "webp_path": "./images/cerebro.webp",
         "variant_paths": [
             {
@@ -889,9 +857,8 @@
     },
     "cloak": {
         "id": "cloak",
-        "name": "Cloak ",
+        "name": "Cloak",
         "ability": "On Reveal: Next turn, both players can move cards to this location.",
-        "jpg_path": "./images/cloak.jpg",
         "webp_path": "./images/cloak.webp",
         "variant_paths": [
             {
@@ -916,9 +883,8 @@
     },
     "colleenwing": {
         "id": "colleenwing",
-        "name": "Colleen Wing ",
+        "name": "Colleen Wing",
         "ability": "On Reveal: Discard the lowest-cost card from your hand.",
-        "jpg_path": "./images/colleenwing.jpg",
         "webp_path": "./images/colleenwing.webp",
         "variant_paths": [
             {
@@ -939,9 +905,8 @@
     },
     "colossus": {
         "id": "colossus",
-        "name": "Colossus ",
+        "name": "Colossus",
         "ability": "Ongoing: Can't be destroyed, moved, or have its Power reduced.",
-        "jpg_path": "./images/colossus.jpg",
         "webp_path": "./images/colossus.webp",
         "variant_paths": [
             {
@@ -962,9 +927,8 @@
     },
     "cosmo": {
         "id": "cosmo",
-        "name": "Cosmo ",
+        "name": "Cosmo",
         "ability": "Ongoing: On Reveal abilities won't happen at this location.",
-        "jpg_path": "./images/cosmo.jpg",
         "webp_path": "./images/cosmo.webp",
         "variant_paths": [
             {
@@ -993,9 +957,8 @@
     },
     "crossbones": {
         "id": "crossbones",
-        "name": "Crossbones ",
+        "name": "Crossbones",
         "ability": "You can only play this at locations where you are winning.",
-        "jpg_path": "./images/crossbones.jpg",
         "webp_path": "./images/crossbones.webp",
         "variant_paths": [
             {
@@ -1020,9 +983,8 @@
     },
     "crystal": {
         "id": "crystal",
-        "name": "Crystal ",
+        "name": "Crystal",
         "ability": "On Reveal: If this is at the middle location, shuffle your hand into your deck and draw 3 cards.",
-        "jpg_path": "./images/crystal.jpg",
         "webp_path": "./images/crystal.webp",
         "variant_paths": [
             {
@@ -1043,9 +1005,8 @@
     },
     "cyclops": {
         "id": "cyclops",
-        "name": "Cyclops ",
+        "name": "Cyclops",
         "ability": "Let's move, X-Men.",
-        "jpg_path": "./images/cyclops.jpg",
         "webp_path": "./images/cyclops.webp",
         "variant_paths": [
             {
@@ -1074,9 +1035,8 @@
     },
     "dagger": {
         "id": "dagger",
-        "name": "Dagger ",
+        "name": "Dagger",
         "ability": "When this moves to a location,\n+2 Power for each card your\nopponent has there.",
-        "jpg_path": "./images/dagger.jpg",
         "webp_path": "./images/dagger.webp",
         "variant_paths": [
             {
@@ -1101,9 +1061,8 @@
     },
     "daredevil": {
         "id": "daredevil",
-        "name": "Daredevil ",
+        "name": "Daredevil",
         "ability": "On turn 5, you get to see your opponent's plays before you\nmake your own.",
-        "jpg_path": "./images/daredevil.jpg",
         "webp_path": "./images/daredevil.webp",
         "variant_paths": [
             {
@@ -1128,9 +1087,8 @@
     },
     "darkhawk": {
         "id": "darkhawk",
-        "name": "Darkhawk ",
+        "name": "Darkhawk",
         "ability": "Ongoing: +2 Power for each card in your opponent's deck.",
-        "jpg_path": "./images/darkhawk.jpg",
         "webp_path": "./images/darkhawk.webp",
         "variant_paths": [
             {
@@ -1151,9 +1109,8 @@
     },
     "dazzler": {
         "id": "dazzler",
-        "name": "Dazzler ",
+        "name": "Dazzler",
         "ability": "Ongoing: If you have 4 cards at each location, +6 Power.",
-        "jpg_path": "./images/dazzler.jpg",
         "webp_path": "./images/dazzler.webp",
         "variant_paths": [
             {
@@ -1166,9 +1123,8 @@
     },
     "deadpool": {
         "id": "deadpool",
-        "name": "Deadpool ",
+        "name": "Deadpool",
         "ability": "When this is destroyed, return it to your hand with double the Power.",
-        "jpg_path": "./images/deadpool.jpg",
         "webp_path": "./images/deadpool.webp",
         "variant_paths": [
             {
@@ -1193,9 +1149,8 @@
     },
     "death": {
         "id": "death",
-        "name": "Death ",
+        "name": "Death",
         "ability": "Costs 1 less for each card destroyed this game.",
-        "jpg_path": "./images/death.jpg",
         "webp_path": "./images/death.webp",
         "variant_paths": [
             {
@@ -1224,9 +1179,8 @@
     },
     "deathlok": {
         "id": "deathlok",
-        "name": "Deathlok ",
+        "name": "Deathlok",
         "ability": "On Reveal: Destroy your other cards at this location.",
-        "jpg_path": "./images/deathlok.jpg",
         "webp_path": "./images/deathlok.webp",
         "variant_paths": [
             {
@@ -1247,9 +1201,8 @@
     },
     "debrii": {
         "id": "debrii",
-        "name": "Debrii ",
+        "name": "Debrii",
         "ability": "On Reveal: Add a Rock to each other location, for both players.",
-        "jpg_path": "./images/debrii.jpg",
         "webp_path": "./images/debrii.webp",
         "variant_paths": [
             {
@@ -1278,9 +1231,8 @@
     },
     "destroyer": {
         "id": "destroyer",
-        "name": "Destroyer ",
+        "name": "Destroyer",
         "ability": "On Reveal: Destroy your\nother cards.",
-        "jpg_path": "./images/destroyer.jpg",
         "webp_path": "./images/destroyer.webp",
         "variant_paths": [
             {
@@ -1305,9 +1257,8 @@
     },
     "devildinosaur": {
         "id": "devildinosaur",
-        "name": "Devil Dinosaur ",
+        "name": "Devil Dinosaur",
         "ability": "Ongoing: +2 Power for each card in your hand.",
-        "jpg_path": "./images/devildinosaur.jpg",
         "webp_path": "./images/devildinosaur.webp",
         "variant_paths": [
             {
@@ -1328,9 +1279,8 @@
     },
     "drdoom": {
         "id": "drdoom",
-        "name": "Doctor Doom ",
+        "name": "Doctor Doom",
         "ability": "On Reveal: Add a 5-Power DoomBot to each other location.",
-        "jpg_path": "./images/drdoom.jpg",
         "webp_path": "./images/drdoom.webp",
         "variant_paths": [
             {
@@ -1363,9 +1313,8 @@
     },
     "doctoroctopus": {
         "id": "doctoroctopus",
-        "name": "Doctor Octopus ",
+        "name": "Doctor Octopus",
         "ability": "On Reveal: Pull 4 random cards from your opponent's hand to their side\nof this location.",
-        "jpg_path": "./images/doctoroctopus.jpg",
         "webp_path": "./images/doctoroctopus.webp",
         "variant_paths": [
             {
@@ -1394,9 +1343,8 @@
     },
     "doctorstrange": {
         "id": "doctorstrange",
-        "name": "Doctor Strange ",
+        "name": "Doctor Strange",
         "ability": "On Reveal: Move your highest Power cards to this location.",
-        "jpg_path": "./images/doctorstrange.jpg",
         "webp_path": "./images/doctorstrange.webp",
         "variant_paths": [
             {
@@ -1425,9 +1373,8 @@
     },
     "domino": {
         "id": "domino",
-        "name": "Domino ",
+        "name": "Domino",
         "ability": "You always draw this card on turn 2, and not before.",
-        "jpg_path": "./images/domino.jpg",
         "webp_path": "./images/domino.webp",
         "variant_paths": [
             {
@@ -1448,9 +1395,8 @@
     },
     "dracula": {
         "id": "dracula",
-        "name": "Dracula ",
+        "name": "Dracula",
         "ability": "At the end of the game, discard a card from your hand. This has its Power.",
-        "jpg_path": "./images/dracula.jpg",
         "webp_path": "./images/dracula.webp",
         "variant_paths": [
             {
@@ -1479,9 +1425,8 @@
     },
     "drax": {
         "id": "drax",
-        "name": "Drax ",
+        "name": "Drax",
         "ability": "On Reveal: If your opponent played a card here this turn, +3 Power.",
-        "jpg_path": "./images/drax.jpg",
         "webp_path": "./images/drax.webp",
         "variant_paths": [
             {
@@ -1506,9 +1451,8 @@
     },
     "ebonymaw": {
         "id": "ebonymaw",
-        "name": "Ebony Maw ",
+        "name": "Ebony Maw",
         "ability": "You can't play this after turn 3.\nOngoing: You can't play cards here.",
-        "jpg_path": "./images/ebonymaw.jpg",
         "webp_path": "./images/ebonymaw.webp",
         "variant_paths": [
             {
@@ -1529,9 +1473,8 @@
     },
     "electro": {
         "id": "electro",
-        "name": "Electro ",
+        "name": "Electro",
         "ability": "On Reveal: +1 Max Energy. Ongoing: You can only play\n1 card a turn.",
-        "jpg_path": "./images/electro.jpg",
         "webp_path": "./images/electro.webp",
         "variant_paths": [
             {
@@ -1556,9 +1499,8 @@
     },
     "elektra": {
         "id": "elektra",
-        "name": "Elektra ",
+        "name": "Elektra",
         "ability": "On Reveal: Destroy a random enemy 1-Cost card at this location.",
-        "jpg_path": "./images/elektra.jpg",
         "webp_path": "./images/elektra.webp",
         "variant_paths": [
             {
@@ -1579,9 +1521,8 @@
     },
     "enchantress": {
         "id": "enchantress",
-        "name": "Enchantress ",
+        "name": "Enchantress",
         "ability": "On Reveal: Remove the abilities from all Ongoing cards at this location.",
-        "jpg_path": "./images/enchantress.jpg",
         "webp_path": "./images/enchantress.webp",
         "variant_paths": [
             {
@@ -1606,9 +1547,8 @@
     },
     "falcon": {
         "id": "falcon",
-        "name": "Falcon ",
+        "name": "Falcon",
         "ability": "On Reveal: Return your 1-Cost cards to your hand.",
-        "jpg_path": "./images/falcon.jpg",
         "webp_path": "./images/falcon.webp",
         "variant_paths": [
             {
@@ -1637,9 +1577,8 @@
     },
     "forge": {
         "id": "forge",
-        "name": "Forge ",
+        "name": "Forge",
         "ability": "On Reveal: Give the next card you play +2 Power.",
-        "jpg_path": "./images/forge.jpg",
         "webp_path": "./images/forge.webp",
         "variant_paths": [
             {
@@ -1664,9 +1603,8 @@
     },
     "galactus": {
         "id": "galactus",
-        "name": "Galactus ",
+        "name": "Galactus",
         "ability": "On Reveal: If this is your only card here, destroy all other locations.",
-        "jpg_path": "./images/galactus.jpg",
         "webp_path": "./images/galactus.webp",
         "variant_paths": [
             {
@@ -1699,9 +1637,8 @@
     },
     "gambit": {
         "id": "gambit",
-        "name": "Gambit ",
+        "name": "Gambit",
         "ability": "On Reveal: Discard a card from your hand. Destroy a random enemy card.",
-        "jpg_path": "./images/gambit.jpg",
         "webp_path": "./images/gambit.webp",
         "variant_paths": [
             {
@@ -1722,9 +1659,8 @@
     },
     "gamora": {
         "id": "gamora",
-        "name": "Gamora ",
+        "name": "Gamora",
         "ability": "On Reveal: If your opponent played a card here this turn, +5 Power.",
-        "jpg_path": "./images/gamora.jpg",
         "webp_path": "./images/gamora.webp",
         "variant_paths": [
             {
@@ -1745,9 +1681,8 @@
     },
     "ghostrider": {
         "id": "ghostrider",
-        "name": "Ghost Rider ",
+        "name": "Ghost Rider",
         "ability": "On Reveal: Bring back one of your discarded cards to this location.",
-        "jpg_path": "./images/ghostrider.jpg",
         "webp_path": "./images/ghostrider.webp",
         "variant_paths": [
             {
@@ -1784,9 +1719,8 @@
     },
     "giganto": {
         "id": "giganto",
-        "name": "Giganto ",
+        "name": "Giganto",
         "ability": "You can only play this at the left location.",
-        "jpg_path": "./images/giganto.jpg",
         "webp_path": "./images/giganto.webp",
         "variant_paths": [
             {
@@ -1815,9 +1749,8 @@
     },
     "goose": {
         "id": "goose",
-        "name": "Goose ",
+        "name": "Goose",
         "ability": "Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location.",
-        "jpg_path": "./images/goose.jpg",
         "webp_path": "./images/goose.webp",
         "variant_paths": [
             {
@@ -1842,9 +1775,8 @@
     },
     "greengoblin": {
         "id": "greengoblin",
-        "name": "Green Goblin ",
+        "name": "Green Goblin",
         "ability": "On Reveal: Your opponent gains control of this.",
-        "jpg_path": "./images/greengoblin.jpg",
         "webp_path": "./images/greengoblin.webp",
         "variant_paths": [
             {
@@ -1869,9 +1801,8 @@
     },
     "groot": {
         "id": "groot",
-        "name": "Groot ",
+        "name": "Groot",
         "ability": "On Reveal: If your opponent played a card here this turn, +2 Power.",
-        "jpg_path": "./images/groot.jpg",
         "webp_path": "./images/groot.webp",
         "variant_paths": [
             {
@@ -1884,9 +1815,8 @@
     },
     "hawkeye": {
         "id": "hawkeye",
-        "name": "Hawkeye ",
+        "name": "Hawkeye",
         "ability": "On Reveal: If you play a card here next turn, +2 Power.",
-        "jpg_path": "./images/hawkeye.jpg",
         "webp_path": "./images/hawkeye.webp",
         "variant_paths": [
             {
@@ -1915,9 +1845,8 @@
     },
     "hazmat": {
         "id": "hazmat",
-        "name": "Hazmat ",
+        "name": "Hazmat",
         "ability": "On Reveal: Afflict all other cards with -1 Power.",
-        "jpg_path": "./images/hazmat.jpg",
         "webp_path": "./images/hazmat.webp",
         "variant_paths": [
             {
@@ -1942,9 +1871,8 @@
     },
     "heimdall": {
         "id": "heimdall",
-        "name": "Heimdall ",
+        "name": "Heimdall",
         "ability": "On Reveal: Move your other cards one location to the left.",
-        "jpg_path": "./images/heimdall.jpg",
         "webp_path": "./images/heimdall.webp",
         "variant_paths": [
             {
@@ -1969,9 +1897,8 @@
     },
     "hela": {
         "id": "hela",
-        "name": "Hela ",
+        "name": "Hela",
         "ability": "On Reveal: Play all cards you discarded from your hand to\nrandom locations.",
-        "jpg_path": "./images/hela.jpg",
         "webp_path": "./images/hela.webp",
         "variant_paths": [
             {
@@ -1992,9 +1919,8 @@
     },
     "helicarrier": {
         "id": "helicarrier",
-        "name": "Helicarrier ",
+        "name": "Helicarrier",
         "ability": "When you discard this from your hand, add 3 random cards\nto your hand.",
-        "jpg_path": "./images/helicarrier.jpg",
         "webp_path": "./images/helicarrier.webp",
         "variant_paths": [
             {
@@ -2011,9 +1937,8 @@
     },
     "hellcow": {
         "id": "hellcow",
-        "name": "Hellcow ",
+        "name": "Hellcow",
         "ability": "On Reveal: Discard 2 cards from your hand.",
-        "jpg_path": "./images/hellcow.jpg",
         "webp_path": "./images/hellcow.webp",
         "variant_paths": [
             {
@@ -2046,9 +1971,8 @@
     },
     "hobgoblin": {
         "id": "hobgoblin",
-        "name": "Hobgoblin ",
+        "name": "Hobgoblin",
         "ability": "On Reveal: Your opponent gains control of this.",
-        "jpg_path": "./images/hobgoblin.jpg",
         "webp_path": "./images/hobgoblin.webp",
         "variant_paths": [
             {
@@ -2073,9 +1997,8 @@
     },
     "hulk": {
         "id": "hulk",
-        "name": "Hulk ",
+        "name": "Hulk",
         "ability": "HULK SMASH!",
-        "jpg_path": "./images/hulk.jpg",
         "webp_path": "./images/hulk.webp",
         "variant_paths": [
             {
@@ -2108,9 +2031,8 @@
     },
     "hulkbuster": {
         "id": "hulkbuster",
-        "name": "Hulkbuster ",
+        "name": "Hulkbuster",
         "ability": "On Reveal: Merge this card with a random friendly card at this location.",
-        "jpg_path": "./images/hulkbuster.jpg",
         "webp_path": "./images/hulkbuster.webp",
         "variant_paths": [
             {
@@ -2135,9 +2057,8 @@
     },
     "humantorch": {
         "id": "humantorch",
-        "name": "Human Torch ",
+        "name": "Human Torch",
         "ability": "When this moves, double\nits Power.",
-        "jpg_path": "./images/humantorch.jpg",
         "webp_path": "./images/humantorch.webp",
         "variant_paths": [
             {
@@ -2170,9 +2091,8 @@
     },
     "iceman": {
         "id": "iceman",
-        "name": "Iceman ",
+        "name": "Iceman",
         "ability": "On Reveal: Give a random card in your opponent's hand +1 Cost. (maximum 6)",
-        "jpg_path": "./images/iceman.jpg",
         "webp_path": "./images/iceman.webp",
         "variant_paths": [
             {
@@ -2201,9 +2121,8 @@
     },
     "invisiblewoman": {
         "id": "invisiblewoman",
-        "name": "Invisible Woman ",
+        "name": "Invisible Woman",
         "ability": "Ongoing: Cards you play here are not revealed until the game ends.",
-        "jpg_path": "./images/invisiblewoman.jpg",
         "webp_path": "./images/invisiblewoman.webp",
         "variant_paths": [
             {
@@ -2236,9 +2155,8 @@
     },
     "ironfist": {
         "id": "ironfist",
-        "name": "Iron Fist ",
+        "name": "Iron Fist",
         "ability": "On Reveal: Move the next card you play one location to the left\nafter it reveals.",
-        "jpg_path": "./images/ironfist.jpg",
         "webp_path": "./images/ironfist.webp",
         "variant_paths": [
             {
@@ -2263,9 +2181,8 @@
     },
     "ironman": {
         "id": "ironman",
-        "name": "Iron Man ",
+        "name": "Iron Man",
         "ability": "Ongoing: Your total Power is doubled at this location.",
-        "jpg_path": "./images/ironman.jpg",
         "webp_path": "./images/ironman.webp",
         "variant_paths": [
             {
@@ -2298,9 +2215,8 @@
     },
     "ironheart": {
         "id": "ironheart",
-        "name": "Ironheart ",
+        "name": "Ironheart",
         "ability": "On Reveal: Give 3 other friendly cards +2 Power.",
-        "jpg_path": "./images/ironheart.jpg",
         "webp_path": "./images/ironheart.webp",
         "variant_paths": [
             {
@@ -2325,9 +2241,8 @@
     },
     "janefoster": {
         "id": "janefoster",
-        "name": "Jane Foster Mighty Thor ",
+        "name": "Jane Foster Mighty Thor",
         "ability": "On Reveal: Draw all cards that Cost 0 from your deck.",
-        "jpg_path": "./images/janefoster.jpg",
         "webp_path": "./images/janefoster.webp",
         "variant_paths": [
             {
@@ -2352,9 +2267,8 @@
     },
     "jessicajones": {
         "id": "jessicajones",
-        "name": "Jessica Jones ",
+        "name": "Jessica Jones",
         "ability": "On Reveal: If you don't play a card here next turn, +4 Power.",
-        "jpg_path": "./images/jessicajones.jpg",
         "webp_path": "./images/jessicajones.webp",
         "variant_paths": [
             {
@@ -2371,9 +2285,8 @@
     },
     "jubilee": {
         "id": "jubilee",
-        "name": "Jubilee ",
+        "name": "Jubilee",
         "ability": "On Reveal: Play a card from your deck at this location.",
-        "jpg_path": "./images/jubilee.jpg",
         "webp_path": "./images/jubilee.webp",
         "variant_paths": [
             {
@@ -2398,9 +2311,8 @@
     },
     "juggernaut": {
         "id": "juggernaut",
-        "name": "Juggernaut ",
+        "name": "Juggernaut",
         "ability": "On Reveal: If your opponent played cards here this turn, move\nthem randomly.",
-        "jpg_path": "./images/juggernaut.jpg",
         "webp_path": "./images/juggernaut.webp",
         "variant_paths": [
             {
@@ -2417,9 +2329,8 @@
     },
     "kazar": {
         "id": "kazar",
-        "name": "Ka-Zar ",
+        "name": "Ka-Zar",
         "ability": "Ongoing: Your 1-Cost cards have +1 Power.",
-        "jpg_path": "./images/kazar.jpg",
         "webp_path": "./images/kazar.webp",
         "variant_paths": [
             {
@@ -2444,9 +2355,8 @@
     },
     "killmonger": {
         "id": "killmonger",
-        "name": "Killmonger ",
+        "name": "Killmonger",
         "ability": "On Reveal: Destroy ALL\n1-Cost cards.",
-        "jpg_path": "./images/killmonger.jpg",
         "webp_path": "./images/killmonger.webp",
         "variant_paths": [
             {
@@ -2475,9 +2385,8 @@
     },
     "kingpin": {
         "id": "kingpin",
-        "name": "Kingpin ",
+        "name": "Kingpin",
         "ability": "When a card moves here on turn 6, destroy it.",
-        "jpg_path": "./images/kingpin.jpg",
         "webp_path": "./images/kingpin.webp",
         "variant_paths": [
             {
@@ -2502,9 +2411,8 @@
     },
     "klaw": {
         "id": "klaw",
-        "name": "Klaw ",
+        "name": "Klaw",
         "ability": "Ongoing: The location to the right has +6 Power.",
-        "jpg_path": "./images/klaw.jpg",
         "webp_path": "./images/klaw.webp",
         "variant_paths": [
             {
@@ -2533,9 +2441,8 @@
     },
     "knull": {
         "id": "knull",
-        "name": "Knull ",
+        "name": "Knull",
         "ability": "Ongoing: Has the combined Power of all cards destroyed this game.",
-        "jpg_path": "./images/knull.jpg",
         "webp_path": "./images/knull.webp",
         "variant_paths": [
             {
@@ -2564,9 +2471,8 @@
     },
     "korg": {
         "id": "korg",
-        "name": "Korg ",
+        "name": "Korg",
         "ability": "On Reveal: Shuffle a Rock into your opponent's deck.",
-        "jpg_path": "./images/korg.jpg",
         "webp_path": "./images/korg.webp",
         "variant_paths": [
             {
@@ -2595,9 +2501,8 @@
     },
     "kraven": {
         "id": "kraven",
-        "name": "Kraven ",
+        "name": "Kraven",
         "ability": "When a card moves here, this gets +2 Power.",
-        "jpg_path": "./images/kraven.jpg",
         "webp_path": "./images/kraven.webp",
         "variant_paths": [
             {
@@ -2618,9 +2523,8 @@
     },
     "ladysif": {
         "id": "ladysif",
-        "name": "Lady Sif ",
+        "name": "Lady Sif",
         "ability": "On Reveal: Discard the highest-cost card from your hand.",
-        "jpg_path": "./images/ladysif.jpg",
         "webp_path": "./images/ladysif.webp",
         "variant_paths": [
             {
@@ -2641,9 +2545,8 @@
     },
     "leader": {
         "id": "leader",
-        "name": "Leader ",
+        "name": "Leader",
         "ability": "On Reveal: Copy all cards your opponent played this turn,\nbut on your side.",
-        "jpg_path": "./images/leader.jpg",
         "webp_path": "./images/leader.webp",
         "variant_paths": [
             {
@@ -2660,9 +2563,8 @@
     },
     "leech": {
         "id": "leech",
-        "name": "Leech ",
+        "name": "Leech",
         "ability": "On Reveal: Remove the abilities from all cards in your opponent's hand.",
-        "jpg_path": "./images/leech.jpg",
         "webp_path": "./images/leech.webp",
         "variant_paths": [
             {
@@ -2687,9 +2589,8 @@
     },
     "lizard": {
         "id": "lizard",
-        "name": "Lizard ",
+        "name": "Lizard",
         "ability": "Ongoing: -3 Power if your opponent has 4 cards here.",
-        "jpg_path": "./images/lizard.jpg",
         "webp_path": "./images/lizard.webp",
         "variant_paths": [
             {
@@ -2710,9 +2611,8 @@
     },
     "lockjaw": {
         "id": "lockjaw",
-        "name": "Lockjaw ",
+        "name": "Lockjaw",
         "ability": "When you play a card here, swap it with a card in your deck.",
-        "jpg_path": "./images/lockjaw.jpg",
         "webp_path": "./images/lockjaw.webp",
         "variant_paths": [
             {
@@ -2737,9 +2637,8 @@
     },
     "lukecage": {
         "id": "lukecage",
-        "name": "Luke Cage ",
+        "name": "Luke Cage",
         "ability": "Ongoing: Your cards can't have their Power reduced.",
-        "jpg_path": "./images/lukecage.jpg",
         "webp_path": "./images/lukecage.webp",
         "variant_paths": [
             {
@@ -2760,9 +2659,8 @@
     },
     "mbaku": {
         "id": "mbaku",
-        "name": "M'Baku ",
+        "name": "M'Baku",
         "ability": "If this is in your deck at the end of the game, it jumps to a random location.",
-        "jpg_path": "./images/mbaku.jpg",
         "webp_path": "./images/mbaku.webp",
         "variant_paths": [
             {
@@ -2783,9 +2681,8 @@
     },
     "magik": {
         "id": "magik",
-        "name": "Magik ",
+        "name": "Magik",
         "ability": "You can't play this on turn 6.\nOn Reveal: Change this\nlocation to 'Limbo'.",
-        "jpg_path": "./images/magik.jpg",
         "webp_path": "./images/magik.webp",
         "variant_paths": [
             {
@@ -2806,9 +2703,8 @@
     },
     "magneto": {
         "id": "magneto",
-        "name": "Magneto ",
+        "name": "Magneto",
         "ability": "On Reveal: Move all opposing 3 and 4-Cost cards to this location.",
-        "jpg_path": "./images/magneto.jpg",
         "webp_path": "./images/magneto.webp",
         "variant_paths": [
             {
@@ -2833,9 +2729,8 @@
     },
     "mantis": {
         "id": "mantis",
-        "name": "Mantis ",
+        "name": "Mantis",
         "ability": "On Reveal: If your opponent played a card here this turn, draw a card\nfrom their deck.",
-        "jpg_path": "./images/mantis.jpg",
         "webp_path": "./images/mantis.webp",
         "variant_paths": [
             {
@@ -2864,9 +2759,8 @@
     },
     "mariahill": {
         "id": "mariahill",
-        "name": "Maria Hill ",
+        "name": "Maria Hill",
         "ability": "On Reveal: Add a random 1-Cost card to your hand.",
-        "jpg_path": "./images/mariahill.jpg",
         "webp_path": "./images/mariahill.webp",
         "variant_paths": [
             {
@@ -2887,9 +2781,8 @@
     },
     "maximus": {
         "id": "maximus",
-        "name": "Maximus ",
+        "name": "Maximus",
         "ability": "On Reveal: Your opponent\ndraws 2 cards.",
-        "jpg_path": "./images/maximus.jpg",
         "webp_path": "./images/maximus.webp",
         "variant_paths": [
             {
@@ -2910,9 +2803,8 @@
     },
     "medusa": {
         "id": "medusa",
-        "name": "Medusa ",
+        "name": "Medusa",
         "ability": "On Reveal: If this is at the middle location, +2 Power.",
-        "jpg_path": "./images/medusa.jpg",
         "webp_path": "./images/medusa.webp",
         "variant_paths": [
             {
@@ -2937,9 +2829,8 @@
     },
     "milesmorales": {
         "id": "milesmorales",
-        "name": "Miles Morales ",
+        "name": "Miles Morales",
         "ability": "If a card moved last turn, this costs 1.",
-        "jpg_path": "./images/milesmorales.jpg",
         "webp_path": "./images/milesmorales.webp",
         "variant_paths": [
             {
@@ -2956,9 +2847,8 @@
     },
     "misterfantastic": {
         "id": "misterfantastic",
-        "name": "Mister Fantastic ",
+        "name": "Mister Fantastic",
         "ability": "Ongoing: Adjacent locations have +2 Power.",
-        "jpg_path": "./images/misterfantastic.jpg",
         "webp_path": "./images/misterfantastic.webp",
         "variant_paths": [
             {
@@ -2987,9 +2877,8 @@
     },
     "misternegative": {
         "id": "misternegative",
-        "name": "Mister Negative ",
+        "name": "Mister Negative",
         "ability": "On Reveal: Swap the Power and Cost of all cards in your deck.",
-        "jpg_path": "./images/misternegative.jpg",
         "webp_path": "./images/misternegative.webp",
         "variant_paths": [
             {
@@ -3014,9 +2903,8 @@
     },
     "mistersinister": {
         "id": "mistersinister",
-        "name": "Mister Sinister ",
+        "name": "Mister Sinister",
         "ability": "On Reveal: Add a Sinister Clone to this location with the same Power.",
-        "jpg_path": "./images/mistersinister.jpg",
         "webp_path": "./images/mistersinister.webp",
         "variant_paths": [
             {
@@ -3045,9 +2933,8 @@
     },
     "mistyknight": {
         "id": "mistyknight",
-        "name": "Misty Knight ",
+        "name": "Misty Knight",
         "ability": "We've got to save this city.",
-        "jpg_path": "./images/mistyknight.jpg",
         "webp_path": "./images/mistyknight.webp",
         "variant_paths": [
             {
@@ -3072,9 +2959,8 @@
     },
     "mojo": {
         "id": "mojo",
-        "name": "Mojo ",
+        "name": "Mojo",
         "ability": "Ongoing: If both players have 4 cards at this location, +6 Power.",
-        "jpg_path": "./images/mojo.jpg",
         "webp_path": "./images/mojo.webp",
         "variant_paths": [
             {
@@ -3099,9 +2985,8 @@
     },
     "moongirl": {
         "id": "moongirl",
-        "name": "Moon Girl ",
+        "name": "Moon Girl",
         "ability": "On Reveal: Duplicate\nyour hand.",
-        "jpg_path": "./images/moongirl.jpg",
         "webp_path": "./images/moongirl.webp",
         "variant_paths": [
             {
@@ -3122,9 +3007,8 @@
     },
     "moonknight": {
         "id": "moonknight",
-        "name": "Moon Knight ",
+        "name": "Moon Knight",
         "ability": "On Reveal: Discard a card from each player's hand.",
-        "jpg_path": "./images/moonknight.jpg",
         "webp_path": "./images/moonknight.webp",
         "variant_paths": [
             {
@@ -3141,9 +3025,8 @@
     },
     "morbius": {
         "id": "morbius",
-        "name": "Morbius ",
+        "name": "Morbius",
         "ability": "Ongoing: +2 Power for each time you discarded a card this game.",
-        "jpg_path": "./images/morbius.jpg",
         "webp_path": "./images/morbius.webp",
         "variant_paths": [
             {
@@ -3168,9 +3051,8 @@
     },
     "morph": {
         "id": "morph",
-        "name": "Morph ",
+        "name": "Morph",
         "ability": "On Reveal: Become a copy of a random card in your opponent's hand.",
-        "jpg_path": "./images/morph.jpg",
         "webp_path": "./images/morph.webp",
         "variant_paths": [
             {
@@ -3195,9 +3077,8 @@
     },
     "multipleman": {
         "id": "multipleman",
-        "name": "Multiple Man ",
+        "name": "Multiple Man",
         "ability": "When this moves, add a copy to the old location.",
-        "jpg_path": "./images/multipleman.jpg",
         "webp_path": "./images/multipleman.webp",
         "variant_paths": [
             {
@@ -3226,9 +3107,8 @@
     },
     "mysterio": {
         "id": "mysterio",
-        "name": "Mysterio ",
+        "name": "Mysterio",
         "ability": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
-        "jpg_path": "./images/mysterio.jpg",
         "webp_path": "./images/mysterio.webp",
         "variant_paths": [
             {
@@ -3253,9 +3133,8 @@
     },
     "mystique": {
         "id": "mystique",
-        "name": "Mystique ",
+        "name": "Mystique",
         "ability": "On Reveal: If the last card you played has an Ongoing ability, this card gains it.",
-        "jpg_path": "./images/mystique.jpg",
         "webp_path": "./images/mystique.webp",
         "variant_paths": [
             {
@@ -3284,9 +3163,8 @@
     },
     "nakia": {
         "id": "nakia",
-        "name": "Nakia ",
+        "name": "Nakia",
         "ability": "On Reveal: Give the 2 leftmost cards in your hand +2 Power.",
-        "jpg_path": "./images/nakia.jpg",
         "webp_path": "./images/nakia.webp",
         "variant_paths": [
             {
@@ -3311,9 +3189,8 @@
     },
     "namor": {
         "id": "namor",
-        "name": "Namor ",
+        "name": "Namor",
         "ability": "Ongoing: +5 Power if this is your only card here.",
-        "jpg_path": "./images/namor.jpg",
         "webp_path": "./images/namor.webp",
         "variant_paths": [
             {
@@ -3338,9 +3215,8 @@
     },
     "nickfury": {
         "id": "nickfury",
-        "name": "Nick Fury ",
+        "name": "Nick Fury",
         "ability": "On Reveal: Add 3 random\n6-Cost cards to your hand.",
-        "jpg_path": "./images/nickfury.jpg",
         "webp_path": "./images/nickfury.webp",
         "variant_paths": [
             {
@@ -3373,9 +3249,8 @@
     },
     "nightcrawler": {
         "id": "nightcrawler",
-        "name": "Nightcrawler ",
+        "name": "Nightcrawler",
         "ability": "You can move this once.",
-        "jpg_path": "./images/nightcrawler.jpg",
         "webp_path": "./images/nightcrawler.webp",
         "variant_paths": [
             {
@@ -3400,9 +3275,8 @@
     },
     "nova": {
         "id": "nova",
-        "name": "Nova ",
+        "name": "Nova",
         "ability": "When this is destroyed, give your cards +1 Power.",
-        "jpg_path": "./images/nova.jpg",
         "webp_path": "./images/nova.webp",
         "variant_paths": [
             {
@@ -3423,9 +3297,8 @@
     },
     "odin": {
         "id": "odin",
-        "name": "Odin ",
+        "name": "Odin",
         "ability": "On Reveal: Activate the On Reveal abilities of your other cards\nat this location.",
-        "jpg_path": "./images/odin.jpg",
         "webp_path": "./images/odin.webp",
         "variant_paths": [
             {
@@ -3454,9 +3327,8 @@
     },
     "okoye": {
         "id": "okoye",
-        "name": "Okoye ",
+        "name": "Okoye",
         "ability": "On Reveal: Give every card in your deck +1 Power.",
-        "jpg_path": "./images/okoye.jpg",
         "webp_path": "./images/okoye.webp",
         "variant_paths": [
             {
@@ -3481,9 +3353,8 @@
     },
     "omegared": {
         "id": "omegared",
-        "name": "Omega Red ",
+        "name": "Omega Red",
         "ability": "Ongoing: If you're ahead by\n10 Power here, +4 Power\nto other locations.",
-        "jpg_path": "./images/omegared.jpg",
         "webp_path": "./images/omegared.webp",
         "variant_paths": [
             {
@@ -3508,9 +3379,8 @@
     },
     "onslaught": {
         "id": "onslaught",
-        "name": "Onslaught ",
+        "name": "Onslaught",
         "ability": "Ongoing: Double your other Ongoing effects at this location.",
-        "jpg_path": "./images/onslaught.jpg",
         "webp_path": "./images/onslaught.webp",
         "variant_paths": [
             {
@@ -3539,9 +3409,8 @@
     },
     "orka": {
         "id": "orka",
-        "name": "Orka ",
+        "name": "Orka",
         "ability": "Ongoing: +5 Power if this is your only card here.",
-        "jpg_path": "./images/orka.jpg",
         "webp_path": "./images/orka.webp",
         "variant_paths": [
             {
@@ -3570,9 +3439,8 @@
     },
     "patriot": {
         "id": "patriot",
-        "name": "Patriot ",
+        "name": "Patriot",
         "ability": "Ongoing: Your cards with no abilities have +2 Power.",
-        "jpg_path": "./images/patriot.jpg",
         "webp_path": "./images/patriot.webp",
         "variant_paths": [
             {
@@ -3593,9 +3461,8 @@
     },
     "polaris": {
         "id": "polaris",
-        "name": "Polaris ",
+        "name": "Polaris",
         "ability": "On Reveal: Move an opposing 1 or 2-Cost card to this location.",
-        "jpg_path": "./images/polaris.jpg",
         "webp_path": "./images/polaris.webp",
         "variant_paths": [
             {
@@ -3620,9 +3487,8 @@
     },
     "professorx": {
         "id": "professorx",
-        "name": "Professor X ",
+        "name": "Professor X",
         "ability": "Ongoing: Lock down this location. (Cards can't be added, removed, etc.)",
-        "jpg_path": "./images/professorx.jpg",
         "webp_path": "./images/professorx.webp",
         "variant_paths": [
             {
@@ -3647,9 +3513,8 @@
     },
     "psylocke": {
         "id": "psylocke",
-        "name": "Psylocke ",
+        "name": "Psylocke",
         "ability": "On Reveal: Next turn, you get +1 Energy.",
-        "jpg_path": "./images/psylocke.jpg",
         "webp_path": "./images/psylocke.webp",
         "variant_paths": [
             {
@@ -3666,9 +3531,8 @@
     },
     "punisher": {
         "id": "punisher",
-        "name": "Punisher ",
+        "name": "Punisher",
         "ability": "Ongoing: +1 Power for each opposing card at this location.",
-        "jpg_path": "./images/punisher.jpg",
         "webp_path": "./images/punisher.webp",
         "variant_paths": [
             {
@@ -3693,9 +3557,8 @@
     },
     "quake": {
         "id": "quake",
-        "name": "Quake ",
+        "name": "Quake",
         "ability": "On Reveal: If this is at the middle location, swap the positions of\neach location.",
-        "jpg_path": "./images/quake.jpg",
         "webp_path": "./images/quake.webp",
         "variant_paths": [
             {
@@ -3712,9 +3575,8 @@
     },
     "quicksilver": {
         "id": "quicksilver",
-        "name": "Quicksilver ",
+        "name": "Quicksilver",
         "ability": "Starts in your opening hand.",
-        "jpg_path": "./images/quicksilver.jpg",
         "webp_path": "./images/quicksilver.webp",
         "variant_paths": [
             {
@@ -3735,9 +3597,8 @@
     },
     "quinjet": {
         "id": "quinjet",
-        "name": "Quinjet ",
+        "name": "Quinjet",
         "ability": "Ongoing: Cards that didn't start in your deck cost 1 less.",
-        "jpg_path": "./images/quinjet.jpg",
         "webp_path": "./images/quinjet.webp",
         "variant_paths": [
             {
@@ -3758,9 +3619,8 @@
     },
     "redskull": {
         "id": "redskull",
-        "name": "Red Skull ",
+        "name": "Red Skull",
         "ability": "Ongoing: Enemy cards at this location have +2 Power.",
-        "jpg_path": "./images/redskull.jpg",
         "webp_path": "./images/redskull.webp",
         "variant_paths": [
             {
@@ -3789,9 +3649,8 @@
     },
     "rescue": {
         "id": "rescue",
-        "name": "Rescue ",
+        "name": "Rescue",
         "ability": "On Reveal: If you play a card here next turn, +5 Power.",
-        "jpg_path": "./images/rescue.jpg",
         "webp_path": "./images/rescue.webp",
         "variant_paths": [
             {
@@ -3808,9 +3667,8 @@
     },
     "rhino": {
         "id": "rhino",
-        "name": "Rhino ",
+        "name": "Rhino",
         "ability": "On Reveal: Ruin this location. (remove its ability)",
-        "jpg_path": "./images/rhino.jpg",
         "webp_path": "./images/rhino.webp",
         "variant_paths": [
             {
@@ -3835,9 +3693,8 @@
     },
     "rocketraccoon": {
         "id": "rocketraccoon",
-        "name": "Rocket Raccoon ",
+        "name": "Rocket Raccoon",
         "ability": "On Reveal: If your opponent played a card here this turn, +2 Power.",
-        "jpg_path": "./images/rocketraccoon.jpg",
         "webp_path": "./images/rocketraccoon.webp",
         "variant_paths": [
             {
@@ -3850,9 +3707,8 @@
     },
     "rockslide": {
         "id": "rockslide",
-        "name": "Rockslide ",
+        "name": "Rockslide",
         "ability": "On Reveal: Shuffle 2 Rocks into your opponent's deck.",
-        "jpg_path": "./images/rockslide.jpg",
         "webp_path": "./images/rockslide.webp",
         "variant_paths": [
             {
@@ -3881,9 +3737,8 @@
     },
     "rogue": {
         "id": "rogue",
-        "name": "Rogue ",
+        "name": "Rogue",
         "ability": "On Reveal: Steal an Ongoing ability from a random enemy card at\nthis location.",
-        "jpg_path": "./images/rogue.jpg",
         "webp_path": "./images/rogue.webp",
         "variant_paths": [
             {
@@ -3912,9 +3767,8 @@
     },
     "ronan": {
         "id": "ronan",
-        "name": "Ronan the Accuser ",
+        "name": "Ronan the Accuser",
         "ability": "Ongoing: +2 Power for each card in your opponent's hand.",
-        "jpg_path": "./images/ronan.jpg",
         "webp_path": "./images/ronan.webp",
         "variant_paths": [
             {
@@ -3935,9 +3789,8 @@
     },
     "sabretooth": {
         "id": "sabretooth",
-        "name": "Sabretooth ",
+        "name": "Sabretooth",
         "ability": "When this is destroyed, return it to your hand. It costs 0.",
-        "jpg_path": "./images/sabretooth.jpg",
         "webp_path": "./images/sabretooth.webp",
         "variant_paths": [
             {
@@ -3966,9 +3819,8 @@
     },
     "sandman": {
         "id": "sandman",
-        "name": "Sandman ",
+        "name": "Sandman",
         "ability": "Ongoing: Players can only play 1 card a turn.",
-        "jpg_path": "./images/sandman.jpg",
         "webp_path": "./images/sandman.webp",
         "variant_paths": [
             {
@@ -3993,9 +3845,8 @@
     },
     "sauron": {
         "id": "sauron",
-        "name": "Sauron ",
+        "name": "Sauron",
         "ability": "On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
-        "jpg_path": "./images/sauron.jpg",
         "webp_path": "./images/sauron.webp",
         "variant_paths": [
             {
@@ -4008,9 +3859,8 @@
     },
     "scarletwitch": {
         "id": "scarletwitch",
-        "name": "Scarlet Witch ",
+        "name": "Scarlet Witch",
         "ability": "On Reveal: Replace this location with a random new one.",
-        "jpg_path": "./images/scarletwitch.jpg",
         "webp_path": "./images/scarletwitch.webp",
         "variant_paths": [
             {
@@ -4039,9 +3889,8 @@
     },
     "scorpion": {
         "id": "scorpion",
-        "name": "Scorpion ",
+        "name": "Scorpion",
         "ability": "On Reveal: Afflict cards in your opponent's hand with -1 Power.",
-        "jpg_path": "./images/scorpion.jpg",
         "webp_path": "./images/scorpion.webp",
         "variant_paths": [
             {
@@ -4062,9 +3911,8 @@
     },
     "sentinel": {
         "id": "sentinel",
-        "name": "Sentinel ",
+        "name": "Sentinel",
         "ability": "On Reveal: Add another Sentinel to your hand.",
-        "jpg_path": "./images/sentinel.jpg",
         "webp_path": "./images/sentinel.webp",
         "variant_paths": [
             {
@@ -4089,9 +3937,8 @@
     },
     "sentry": {
         "id": "sentry",
-        "name": "Sentry ",
+        "name": "Sentry",
         "ability": "Cannot be played at the right location.\nOn Reveal: Add a -8 Power Void to the right location.",
-        "jpg_path": "./images/sentry.jpg",
         "webp_path": "./images/sentry.webp",
         "variant_paths": [
             {
@@ -4116,9 +3963,8 @@
     },
     "sera": {
         "id": "sera",
-        "name": "Sera ",
+        "name": "Sera",
         "ability": "Ongoing: Cards in your hand cost 1 less. (minimum 1)",
-        "jpg_path": "./images/sera.jpg",
         "webp_path": "./images/sera.webp",
         "variant_paths": [
             {
@@ -4151,9 +3997,8 @@
     },
     "shangchi": {
         "id": "shangchi",
-        "name": "Shang-Chi ",
+        "name": "Shang-Chi",
         "ability": "On Reveal: Destroy all enemy cards at this location that have\n9 or more Power.",
-        "jpg_path": "./images/shangchi.jpg",
         "webp_path": "./images/shangchi.webp",
         "variant_paths": [
             {
@@ -4186,9 +4031,8 @@
     },
     "shehulk": {
         "id": "shehulk",
-        "name": "She-Hulk ",
+        "name": "She-Hulk",
         "ability": "Costs 1 less for each unspent Energy last turn.",
-        "jpg_path": "./images/shehulk.jpg",
         "webp_path": "./images/shehulk.webp",
         "variant_paths": [
             {
@@ -4217,9 +4061,8 @@
     },
     "shocker": {
         "id": "shocker",
-        "name": "Shocker ",
+        "name": "Shocker",
         "ability": "I'm gonna blast you!",
-        "jpg_path": "./images/shocker.jpg",
         "webp_path": "./images/shocker.webp",
         "variant_paths": [
             {
@@ -4240,9 +4083,8 @@
     },
     "shuri": {
         "id": "shuri",
-        "name": "Shuri ",
+        "name": "Shuri",
         "ability": "On Reveal: Double the Power of the next card you play.",
-        "jpg_path": "./images/shuri.jpg",
         "webp_path": "./images/shuri.webp",
         "variant_paths": [
             {
@@ -4271,9 +4113,8 @@
     },
     "silversurfer": {
         "id": "silversurfer",
-        "name": "Silver Surfer ",
+        "name": "Silver Surfer",
         "ability": "On Reveal: Give your other\n3-Cost cards +3 Power.",
-        "jpg_path": "./images/silversurfer.jpg",
         "webp_path": "./images/silversurfer.webp",
         "variant_paths": [
             {
@@ -4298,9 +4139,8 @@
     },
     "spectrum": {
         "id": "spectrum",
-        "name": "Spectrum ",
+        "name": "Spectrum",
         "ability": "On Reveal: Give your Ongoing cards +2 Power.",
-        "jpg_path": "./images/spectrum.jpg",
         "webp_path": "./images/spectrum.webp",
         "variant_paths": [
             {
@@ -4329,9 +4169,8 @@
     },
     "spiderman": {
         "id": "spiderman",
-        "name": "Spider-Man ",
+        "name": "Spider-Man",
         "ability": "On Reveal: Your opponent can\u00e2\u20ac\u2122t play cards at this location next turn.",
-        "jpg_path": "./images/spiderman.jpg",
         "webp_path": "./images/spiderman.webp",
         "variant_paths": [
             {
@@ -4360,9 +4199,8 @@
     },
     "spiderwoman": {
         "id": "spiderwoman",
-        "name": "Spider-Woman ",
+        "name": "Spider-Woman",
         "ability": "On Reveal: Afflict all enemy cards here with -1 Power.",
-        "jpg_path": "./images/spiderwoman.jpg",
         "webp_path": "./images/spiderwoman.webp",
         "variant_paths": [
             {
@@ -4383,9 +4221,8 @@
     },
     "squirrelgirl": {
         "id": "squirrelgirl",
-        "name": "Squirrel Girl ",
+        "name": "Squirrel Girl",
         "ability": "On Reveal: Add a 1-Power Squirrel to each other location.",
-        "jpg_path": "./images/squirrelgirl.jpg",
         "webp_path": "./images/squirrelgirl.webp",
         "variant_paths": [
             {
@@ -4406,9 +4243,8 @@
     },
     "starlord": {
         "id": "starlord",
-        "name": "Star-Lord ",
+        "name": "Star-Lord",
         "ability": "On Reveal: If your opponent played a card here this turn, +3 Power.",
-        "jpg_path": "./images/starlord.jpg",
         "webp_path": "./images/starlord.webp",
         "variant_paths": [
             {
@@ -4429,9 +4265,8 @@
     },
     "storm": {
         "id": "storm",
-        "name": "Storm ",
+        "name": "Storm",
         "ability": "On Reveal: Flood this location. Next turn is the last turn cards can\nbe played here.",
-        "jpg_path": "./images/storm.jpg",
         "webp_path": "./images/storm.webp",
         "variant_paths": [
             {
@@ -4468,9 +4303,8 @@
     },
     "strongguy": {
         "id": "strongguy",
-        "name": "Strong Guy ",
+        "name": "Strong Guy",
         "ability": "Ongoing: If your hand is empty, +6 Power.",
-        "jpg_path": "./images/strongguy.jpg",
         "webp_path": "./images/strongguy.webp",
         "variant_paths": [
             {
@@ -4495,9 +4329,8 @@
     },
     "sunspot": {
         "id": "sunspot",
-        "name": "Sunspot ",
+        "name": "Sunspot",
         "ability": "At the end of each turn, gain +1 Power for each unspent Energy.",
-        "jpg_path": "./images/sunspot.jpg",
         "webp_path": "./images/sunspot.webp",
         "variant_paths": [
             {
@@ -4522,9 +4355,8 @@
     },
     "superskrull": {
         "id": "superskrull",
-        "name": "Super-Skrull ",
+        "name": "Super-Skrull",
         "ability": "Ongoing: Has the Ongoing effects of all enemy cards.",
-        "jpg_path": "./images/superskrull.jpg",
         "webp_path": "./images/superskrull.webp",
         "variant_paths": [
             {
@@ -4553,9 +4385,8 @@
     },
     "swarm": {
         "id": "swarm",
-        "name": "Swarm ",
+        "name": "Swarm",
         "ability": "When this is discarded from your hand, add two copies that Cost 0\nto your hand.",
-        "jpg_path": "./images/swarm.jpg",
         "webp_path": "./images/swarm.webp",
         "variant_paths": [
             {
@@ -4580,9 +4411,8 @@
     },
     "swordmaster": {
         "id": "swordmaster",
-        "name": "Sword Master ",
+        "name": "Sword Master",
         "ability": "On Reveal: Discard a card from your hand.",
-        "jpg_path": "./images/swordmaster.jpg",
         "webp_path": "./images/swordmaster.webp",
         "variant_paths": [
             {
@@ -4599,9 +4429,8 @@
     },
     "taskmaster": {
         "id": "taskmaster",
-        "name": "Taskmaster ",
+        "name": "Taskmaster",
         "ability": "On Reveal: Set this card's Power equal to the Power of the last\ncard you played.",
-        "jpg_path": "./images/taskmaster.jpg",
         "webp_path": "./images/taskmaster.webp",
         "variant_paths": [
             {
@@ -4618,9 +4447,8 @@
     },
     "thanos": {
         "id": "thanos",
-        "name": "Thanos ",
+        "name": "Thanos",
         "ability": "At the start of the game, shuffle the six Infinity Stones into your deck.",
-        "jpg_path": "./images/thanos.jpg",
         "webp_path": "./images/thanos.webp",
         "variant_paths": [
             {
@@ -4641,9 +4469,8 @@
     },
     "thecollector": {
         "id": "thecollector",
-        "name": "The Collector ",
+        "name": "The Collector",
         "ability": "When a card enters your hand from anywhere (except your deck),\n+1 Power.",
-        "jpg_path": "./images/thecollector.jpg",
         "webp_path": "./images/thecollector.webp",
         "variant_paths": [
             {
@@ -4676,9 +4503,8 @@
     },
     "hood": {
         "id": "hood",
-        "name": "The Hood ",
+        "name": "The Hood",
         "ability": "On Reveal: Add a Demon to your hand.",
-        "jpg_path": "./images/hood.jpg",
         "webp_path": "./images/hood.webp",
         "variant_paths": [
             {
@@ -4703,9 +4529,8 @@
     },
     "infinaut": {
         "id": "infinaut",
-        "name": "The Infinaut ",
+        "name": "The Infinaut",
         "ability": "If you played a card last turn, you can't play this.",
-        "jpg_path": "./images/infinaut.jpg",
         "webp_path": "./images/infinaut.webp",
         "variant_paths": [
             {
@@ -4726,9 +4551,8 @@
     },
     "thething": {
         "id": "thething",
-        "name": "The Thing ",
+        "name": "The Thing",
         "ability": "It's clobberin' time!",
-        "jpg_path": "./images/thething.jpg",
         "webp_path": "./images/thething.webp",
         "variant_paths": [
             {
@@ -4761,9 +4585,8 @@
     },
     "thor": {
         "id": "thor",
-        "name": "Thor ",
+        "name": "Thor",
         "ability": "On Reveal: Shuffle Mjolnir into your deck.",
-        "jpg_path": "./images/thor.jpg",
         "webp_path": "./images/thor.webp",
         "variant_paths": [
             {
@@ -4788,9 +4611,8 @@
     },
     "titania": {
         "id": "titania",
-        "name": "Titania ",
+        "name": "Titania",
         "ability": "When ANY card is played at this location, this card switches sides.",
-        "jpg_path": "./images/titania.jpg",
         "webp_path": "./images/titania.webp",
         "variant_paths": [
             {
@@ -4811,9 +4633,8 @@
     },
     "typhoidmary": {
         "id": "typhoidmary",
-        "name": "Typhoid Mary ",
+        "name": "Typhoid Mary",
         "ability": "Ongoing: Your other cards\nhave -1 Power.",
-        "jpg_path": "./images/typhoidmary.jpg",
         "webp_path": "./images/typhoidmary.webp",
         "variant_paths": [
             {
@@ -4838,9 +4659,8 @@
     },
     "uatu": {
         "id": "uatu",
-        "name": "Uatu the Watcher ",
+        "name": "Uatu the Watcher",
         "ability": "Once this is in your hand, you can see the unrevealed locations.",
-        "jpg_path": "./images/uatu.jpg",
         "webp_path": "./images/uatu.webp",
         "variant_paths": [
             {
@@ -4861,9 +4681,8 @@
     },
     "ultron": {
         "id": "ultron",
-        "name": "Ultron ",
+        "name": "Ultron",
         "ability": "On Reveal: Create four 1-Power Drones at each other location.",
-        "jpg_path": "./images/ultron.jpg",
         "webp_path": "./images/ultron.webp",
         "variant_paths": [
             {
@@ -4888,9 +4707,8 @@
     },
     "valkyrie": {
         "id": "valkyrie",
-        "name": "Valkyrie ",
+        "name": "Valkyrie",
         "ability": "On Reveal: Set ALL cards at this location to 3 Power.",
-        "jpg_path": "./images/valkyrie.jpg",
         "webp_path": "./images/valkyrie.webp",
         "variant_paths": [
             {
@@ -4915,9 +4733,8 @@
     },
     "venom": {
         "id": "venom",
-        "name": "Venom ",
+        "name": "Venom",
         "ability": "On Reveal: Destroy your other cards at this location. Add their Power\nto this card.",
-        "jpg_path": "./images/venom.jpg",
         "webp_path": "./images/venom.webp",
         "variant_paths": [
             {
@@ -4938,9 +4755,8 @@
     },
     "viper": {
         "id": "viper",
-        "name": "Viper ",
+        "name": "Viper",
         "ability": "On Reveal: Your opponent gains control of one of your other cards\nat this location.",
-        "jpg_path": "./images/viper.jpg",
         "webp_path": "./images/viper.webp",
         "variant_paths": [
             {
@@ -4969,9 +4785,8 @@
     },
     "vision": {
         "id": "vision",
-        "name": "Vision ",
+        "name": "Vision",
         "ability": "You can move this each turn.",
-        "jpg_path": "./images/vision.jpg",
         "webp_path": "./images/vision.webp",
         "variant_paths": [
             {
@@ -4992,9 +4807,8 @@
     },
     "vulture": {
         "id": "vulture",
-        "name": "Vulture ",
+        "name": "Vulture",
         "ability": "When this card moves,\n+5 Power.",
-        "jpg_path": "./images/vulture.jpg",
         "webp_path": "./images/vulture.webp",
         "variant_paths": [
             {
@@ -5015,9 +4829,8 @@
     },
     "warpath": {
         "id": "warpath",
-        "name": "Warpath ",
+        "name": "Warpath",
         "ability": "Ongoing: If any of your locations are empty, +4 Power.",
-        "jpg_path": "./images/warpath.jpg",
         "webp_path": "./images/warpath.webp",
         "variant_paths": [
             {
@@ -5038,9 +4851,8 @@
     },
     "wasp": {
         "id": "wasp",
-        "name": "Wasp ",
+        "name": "Wasp",
         "ability": "My secret power is that I get things done.",
-        "jpg_path": "./images/wasp.jpg",
         "webp_path": "./images/wasp.webp",
         "variant_paths": [
             {
@@ -5065,9 +4877,8 @@
     },
     "wave": {
         "id": "wave",
-        "name": "Wave ",
+        "name": "Wave",
         "ability": "On Reveal: Next turn, cards in both players' hands cost 4.",
-        "jpg_path": "./images/wave.jpg",
         "webp_path": "./images/wave.webp",
         "variant_paths": [
             {
@@ -5084,9 +4895,8 @@
     },
     "whitequeen": {
         "id": "whitequeen",
-        "name": "White Queen ",
+        "name": "White Queen",
         "ability": "On Reveal: Draw a copy of the highest Cost card in your\nopponent's hand.",
-        "jpg_path": "./images/whitequeen.jpg",
         "webp_path": "./images/whitequeen.webp",
         "variant_paths": [
             {
@@ -5119,9 +4929,8 @@
     },
     "whitetiger": {
         "id": "whitetiger",
-        "name": "White Tiger ",
+        "name": "White Tiger",
         "ability": "On Reveal: Add a 7-Power Tiger to another location.",
-        "jpg_path": "./images/whitetiger.jpg",
         "webp_path": "./images/whitetiger.webp",
         "variant_paths": [
             {
@@ -5146,9 +4955,8 @@
     },
     "wolfsbane": {
         "id": "wolfsbane",
-        "name": "Wolfsbane ",
+        "name": "Wolfsbane",
         "ability": "On Reveal: +2 Power for each other card you have here.",
-        "jpg_path": "./images/wolfsbane.jpg",
         "webp_path": "./images/wolfsbane.webp",
         "variant_paths": [
             {
@@ -5165,9 +4973,8 @@
     },
     "wolverine": {
         "id": "wolverine",
-        "name": "Wolverine ",
+        "name": "Wolverine",
         "ability": "When this is discarded or destroyed, play it at a random location.",
-        "jpg_path": "./images/wolverine.jpg",
         "webp_path": "./images/wolverine.webp",
         "variant_paths": [
             {
@@ -5192,9 +4999,8 @@
     },
     "wong": {
         "id": "wong",
-        "name": "Wong ",
+        "name": "Wong",
         "ability": "Ongoing: Your On Reveal abilities at this location happen twice.",
-        "jpg_path": "./images/wong.jpg",
         "webp_path": "./images/wong.webp",
         "variant_paths": [
             {
@@ -5219,9 +5025,8 @@
     },
     "yellowjacket": {
         "id": "yellowjacket",
-        "name": "Yellowjacket ",
+        "name": "Yellowjacket",
         "ability": "On Reveal: Afflict your other cards at this location with -1 Power.",
-        "jpg_path": "./images/yellowjacket.jpg",
         "webp_path": "./images/yellowjacket.webp",
         "variant_paths": [
             {
@@ -5238,9 +5043,8 @@
     },
     "yondu": {
         "id": "yondu",
-        "name": "Yondu ",
+        "name": "Yondu",
         "ability": "On Reveal: Remove the top card of your opponent's deck.",
-        "jpg_path": "./images/yondu.jpg",
         "webp_path": "./images/yondu.webp",
         "variant_paths": [
             {
@@ -5261,9 +5065,8 @@
     },
     "zabu": {
         "id": "zabu",
-        "name": "Zabu ",
+        "name": "Zabu",
         "ability": "Ongoing: Your 4-Cost cards cost 2 less. (minimum 1)",
-        "jpg_path": "./images/zabu.jpg",
         "webp_path": "./images/zabu.webp",
         "variant_paths": [
             {
@@ -5284,9 +5087,8 @@
     },
     "zero": {
         "id": "zero",
-        "name": "Zero ",
+        "name": "Zero",
         "ability": "On Reveal: Remove the abilities on the next card you play.",
-        "jpg_path": "./images/zero.jpg",
         "webp_path": "./images/zero.webp",
         "variant_paths": [
             {

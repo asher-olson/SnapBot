@@ -44,12 +44,9 @@ def scrape():
                 with open(f"../images/{id}.webp", "wb") as f:
                     f.write(img)
 
-                img_jpg = Image.open(f"../images/{id}.webp").convert("RGB")
-                img_jpg.save(f"../images/{id}.jpg", "jpeg")
-
                 ability = div.find("div", class_="small").text
 
-                cards[id] = {"id": id, "name": name, "ability": ability, "jpg_path": f"./images/{id}.jpg", "webp_path": f"./images/{id}.webp", "variant_paths": []}
+                cards[id] = {"id": id, "name": name, "ability": ability, "webp_path": f"./images/{id}.webp", "variant_paths": []}
 
         # get cost
         cost_url_start = "https://snap.fan/cards/?costs="
@@ -146,7 +143,7 @@ def scrape():
                 soup = BeautifulSoup(driver.page_source, "html.parser")
 
                 name = soup.find("h1", class_="text-break").text[:-17]
-                print(name)
+
                 cards[url[0]]["name"] = name
 
                 divs = soup.find_all("div", class_="card-variant-gallery__card")
@@ -189,7 +186,6 @@ def wait_for_ajax(driver):
     try:
         wait.until(lambda driver: driver.execute_script('return jQuery.active') == 0)
         wait.until(lambda driver: driver.execute_script('return document.readyState') == 'complete')
-        print("done waiting")
     except Exception as e:
         pass
 

@@ -18,7 +18,7 @@ export class CardService {
         }
         
         // if card name not exact, return first card that contains name
-        return find(set, (c) => includes(c.id, name.toLowerCase()));
+        return find(set, (c) => includes(c.id, name.replace("-", "").toLowerCase()));
     }
 
     static getCardByDisplayName(displayName, set=CardService.cards) {
