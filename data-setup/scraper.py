@@ -34,21 +34,22 @@ def scrape():
                 break
 
             for div in divs:
-                name = div.find("a")["href"].split("/")[2].lower()
+                name = div.find("a")["href"].split("/")[2].replace("Mr", "Mister")  # add more replacing if they add ms/miss marvel or some shit
+                id = name.lower()
                 url = div.find("a")["href"]
-                card_urls.append((name, url))
+                card_urls.append((id, url))
 
                 img_url = div.find("img", class_="game-card-image__img")["src"]
                 img = requests.get(img_url).content
-                with open(f"../images/{name}.webp", "wb") as f:
+                with open(f"../images/{id}.webp", "wb") as f:
                     f.write(img)
 
-                img_jpg = Image.open(f"../images/{name}.webp").convert("RGB")
-                img_jpg.save(f"../images/{name}.jpg", "jpeg")
+                img_jpg = Image.open(f"../images/{id}.webp").convert("RGB")
+                img_jpg.save(f"../images/{id}.jpg", "jpeg")
 
                 ability = div.find("div", class_="small").text
 
-                cards[name] = {"name": name, "ability": ability, "jpg_path": f"./images/{name}.jpg", "webp_path": f"./images/{name}.webp", "variant_paths": []}
+                cards[id] = {"id": id, "name": name, "ability": ability, "jpg_path": f"./images/{id}.jpg", "webp_path": f"./images/{id}.webp", "variant_paths": []}
 
         # get cost
         cost_url_start = "https://snap.fan/cards/?costs="
@@ -72,7 +73,7 @@ def scrape():
                 page = 1
 
             for div in divs:
-                name = div.find("a")["href"].split("/")[2].lower()
+                name = div.find("a")["href"].split("/")[2].lower().replace("mr", "mister")
                 cards[name]['cost'] = cost
 
         # get power
@@ -97,7 +98,7 @@ def scrape():
                 page = 1
 
             for div in divs:
-                name = div.find("a")["href"].split("/")[2].lower()
+                name = div.find("a")["href"].split("/")[2].lower().replace("mr", "mister")
                 cards[name]['power'] = power
 
         # get variants
@@ -126,7 +127,7 @@ def scrape():
                         break
 
                     for image in images:
-                        name = image.parent.parent['data-variant-key'].split("_")[0].lower()
+                        name = image.parent.parent['data-variant-key'].split("_")[0].lower().replace("mr", "mister")
 
                         img = requests.get(image['src']).content
                         var_extension = category.replace(" ", "-")
@@ -143,6 +144,10 @@ def scrape():
                 wait_for_ajax(driver)
 
                 soup = BeautifulSoup(driver.page_source, "html.parser")
+
+                name = soup.find("h1", class_="text-break").text[:-17]
+                print(name)
+                cards[url[0]]["name"] = name
 
                 divs = soup.find_all("div", class_="card-variant-gallery__card")
 
@@ -180,9 +185,11 @@ def scrape():
 
 def wait_for_ajax(driver):
     wait = WebDriverWait(driver, 15)
+    print("waiting")
     try:
         wait.until(lambda driver: driver.execute_script('return jQuery.active') == 0)
         wait.until(lambda driver: driver.execute_script('return document.readyState') == 'complete')
+        print("done waiting")
     except Exception as e:
         pass
 

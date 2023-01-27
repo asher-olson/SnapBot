@@ -11,13 +11,27 @@ export class CardService {
         CardService.cards = JSON.parse(fs.readFileSync('cards.json'));
     }
 
-    static getCardByName(name) {
-        const card = CardService.cards[name];
+    static getCardByName(name, set=CardService.cards) {
+        const card = set[name];
         if(!!card) {
             return card;
         }
         
         // if card name not exact, return first card that contains name
-        return find(CardService.cards, (c) => includes(c.name, name.toLowerCase()));
+        return find(set, (c) => includes(c.id, name.toLowerCase()));
+    }
+
+    static getCardByDisplayName(displayName, set=CardService.cards) {
+        const card = find(set, (c) => {
+            return c.name === displayName;
+        });
+        if(!!card) {
+            return card;
+        }
+
+        return find(set, (c) => {
+            const variant = find(c.variant_paths, (v) => v.name === displayName);
+            return !!variant;
+        });
     }
 }

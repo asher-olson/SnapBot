@@ -31,8 +31,33 @@ function buildVariantActionBarsFromCard(card) {
         .setLabel("Base")
         .setStyle(ButtonStyle.Primary)  // default base to active
     
+    const rows = fitButtonsIntoActionBars(buttons, baseButton);
+
+    return rows;
+}
+
+function buildActionBarsFromDeck(deck) {
+    if(deck.length !== 12) {
+        return;
+    }
+
+    const buttons = map(deck, (card) => {
+        return new ButtonBuilder()
+            .setCustomId(card.webp_path)
+            .setLabel(card.name)
+            .setStyle(ButtonStyle.Secondary)
+    });
+
+    const rows = fitButtonsIntoActionBars(buttons);
+
+    rows[0].components[0].setStyle(ButtonStyle.Primary);
+
+    return rows;
+}
+
+function fitButtonsIntoActionBars(buttons, firstButton = null) {
     const rows = [];
-    let row = [baseButton];
+    let row = !!firstButton ? [firstButton] : [];
     forEach(buttons, (button) => {
         if(rows.length >= 5) {
             return;
@@ -63,6 +88,54 @@ function findButtonByCustomId(rows, id) {
     return button;
 }
 
+// collector that responds to button click by displaying its image
+function createButtonToggleCollector(msg, rows, replyId, deck=null) {
+    let selectedButton = rows[0].components[0];
+    const filter = (i) => {
+        if(replyId !== i.message.id) {
+            return false;
+        }
+
+        // TODO: refactor to do this shit in on collect
+        const button = findButtonByCustomId(rows, i.customId);
+        if(!!button) {
+            selectedButton.data.style = ButtonStyle.Secondary;
+            button.data.style = ButtonStyle.Primary;
+            selectedButton = button;
+        }
+        return !!button;
+    }
+    const collector = msg.channel.createMessageComponentCollector({filter, time: 300000});
+
+    collector.on('collect', async i => {
+        const cardImg = fs.readFileSync(selectedButton.data.custom_id);
+        if(!!deck) {
+            const displayName = findButtonByCustomId(rows, i.customId).data.label;
+            const card = CardService.getCardByDisplayName(displayName, deck);
+            await i.update({ content: card.ability, components: rows, files: [{ attachment: cardImg }] });
+        } else {
+            await i.update({ components: rows, files: [{ attachment: cardImg }] });
+        }
+    });
+
+    collector.on('end', () => console.log("Collecter ended"));
+}
+
+function parseDeckCodeIntoDeck(content) {
+    try {
+        console.log("parsing deck");
+
+        const cards = map(content.split("\n").slice(0, 12), (card) => {
+            const name = card.split(" ").slice(2).join("").toLowerCase();
+            return CardService.getCardByName(name);
+        })
+
+        return cards;
+    } catch(error) {
+        return [];
+    }
+}
+
 
 bot.on('messageCreate', async (msg) => {
     if(msg.author.bot) {
@@ -76,39 +149,32 @@ bot.on('messageCreate', async (msg) => {
         const name = replace(content.slice(2, -2), / /g, "");
         const card = CardService.getCardByName(name);
         if(!card) {
+            msg.reply("What is lil bro talking about?");
             return;
         }
 
-        const file = fs.readFileSync(card.webp_path);
+        const cardImg = fs.readFileSync(card.webp_path);
 
         const rows = buildVariantActionBarsFromCard(card);
 
-        await msg.reply({ content: card.ability, components: rows, files: [{ attachment: file }] });
+        const reply = await msg.reply({ content: card.ability, components: rows, files: [{ attachment: cardImg }] });
         
-        let selectedButton = rows[0].components[0];
-        const filter = (i) => {
-            const button = findButtonByCustomId(rows, i.customId);
-            if(!!button) {
-                selectedButton.data.style = ButtonStyle.Secondary;
-                button.data.style = ButtonStyle.Primary;
-                selectedButton = button;
-            }
-            return !!button;
-        }
-        const collector = msg.channel.createMessageComponentCollector({filter, time: 300000});
-
-        collector.on('collect', async i => {
-            const file = fs.readFileSync(selectedButton.data.custom_id);
-            await i.update({ components: rows, files: [{ attachment: file }] });
-        });
-
-        collector.on('end', collected => console.log("Collecter ended"));
-
-
+        createButtonToggleCollector(msg, rows, reply.id);
     }
 
-    
-    
+    const deckCodeRegex = /^# \(/i;
+    if(deckCodeRegex.test(content)) {
+        const deck = parseDeckCodeIntoDeck(content);
+
+        const cardImg = fs.readFileSync(deck[0].webp_path);
+
+        const rows = buildActionBarsFromDeck(deck);
+
+        const reply = await msg.reply({ content: deck[0].ability, components: rows, files: [{ attachment: cardImg }] })
+
+        createButtonToggleCollector(msg, rows, reply.id, deck);
+    }
+
 });
 
 
