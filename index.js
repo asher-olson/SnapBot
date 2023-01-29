@@ -108,11 +108,7 @@ function createButtonToggleCollector(msg, rows, replyId, deck=null, contentPrefi
     let cardImg = !!deck ? fs.readFileSync(selectedButton.data.custom_id) : null;
     let card = !!deck ? deck[0] : null;
     const filter = (i) => {
-        // if(replyId !== i.message.id) {
-        //     return false;
-        // }
-
-        return replyId !== i.message.id;
+        return replyId === i.message.id;
     }
     const collector = msg.channel.createMessageComponentCollector({filter, time: 300000});
 
@@ -160,7 +156,7 @@ function parseDeckCodeIntoDeck(content) {
         const cards = map(content.split("\n").slice(0, 12), (card) => {
             const name = card.split(" ").slice(2).join("").toLowerCase();
             return CardService.getCardByName(name);
-        });
+        })
 
         return cards;
     } catch(error) {
