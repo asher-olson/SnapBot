@@ -7,8 +7,14 @@ import { randomDeck } from "./randomDeck.js";
 import { CardService } from "./CardService.js";
 
 
-const {replace, includes, map, forEach} = lodash;
+const {replace, includes, map, forEach, concat} = lodash;
 const { Client, Events, ActionRowBuilder, MessageButtonStyle, ButtonBuilder, GatewayIntentBits, ButtonStyle } = discord;
+
+const TOGGLE_DECK_CODE_CUSTOM_ID = "deckCodeToggle";
+const SHOW_DECK_CODE_LABEL = "Show deck code";
+const SHOW_DECK_CODE_STYLE = ButtonStyle.Success;
+const HIDE_DECK_CODE_LABEL = "Hide deck code";
+const HIDE_DECK_CODE_STYLE = ButtonStyle.Danger;
 
 const secrets = JSON.parse(fs.readFileSync('secrets.json'));
 
@@ -50,9 +56,16 @@ function buildActionBarsFromDeck(deck) {
 
     const rows = fitButtonsIntoActionBars(buttons);
 
+    const toggleDeckCodeButton = new ButtonBuilder()
+        .setCustomId(TOGGLE_DECK_CODE_CUSTOM_ID)
+        .setLabel(SHOW_DECK_CODE_LABEL)
+        .setStyle(SHOW_DECK_CODE_STYLE);
+
+    const toggleDeckCodeActionRow = new ActionRowBuilder().addComponents([toggleDeckCodeButton]);
+
     rows[0].components[0].setStyle(ButtonStyle.Primary);
 
-    return rows;
+    return concat([toggleDeckCodeActionRow], rows);
 }
 
 function fitButtonsIntoActionBars(buttons, firstButton = null) {
@@ -89,30 +102,49 @@ function findButtonByCustomId(rows, id) {
 }
 
 // collector that responds to button click by displaying its image
-function createButtonToggleCollector(msg, rows, replyId, deck=null) {
-    let selectedButton = rows[0].components[0];
+function createButtonToggleCollector(msg, rows, replyId, deck=null, contentPrefix="", deckCode="") {
+    let selectedButton = !!deckCode ? rows[1].components[0] : rows[0].components[0];
+    let showingDeckCode = false;
+    let cardImg = !!deck ? fs.readFileSync(selectedButton.data.custom_id) : null;
+    let card = !!deck ? deck[0] : null;
     const filter = (i) => {
-        if(replyId !== i.message.id) {
-            return false;
+        // if(replyId !== i.message.id) {
+        //     return false;
+        // }
+
+        return replyId !== i.message.id;
+    }
+    const collector = msg.channel.createMessageComponentCollector({filter, time: 300000});
+
+    collector.on('collect', async i => {
+        if(i.customId === TOGGLE_DECK_CODE_CUSTOM_ID) {
+            showingDeckCode = !showingDeckCode;
+            rows[0].components[0]
+                .setLabel(!showingDeckCode ? SHOW_DECK_CODE_LABEL : HIDE_DECK_CODE_LABEL)
+                .setStyle(!showingDeckCode ? SHOW_DECK_CODE_STYLE : HIDE_DECK_CODE_STYLE);
+
+            if(showingDeckCode) {
+                await i.update({ content: `${contentPrefix}${deckCode}`, components: [rows[0]], files: [] });
+            } else {
+                console.log("right here");
+                await i.update({ content: `${contentPrefix}${card.ability}`, components: rows, files: [{ attachment: cardImg }] });
+            }
+            return;
         }
 
-        // TODO: refactor to do this shit in on collect
         const button = findButtonByCustomId(rows, i.customId);
         if(!!button) {
             selectedButton.data.style = ButtonStyle.Secondary;
             button.data.style = ButtonStyle.Primary;
             selectedButton = button;
         }
-        return !!button;
-    }
-    const collector = msg.channel.createMessageComponentCollector({filter, time: 300000});
 
-    collector.on('collect', async i => {
-        const cardImg = fs.readFileSync(selectedButton.data.custom_id);
+        cardImg = fs.readFileSync(selectedButton.data.custom_id);
         if(!!deck) {
             const displayName = findButtonByCustomId(rows, i.customId).data.label;
-            const card = CardService.getCardByDisplayName(displayName, deck);
-            await i.update({ content: card.ability, components: rows, files: [{ attachment: cardImg }] });
+            card = CardService.getCardByDisplayName(displayName, deck);
+            
+            await i.update({ content: `${contentPrefix}${card.ability}`, components: rows, files: [{ attachment: cardImg }] });
         } else {
             await i.update({ components: rows, files: [{ attachment: cardImg }] });
         }
@@ -128,12 +160,16 @@ function parseDeckCodeIntoDeck(content) {
         const cards = map(content.split("\n").slice(0, 12), (card) => {
             const name = card.split(" ").slice(2).join("").toLowerCase();
             return CardService.getCardByName(name);
-        })
+        });
 
         return cards;
     } catch(error) {
         return [];
     }
+}
+
+function getCodeFromDeckCode(content) {
+    return content.split("#")[13].replace(/\n/g, "");
 }
 
 
@@ -164,15 +200,21 @@ bot.on('messageCreate', async (msg) => {
 
     const deckCodeRegex = /^# \(/i;
     if(deckCodeRegex.test(content)) {
+        await msg.delete();
+
         const deck = parseDeckCodeIntoDeck(content);
+
+        const code = getCodeFromDeckCode(content);
 
         const cardImg = fs.readFileSync(deck[0].webp_path);
 
         const rows = buildActionBarsFromDeck(deck);
+ 
+        const prefix = `Deck from <@${msg.author.id}>:\n\n`;
 
-        const reply = await msg.reply({ content: deck[0].ability, components: rows, files: [{ attachment: cardImg }] })
+        const botMessage = await msg.channel.send({ content: `${prefix}${deck[0].ability}`, components: rows, files: [{ attachment: cardImg }] });
 
-        createButtonToggleCollector(msg, rows, reply.id, deck);
+        createButtonToggleCollector(msg, rows, botMessage.id, deck, prefix, code);
     }
 
 });
