@@ -16,6 +16,10 @@ export class CardService {
         if(!!card) {
             return card;
         }
+
+        if(name === "") {
+            return null;
+        }
         
         // if card name not exact, return first card that contains name
         return find(set, (c) => includes(c.id, name.replace("-", "").toLowerCase()));
