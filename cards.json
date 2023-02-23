@@ -144,6 +144,10 @@
                 "path": "./images/agent13_Pixel.webp"
             },
             {
+                "name": "Dan Hipp",
+                "path": "./images/agent13_Dan-Hipp.webp"
+            },
+            {
                 "name": "Chibi",
                 "path": "./images/agent13_Chibi.webp"
             },
@@ -318,6 +322,10 @@
                 "path": "./images/armor_Chibi.webp"
             },
             {
+                "name": "Steampunk",
+                "path": "./images/armor_Steampunk.webp"
+            },
+            {
                 "name": "Summer Vacation",
                 "path": "./images/armor_Summer-Vacation.webp"
             }
@@ -336,12 +344,16 @@
                 "path": "./images/arnimzola_Pixel.webp"
             },
             {
+                "name": "Dan Hipp",
+                "path": "./images/arnimzola_Dan-Hipp.webp"
+            },
+            {
                 "name": "Chibi",
                 "path": "./images/arnimzola_Chibi.webp"
             },
             {
-                "name": "Ultimate",
-                "path": "./images/arnimzola_Ultimate.webp"
+                "name": "Earth-1610",
+                "path": "./images/arnimzola_Earth-1610.webp"
             },
             {
                 "name": "Civil War",
@@ -412,6 +424,10 @@
             {
                 "name": "Dan Hipp",
                 "path": "./images/bast_Dan-Hipp.webp"
+            },
+            {
+                "name": "Fiona Hsieh",
+                "path": "./images/bast_Fiona-Hsieh.webp"
             }
         ],
         "cost": 1,
@@ -456,6 +472,10 @@
             {
                 "name": "Pixel",
                 "path": "./images/bishop_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/bishop_Dan-Hipp.webp"
             },
             {
                 "name": "Steampunk",
@@ -758,12 +778,12 @@
                 "path": "./images/captainamerica_Alex-Ross.webp"
             },
             {
-                "name": "Phoenix Force",
-                "path": "./images/captainamerica_Phoenix-Force.webp"
-            },
-            {
                 "name": "Penny Arcade",
                 "path": "./images/captainamerica_Penny-Arcade.webp"
+            },
+            {
+                "name": "Phoenix Force",
+                "path": "./images/captainamerica_Phoenix-Force.webp"
             },
             {
                 "name": "Wakandan Shield",
@@ -824,6 +844,10 @@
             {
                 "name": "Artgerm",
                 "path": "./images/carnage_Artgerm.webp"
+            },
+            {
+                "name": "Fiona Hsieh",
+                "path": "./images/carnage_Fiona-Hsieh.webp"
             }
         ],
         "cost": 2,
@@ -940,12 +964,12 @@
                 "path": "./images/cosmo_Dan-Hipp.webp"
             },
             {
-                "name": "Luca Claretti",
-                "path": "./images/cosmo_Luca-Claretti.webp"
-            },
-            {
                 "name": "Venomized",
                 "path": "./images/cosmo_Venomized.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/cosmo_Luca-Claretti.webp"
             },
             {
                 "name": "Summer Vacation",
@@ -1080,6 +1104,10 @@
             {
                 "name": "Yellow Suit",
                 "path": "./images/daredevil_Yellow-Suit.webp"
+            },
+            {
+                "name": "Watercolor",
+                "path": "./images/daredevil_Watercolor.webp"
             }
         ],
         "cost": 2,
@@ -1098,6 +1126,10 @@
             {
                 "name": "Chibi",
                 "path": "./images/darkhawk_Chibi.webp"
+            },
+            {
+                "name": "Kim Jacinto",
+                "path": "./images/darkhawk_Kim-Jacinto.webp"
             },
             {
                 "name": "Flaviano",
@@ -1142,6 +1174,10 @@
             {
                 "name": "Penny Arcade",
                 "path": "./images/deadpool_Penny-Arcade.webp"
+            },
+            {
+                "name": "Skottie Young",
+                "path": "./images/deadpool_Skottie-Young.webp"
             }
         ],
         "cost": 1,
@@ -1486,6 +1522,10 @@
                 "path": "./images/electro_Chibi.webp"
             },
             {
+                "name": "Kim Jacinto",
+                "path": "./images/electro_Kim-Jacinto.webp"
+            },
+            {
                 "name": "Ultimate",
                 "path": "./images/electro_Ultimate.webp"
             },
@@ -1514,6 +1554,10 @@
             {
                 "name": "Baby",
                 "path": "./images/elektra_Baby.webp"
+            },
+            {
+                "name": "R1c0",
+                "path": "./images/elektra_R1c0.webp"
             }
         ],
         "cost": 1,
@@ -1620,12 +1664,12 @@
                 "path": "./images/galactus_Baby.webp"
             },
             {
-                "name": "Flaviano",
-                "path": "./images/galactus_Flaviano.webp"
-            },
-            {
                 "name": "Kim Jacinto",
                 "path": "./images/galactus_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/galactus_Flaviano.webp"
             },
             {
                 "name": "Lifebringer",
@@ -1652,6 +1696,10 @@
             {
                 "name": "Rian Gonzales",
                 "path": "./images/gambit_Rian-Gonzales.webp"
+            },
+            {
+                "name": "Casual",
+                "path": "./images/gambit_Casual.webp"
             }
         ],
         "cost": 3,
@@ -1670,6 +1718,10 @@
             {
                 "name": "Chibi",
                 "path": "./images/gamora_Chibi.webp"
+            },
+            {
+                "name": "Anime",
+                "path": "./images/gamora_Anime.webp"
             },
             {
                 "name": "Requiem",
@@ -1700,6 +1752,10 @@
             {
                 "name": "Kim Jacinto",
                 "path": "./images/ghostrider_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/ghostrider_Peach-Momoko.webp"
             },
             {
                 "name": "Knullified",
@@ -1762,6 +1818,10 @@
                 "path": "./images/goose_Dan-Hipp.webp"
             },
             {
+                "name": "Venomized",
+                "path": "./images/goose_Venomized.webp"
+            },
+            {
                 "name": "Luca Claretti",
                 "path": "./images/goose_Luca-Claretti.webp"
             },
@@ -1808,6 +1868,10 @@
             {
                 "name": "Pixel",
                 "path": "./images/groot_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/groot_Baby.webp"
             }
         ],
         "cost": 3,
@@ -1898,7 +1962,7 @@
     "hela": {
         "id": "hela",
         "name": "Hela",
-        "ability": "On Reveal: Play all cards you discarded from your hand to\nrandom locations.",
+        "ability": "On Reveal: Resurrect all cards you discarded from your hand to\nrandom locations.",
         "webp_path": "./images/hela.webp",
         "variant_paths": [
             {
@@ -1912,6 +1976,10 @@
             {
                 "name": "Venomized",
                 "path": "./images/hela_Venomized.webp"
+            },
+            {
+                "name": "Gardening",
+                "path": "./images/hela_Gardening.webp"
             }
         ],
         "cost": 6,
@@ -1950,12 +2018,12 @@
                 "path": "./images/hellcow_Dan-Hipp.webp"
             },
             {
-                "name": "Luca Claretti",
-                "path": "./images/hellcow_Luca-Claretti.webp"
-            },
-            {
                 "name": "Venomized",
                 "path": "./images/hellcow_Venomized.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/hellcow_Luca-Claretti.webp"
             },
             {
                 "name": "Ivan Shavrin",
@@ -2016,6 +2084,10 @@
             {
                 "name": "Max Grecke",
                 "path": "./images/hulk_Max-Grecke.webp"
+            },
+            {
+                "name": "Alex Horley",
+                "path": "./images/hulk_Alex-Horley.webp"
             },
             {
                 "name": "Weapon H",
@@ -2134,16 +2206,16 @@
                 "path": "./images/invisiblewoman_Max-Grecke.webp"
             },
             {
+                "name": "Peach Momoko",
+                "path": "./images/invisiblewoman_Peach-Momoko.webp"
+            },
+            {
                 "name": "Artgerm",
                 "path": "./images/invisiblewoman_Artgerm.webp"
             },
             {
                 "name": "Hero",
                 "path": "./images/invisiblewoman_Hero.webp"
-            },
-            {
-                "name": "Peach Momoko",
-                "path": "./images/invisiblewoman_Peach-Momoko.webp"
             },
             {
                 "name": "Alex Ross",
@@ -2192,6 +2264,10 @@
             {
                 "name": "Dan Hipp",
                 "path": "./images/ironman_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/ironman_Chibi.webp"
             },
             {
                 "name": "Baby",
@@ -2286,7 +2362,7 @@
     "jubilee": {
         "id": "jubilee",
         "name": "Jubilee",
-        "ability": "On Reveal: Play a card from your deck at this location.",
+        "ability": "On Reveal: Add a card from your deck to this location.",
         "webp_path": "./images/jubilee.webp",
         "variant_paths": [
             {
@@ -2322,6 +2398,10 @@
             {
                 "name": "Baby",
                 "path": "./images/juggernaut_Baby.webp"
+            },
+            {
+                "name": "Fantasy",
+                "path": "./images/juggernaut_Fantasy.webp"
             }
         ],
         "cost": 3,
@@ -2546,7 +2626,7 @@
     "leader": {
         "id": "leader",
         "name": "Leader",
-        "ability": "On Reveal: Copy all cards your opponent played this turn,\nbut on your side.",
+        "ability": "On Reveal: Copy all cards your opponent played to the location right of here, but on your side.",
         "webp_path": "./images/leader.webp",
         "variant_paths": [
             {
@@ -2559,7 +2639,7 @@
             }
         ],
         "cost": 6,
-        "power": 3
+        "power": 7
     },
     "leech": {
         "id": "leech",
@@ -2624,12 +2704,12 @@
                 "path": "./images/lockjaw_Dan-Hipp.webp"
             },
             {
-                "name": "Luca Claretti",
-                "path": "./images/lockjaw_Luca-Claretti.webp"
-            },
-            {
                 "name": "Venomized",
                 "path": "./images/lockjaw_Venomized.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/lockjaw_Luca-Claretti.webp"
             }
         ],
         "cost": 3,
@@ -2657,6 +2737,32 @@
         "cost": 2,
         "power": 1
     },
+    "modok": {
+        "id": "modok",
+        "name": "M.O.D.O.K.",
+        "ability": "On Reveal: Discard your hand.",
+        "webp_path": "./images/modok.webp",
+        "variant_paths": [
+            {
+                "name": "Pixel",
+                "path": "./images/modok_Pixel.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/modok_Baby.webp"
+            },
+            {
+                "name": "Giulio Rincione",
+                "path": "./images/modok_Giulio-Rincione.webp"
+            },
+            {
+                "name": "Assassin",
+                "path": "./images/modok_Assassin.webp"
+            }
+        ],
+        "cost": 5,
+        "power": 8
+    },
     "mbaku": {
         "id": "mbaku",
         "name": "M'Baku",
@@ -2666,6 +2772,10 @@
             {
                 "name": "Pixel",
                 "path": "./images/mbaku_Pixel.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/mbaku_Venomized.webp"
             },
             {
                 "name": "Luchador",
@@ -2838,8 +2948,24 @@
                 "path": "./images/milesmorales_Pixel.webp"
             },
             {
+                "name": "Chibi",
+                "path": "./images/milesmorales_Chibi.webp"
+            },
+            {
+                "name": "Baby",
+                "path": "./images/milesmorales_Baby.webp"
+            },
+            {
                 "name": "Sports",
                 "path": "./images/milesmorales_Sports.webp"
+            },
+            {
+                "name": "Knullified",
+                "path": "./images/milesmorales_Knullified.webp"
+            },
+            {
+                "name": "Penny Arcade",
+                "path": "./images/milesmorales_Penny-Arcade.webp"
             }
         ],
         "cost": 4,
@@ -2912,6 +3038,10 @@
                 "path": "./images/mistersinister_Pixel.webp"
             },
             {
+                "name": "Dan Hipp",
+                "path": "./images/mistersinister_Dan-Hipp.webp"
+            },
+            {
                 "name": "Baby",
                 "path": "./images/mistersinister_Baby.webp"
             },
@@ -2944,6 +3074,10 @@
             {
                 "name": "Chibi",
                 "path": "./images/mistyknight_Chibi.webp"
+            },
+            {
+                "name": "Noir",
+                "path": "./images/mistyknight_Noir.webp"
             },
             {
                 "name": "Sports",
@@ -3018,6 +3152,10 @@
             {
                 "name": "Baby",
                 "path": "./images/moonknight_Baby.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/moonknight_Peach-Momoko.webp"
             }
         ],
         "cost": 3,
@@ -3150,12 +3288,12 @@
                 "path": "./images/mystique_Luca-Claretti.webp"
             },
             {
-                "name": "Artgerm",
-                "path": "./images/mystique_Artgerm.webp"
-            },
-            {
                 "name": "Peach Momoko",
                 "path": "./images/mystique_Peach-Momoko.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/mystique_Artgerm.webp"
             }
         ],
         "cost": 3,
@@ -3176,12 +3314,12 @@
                 "path": "./images/nakia_Dan-Hipp.webp"
             },
             {
-                "name": "Sports",
-                "path": "./images/nakia_Sports.webp"
-            },
-            {
                 "name": "3099",
                 "path": "./images/nakia_3099.webp"
+            },
+            {
+                "name": "Sports",
+                "path": "./images/nakia_Sports.webp"
             }
         ],
         "cost": 3,
@@ -3366,12 +3504,12 @@
                 "path": "./images/omegared_Dan-Hipp.webp"
             },
             {
-                "name": "Luca Claretti",
-                "path": "./images/omegared_Luca-Claretti.webp"
-            },
-            {
                 "name": "Venomized",
                 "path": "./images/omegared_Venomized.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/omegared_Luca-Claretti.webp"
             }
         ],
         "cost": 4,
@@ -3504,6 +3642,10 @@
                 "path": "./images/professorx_Noir.webp"
             },
             {
+                "name": "Jim Lee",
+                "path": "./images/professorx_Jim-Lee.webp"
+            },
+            {
                 "name": "House of X",
                 "path": "./images/professorx_House-of-X.webp"
             }
@@ -3520,6 +3662,10 @@
             {
                 "name": "Pixel",
                 "path": "./images/psylocke_Pixel.webp"
+            },
+            {
+                "name": "Peach Momoko",
+                "path": "./images/psylocke_Peach-Momoko.webp"
             },
             {
                 "name": "Artgerm",
@@ -3550,6 +3696,10 @@
             {
                 "name": "Peach Momoko",
                 "path": "./images/punisher_Peach-Momoko.webp"
+            },
+            {
+                "name": "3099",
+                "path": "./images/punisher_3099.webp"
             }
         ],
         "cost": 3,
@@ -3586,6 +3736,14 @@
             {
                 "name": "Dan Hipp",
                 "path": "./images/quicksilver_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/quicksilver_Chibi.webp"
+            },
+            {
+                "name": "Venomized",
+                "path": "./images/quicksilver_Venomized.webp"
             },
             {
                 "name": "Sports",
@@ -3700,6 +3858,10 @@
             {
                 "name": "Pixel",
                 "path": "./images/rocketraccoon_Pixel.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/rocketraccoon_Chibi.webp"
             }
         ],
         "cost": 1,
@@ -3938,7 +4100,7 @@
     "sentry": {
         "id": "sentry",
         "name": "Sentry",
-        "ability": "Cannot be played at the right location.\nOn Reveal: Add a -8 Power Void to the right location.",
+        "ability": "You can't play this at the right location.\nOn Reveal: Add a -8 Power Void to the right location.",
         "webp_path": "./images/sentry.webp",
         "variant_paths": [
             {
@@ -3995,6 +4157,28 @@
         "cost": 5,
         "power": 4
     },
+    "shadowking": {
+        "id": "shadowking",
+        "name": "Shadow King",
+        "ability": "On Reveal: Set all cards here to their original base Power.",
+        "webp_path": "./images/shadowking.webp",
+        "variant_paths": [
+            {
+                "name": "Pixel",
+                "path": "./images/shadowking_Pixel.webp"
+            },
+            {
+                "name": "Luca Claretti",
+                "path": "./images/shadowking_Luca-Claretti.webp"
+            },
+            {
+                "name": "Revealed",
+                "path": "./images/shadowking_Revealed.webp"
+            }
+        ],
+        "cost": 4,
+        "power": 3
+    },
     "shangchi": {
         "id": "shangchi",
         "name": "Shang-Chi",
@@ -4018,16 +4202,38 @@
                 "path": "./images/shangchi_Peach-Momoko.webp"
             },
             {
-                "name": "Rian Gonzales",
-                "path": "./images/shangchi_Rian-Gonzales.webp"
-            },
-            {
                 "name": "Knullified",
                 "path": "./images/shangchi_Knullified.webp"
+            },
+            {
+                "name": "Rian Gonzales",
+                "path": "./images/shangchi_Rian-Gonzales.webp"
             }
         ],
         "cost": 4,
         "power": 3
+    },
+    "shanna": {
+        "id": "shanna",
+        "name": "Shanna",
+        "ability": "On Reveal: Add a random 1-Cost card to each location",
+        "webp_path": "./images/shanna.webp",
+        "variant_paths": [
+            {
+                "name": "Pixel",
+                "path": "./images/shanna_Pixel.webp"
+            },
+            {
+                "name": "Dan Hipp",
+                "path": "./images/shanna_Dan-Hipp.webp"
+            },
+            {
+                "name": "Savage Land",
+                "path": "./images/shanna_Savage-Land.webp"
+            }
+        ],
+        "cost": 4,
+        "power": 2
     },
     "shehulk": {
         "id": "shehulk",
@@ -4044,12 +4250,12 @@
                 "path": "./images/shehulk_Baby.webp"
             },
             {
-                "name": "Artgerm",
-                "path": "./images/shehulk_Artgerm.webp"
-            },
-            {
                 "name": "Peach Momoko",
                 "path": "./images/shehulk_Peach-Momoko.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/shehulk_Artgerm.webp"
             },
             {
                 "name": "Savage Land",
@@ -4152,12 +4358,12 @@
                 "path": "./images/spectrum_Dan-Hipp.webp"
             },
             {
-                "name": "Flaviano",
-                "path": "./images/spectrum_Flaviano.webp"
-            },
-            {
                 "name": "Kim Jacinto",
                 "path": "./images/spectrum_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/spectrum_Flaviano.webp"
             },
             {
                 "name": "Rian Gonzales",
@@ -4274,16 +4480,20 @@
                 "path": "./images/storm_Pixel.webp"
             },
             {
+                "name": "Chibi",
+                "path": "./images/storm_Chibi.webp"
+            },
+            {
                 "name": "Baby",
                 "path": "./images/storm_Baby.webp"
             },
             {
-                "name": "Hero",
-                "path": "./images/storm_Hero.webp"
-            },
-            {
                 "name": "Peach Momoko",
                 "path": "./images/storm_Peach-Momoko.webp"
+            },
+            {
+                "name": "Hero",
+                "path": "./images/storm_Hero.webp"
             },
             {
                 "name": "Knullified",
@@ -4576,6 +4786,10 @@
                 "path": "./images/thething_Alex-Horley.webp"
             },
             {
+                "name": "Ryan Brown",
+                "path": "./images/thething_Ryan-Brown.webp"
+            },
+            {
                 "name": "Fear Itself",
                 "path": "./images/thething_Fear-Itself.webp"
             }
@@ -4650,6 +4864,10 @@
                 "path": "./images/typhoidmary_Venomized.webp"
             },
             {
+                "name": "Fantasy",
+                "path": "./images/typhoidmary_Fantasy.webp"
+            },
+            {
                 "name": "Mutant Zero",
                 "path": "./images/typhoidmary_Mutant-Zero.webp"
             }
@@ -4674,6 +4892,10 @@
             {
                 "name": "Flaviano",
                 "path": "./images/uatu_Flaviano.webp"
+            },
+            {
+                "name": "Chewatu",
+                "path": "./images/uatu_Chewatu.webp"
             }
         ],
         "cost": 1,
@@ -4694,12 +4916,12 @@
                 "path": "./images/ultron_Dan-Hipp.webp"
             },
             {
-                "name": "Flaviano",
-                "path": "./images/ultron_Flaviano.webp"
-            },
-            {
                 "name": "Kim Jacinto",
                 "path": "./images/ultron_Kim-Jacinto.webp"
+            },
+            {
+                "name": "Flaviano",
+                "path": "./images/ultron_Flaviano.webp"
             }
         ],
         "cost": 6,
@@ -4768,6 +4990,10 @@
                 "path": "./images/viper_Chibi.webp"
             },
             {
+                "name": "Venomized",
+                "path": "./images/viper_Venomized.webp"
+            },
+            {
                 "name": "Noir",
                 "path": "./images/viper_Noir.webp"
             },
@@ -4800,6 +5026,10 @@
             {
                 "name": "Max Grecke",
                 "path": "./images/vision_Max-Grecke.webp"
+            },
+            {
+                "name": "Vision Returns",
+                "path": "./images/vision_Vision-Returns.webp"
             }
         ],
         "cost": 5,
@@ -4836,6 +5066,10 @@
             {
                 "name": "Pixel",
                 "path": "./images/warpath_Pixel.webp"
+            },
+            {
+                "name": "Jim Lee",
+                "path": "./images/warpath_Jim-Lee.webp"
             },
             {
                 "name": "Luchador",
@@ -4888,6 +5122,10 @@
             {
                 "name": "Dan Hipp",
                 "path": "./images/wave_Dan-Hipp.webp"
+            },
+            {
+                "name": "Chibi",
+                "path": "./images/wave_Chibi.webp"
             }
         ],
         "cost": 3,
@@ -4912,12 +5150,12 @@
                 "path": "./images/whitequeen_Noir.webp"
             },
             {
-                "name": "Artgerm",
-                "path": "./images/whitequeen_Artgerm.webp"
-            },
-            {
                 "name": "Peach Momoko",
                 "path": "./images/whitequeen_Peach-Momoko.webp"
+            },
+            {
+                "name": "Artgerm",
+                "path": "./images/whitequeen_Artgerm.webp"
             },
             {
                 "name": "Summer Vacation",
@@ -4974,7 +5212,7 @@
     "wolverine": {
         "id": "wolverine",
         "name": "Wolverine",
-        "ability": "When this is discarded or destroyed, play it at a random location.",
+        "ability": "When this is discarded or destroyed, regenerate it at a random location\nwith +2 Power.",
         "webp_path": "./images/wolverine.webp",
         "variant_paths": [
             {
@@ -4992,10 +5230,14 @@
             {
                 "name": "Max Grecke",
                 "path": "./images/wolverine_Max-Grecke.webp"
+            },
+            {
+                "name": "Anime",
+                "path": "./images/wolverine_Anime.webp"
             }
         ],
         "cost": 2,
-        "power": 3
+        "power": 2
     },
     "wong": {
         "id": "wong",
@@ -5082,8 +5324,8 @@
                 "path": "./images/zabu_Savage-Land.webp"
             }
         ],
-        "cost": 3,
-        "power": 2
+        "cost": 2,
+        "power": 3
     },
     "zero": {
         "id": "zero",

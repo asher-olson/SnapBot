@@ -8,7 +8,7 @@ import { randomDeck } from "./randomDeck.js";
 import { CardService } from "./CardService.js";
 
 
-const {replace, includes, map, forEach, concat} = lodash;
+const {replace, includes, map, forEach, concat, filter} = lodash;
 const { Client, Events, ActionRowBuilder, MessageButtonStyle, ButtonBuilder, GatewayIntentBits, ButtonStyle } = discord;
 
 const TOGGLE_DECK_CODE_CUSTOM_ID = "deckCodeToggle";
@@ -156,8 +156,13 @@ function parseDeckCodeIntoDeck(content) {
 
         const cards = map(content.split("\n").slice(0, 12), (card) => {
             const name = card.split(" ").slice(2).join("").toLowerCase();
-            return CardService.getCardByName(name);
-        })
+            const c = CardService.getCardByName(name);
+            if(!!c) {
+                return c;
+            }
+        });
+
+        cards = filter(cards, (card) => card !== undefined);
 
         return cards;
     } catch(error) {
@@ -200,6 +205,10 @@ bot.on('messageCreate', async (msg) => {
         await msg.delete();
 
         const deck = parseDeckCodeIntoDeck(content);
+
+        if(deck.length < 12) {
+            return;
+        }
 
         const code = getCodeFromDeckCode(content);
 
