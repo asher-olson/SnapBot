@@ -1,4 +1,5 @@
 // INVITE: https://discord.com/api/oauth2/authorize?client_id=1063604736017846305&permissions=533046099008&scope=bot
+// DOCKER ID?: e9e526661fb1e80fed9884a43028df8f63056d3e169833d807651541a2cdc7af
 
 import discord from "discord.js";
 import * as fs from "fs";
