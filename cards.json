@@ -4320,7 +4320,7 @@
     "silversurfer": {
         "id": "silversurfer",
         "name": "Silver Surfer",
-        "ability": "On Reveal: Give your other\n3-Cost cards +3 Power.",
+        "ability": "On Reveal: Give your other\n3-Cost cards +2 Power.",
         "webp_path": "./images/silversurfer.webp",
         "variant_paths": [
             {
@@ -4341,7 +4341,7 @@
             }
         ],
         "cost": 3,
-        "power": 1
+        "power": 2
     },
     "spectrum": {
         "id": "spectrum",
@@ -5308,7 +5308,7 @@
     "zabu": {
         "id": "zabu",
         "name": "Zabu",
-        "ability": "Ongoing: Your 4-Cost cards cost 2 less. (minimum 1)",
+        "ability": "Ongoing: Your 4-Cost cards cost 1 less. (minimum 1)",
         "webp_path": "./images/zabu.webp",
         "variant_paths": [
             {
@@ -5325,7 +5325,7 @@
             }
         ],
         "cost": 2,
-        "power": 3
+        "power": 2
     },
     "zero": {
         "id": "zero",
